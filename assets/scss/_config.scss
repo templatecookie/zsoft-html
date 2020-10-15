@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+  margin: 0px;
+}
+a {
+  text-decoration: none;
+  &:hover {
+    @extend a;
+  }
+  &:focus {
+    @extend a;
+  }
+}
+
+button {
+  border: none;
+  outline: none;
+  &:hover {
+    @extend button;
+  }
+}
+
+/* container */
+.container {
+  @media (min-width: 1440px) {
+    max-width: 1170px;
+  }
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
