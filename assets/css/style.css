@@ -128,8 +128,7 @@ header .container .head_content .menu.active .m_bar li:first-child {
 }
 
 .menu_content {
-  pointer-events: none;
-  height: 0;
+  display: none;
   position: relative;
   -webkit-clip-path: circle(100px at 120% -10%);
           clip-path: circle(100px at 120% -10%);
@@ -138,7 +137,7 @@ header .container .head_content .menu.active .m_bar li:first-child {
 }
 
 .menu_content.open {
-  height: 100%;
+  display: block;
   pointer-events: all;
   -webkit-clip-path: circle(2500px at 0% -10%);
           clip-path: circle(2500px at 0% -10%);

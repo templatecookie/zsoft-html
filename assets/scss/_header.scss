@@ -68,14 +68,16 @@ header {
   }
 }
 .menu_content {
-  pointer-events: none;
-  height: 0;
+  // pointer-events: none;
+  // height: 0;
+  display: none;
   position: relative;
   clip-path: circle(100px at 120% -10%);
   transition: all 1.2s ease-in-out;
 
   &.open {
-    height: 100%;
+    // height: 100%;
+    display: block;
     pointer-events: all;
     clip-path: circle(2500px at 0% -10%);
   }
