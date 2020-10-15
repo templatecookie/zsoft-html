@@ -9,3 +9,22 @@ menuClick.addEventListener('click', e => {
     content.classList.toggle('active');
   });
 });
+
+
+
+$(document).ready(function () {
+  //brand_slider
+  $('.brand-active').slick({
+    infinite: true,
+    slidesToShow: 5,
+    slidesToScroll: 3
+  });
+
+//testimonial_slider
+$('.testimonial-active').slick({
+  infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 3
+});
+
+});
