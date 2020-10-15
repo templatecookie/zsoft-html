@@ -26,5 +26,7 @@ $('.testimonial-active').slick({
   slidesToShow: 1,
   slidesToScroll: 3
 });
+//details_slider
+$('.details-slider-active').slick();
 
 });
