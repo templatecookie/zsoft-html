@@ -36,3 +36,14 @@ button {
 body {
   font-family: 'Poppins', sans-serif;
 }
+
+.section_title h2 {
+  font-size: 84px;
+  line-height: 110px;
+  margin: auto;
+  color: transparent;
+  -webkit-text-stroke: 1.5px #7a849a;
+  padding-bottom: 70px;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
