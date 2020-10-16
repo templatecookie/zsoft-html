@@ -1,0 +1,28 @@
+#work {
+  background-color: #f8f8f8;
+  .container {
+    .section_title {
+      h2 {
+        -webkit-text-stroke-color: #7a849a;
+      }
+    }
+    .project_slider {
+      .slide_item {
+        margin: 0;
+        padding: 0;
+        align-items: center;
+        display: flex;
+        transition: all 0.6s linear;
+
+        &.slick-slide {
+          opacity: 0.2;
+          pointer-events: none;
+        }
+        &.slick-current {
+          opacity: 1;
+          pointer-events: all;
+        }
+      }
+    }
+  }
+}

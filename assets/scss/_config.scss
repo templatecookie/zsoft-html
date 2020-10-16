@@ -47,3 +47,34 @@ body {
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
 }
+
+section {
+  position: relative;
+  padding: 60px 0px;
+}
+
+.text_stroke {
+  color: transparent;
+  -webkit-text-stroke: 1.5px #3e424b;
+}
+
+.button {
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2.1px;
+  color: #3e424b;
+  border: 2px solid #3e424b;
+  padding: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  // width: 120px;
+  // height: 17px;
+  &:hover {
+    color: #3e424b;
+  }
+}
+
+// slick configuration
+.slick-slide {
+  outline: none;
+}

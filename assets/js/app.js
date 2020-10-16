@@ -1,6 +1,7 @@
 const menuClick = document.querySelector('.menu');
 const menuContent = document.querySelector('.menu_content');
 const section = document.querySelectorAll('.none');
+// @ts-ignore
 menuClick.addEventListener('click', e => {
   menuClick.classList.toggle('active');
   menuContent.classList.toggle('open');
@@ -10,23 +11,50 @@ menuClick.addEventListener('click', e => {
   });
 });
 
-
-
+// @ts-ignore
 $(document).ready(function () {
   //brand_slider
-  $('.brand-active').slick({
+  // @ts-ignore
+  $('.brand_slider').slick({
     infinite: true,
-    slidesToShow: 5,
-    slidesToScroll: 3
+    slidesToShow: 6,
+    slidesToScroll: 3,
+    arrows: false,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          centerMode: true,
+          centerPadding: '10px',
+          slidesToShow: 1,
+        },
+      },
+    ],
   });
 
-//testimonial_slider
-$('.testimonial-active').slick({
-  infinite: true,
-  slidesToShow: 1,
-  slidesToScroll: 3
-});
-//details_slider
-$('.details-slider-active').slick();
+  //testimonial_slider
+  // @ts-ignore
+  $('.testimonial-active').slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 3,
+  });
+  //details_slider
+  // @ts-ignore
+  $('.details-slider-active').slick();
 
+  // Projects slider
+  // @ts-ignore
+  $('.project_slider').slick({
+    arrows: false,
+    centerMode: true,
+    infinite: true,
+    centerPadding: '210px',
+  });
 });

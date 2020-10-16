@@ -68,18 +68,19 @@ header {
   }
 }
 .menu_content {
-  // pointer-events: none;
-  // height: 0;
-  display: none;
+  pointer-events: none;
+  height: 0;
+  // display: none;
   position: relative;
   clip-path: circle(100px at 120% -10%);
   transition: all 1.2s ease-in-out;
-
+  overflow: hidden;
   &.open {
-    // height: 100%;
-    display: block;
+    height: 100%;
+    // display: block;
     pointer-events: all;
     clip-path: circle(2500px at 0% -10%);
+    // overflow: hidden;
   }
   .top {
     background-color: #3e424b;
@@ -158,7 +159,6 @@ header {
         align-items: center;
         justify-content: center;
         li {
-          margin: 0px 45px;
           padding: 16px;
           transform: translateY(0);
           transition: all 0.4s linear;
