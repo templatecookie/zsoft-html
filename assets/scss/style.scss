@@ -1,10 +1,11 @@
-@import './fonts';
-@import './config';
+@import 'fonts';
+@import 'config';
 
 /* ?? part start */
-@import './header';
-@import './banner';
-@import './work';
+@import 'header';
+@import 'banner';
+@import 'work';
+@import 'about';
 
 /* WE_DO part start */
 #WE_Do {
@@ -13,6 +14,7 @@
       position: relative;
       max-width: 570px;
       height: 435px;
+
       .card_box {
         position: absolute;
         width: 100%;
@@ -28,6 +30,7 @@
           backface-visibility: hidden;
           display: flex;
           align-items: center;
+
           h2 {
             font-size: 84px;
             line-height: 110px;
@@ -36,6 +39,7 @@
             text-transform: uppercase;
           }
         }
+
         .back_part {
           position: absolute;
           width: 100%;
@@ -45,8 +49,10 @@
           transform: rotateY(180deg);
           display: flex;
           align-items: center;
+
           .box_title {
             padding: 50px;
+
             h2 {
               font-size: 46px;
               line-height: 55px;
@@ -55,12 +61,14 @@
               font-family: 'Oswald', sans-serif;
               margin-bottom: 32px;
             }
+
             p {
               font-size: 16px;
               line-height: 38px;
               color: #7a849a;
               margin-bottom: 40px;
             }
+
             a {
               font-size: 12px;
               line-height: 14px;
@@ -71,11 +79,13 @@
             }
           }
         }
+
         &:hover {
           transform: rotateY(180deg);
           border: transparent;
         }
       }
+
       //   .box_head {
       //     h2 {
       //       font-size: 84px;
@@ -100,11 +110,12 @@
 
     .mb-30 {
       margin-bottom: 30px;
-      @media (max-width: 1024px) {
-      }
+
+      @media (max-width: 1024px) {}
     }
   }
 }
+
 /* WE_DO part end */
 
 /* brand_area part start */
@@ -119,6 +130,7 @@
     }
   }
 }
+
 /* brand_area part end */
 
 /* ?? part start */

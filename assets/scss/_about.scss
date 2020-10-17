@@ -1,0 +1,84 @@
+#about {
+    .about_content {
+        .about_contect_img {
+            margin-bottom: 30px;
+        }
+
+        .play-video {
+            margin-top: 20px;
+
+            span {
+                font-size: 16;
+                line-height: 38px;
+                color: #3E424B;
+            }
+        }
+    }
+
+    .about_content_wrapper {
+        padding-left: 36px;
+
+        h3 {
+            color: #3E424B;
+            font-size: 46px;
+            font-weight: 600;
+            font-family: 'Oswald', sans-serif;
+            padding-bottom: 7px;
+            line-height: 55px;
+        }
+
+        p {
+            color: #7A849A;
+            font-size: 20px;
+            line-height: 44px;
+            margin-right: 18px;
+        }
+    }
+}
+
+#about_content_2 {
+    .office_content_wrapper {
+        h3 {
+            color: #3E424B;
+            font-size: 46px;
+            font-weight: 600;
+            font-family: 'Oswald', sans-serif;
+            padding-bottom: 40px;
+            line-height: 55px;
+        }
+
+        p {
+            color: #7A849A;
+            font-size: 20px;
+            line-height: 44px;
+            margin-right: 18px;
+            padding-bottom: 50px;
+            margin-right: 75px;
+        }
+    }
+}
+
+#team {
+    .team_card {
+        .member_position {
+            margin-bottom: 70px;
+
+            h3 {
+                color: #3E424B;
+                font-size: 62px;
+                font-weight: 600;
+                font-family: 'Oswald', sans-serif;
+                padding-top: 70px;
+                line-height: 74px;
+            }
+
+            span {
+                font-size: 20px;
+                line-height: 20px;
+                color: #7A849A;
+                margin-top: 25px;
+                display: block;
+            }
+        }
+    }
+}

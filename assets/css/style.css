@@ -2,8 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 ul,
@@ -80,15 +79,9 @@ header {
 }
 
 header .container .head_content {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   height: 90px;
 }
 
@@ -105,17 +98,12 @@ header .container .head_content .c_logo h2 .c_blue {
 }
 
 header .container .head_content .menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 header .container .head_content .menu .m_bar {
   cursor: pointer;
-  -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
   position: relative;
 }
@@ -134,7 +122,6 @@ header .container .head_content .menu .m_bar li {
   width: 24px;
   height: 4px;
   background-color: #3e424b;
-  -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
 
@@ -147,22 +134,18 @@ header .container .head_content .menu.active .m_bar::after {
 }
 
 header .container .head_content .menu.active .m_bar li {
-  -webkit-transform: matrix(-0.71, 0.71, -0.71, -0.71, -5, -10);
-          transform: matrix(-0.71, 0.71, -0.71, -0.71, -5, -10);
+  transform: matrix(-0.71, 0.71, -0.71, -0.71, -5, -10);
 }
 
 header .container .head_content .menu.active .m_bar li:first-child {
-  -webkit-transform: matrix(0.71, 0.71, -0.71, 0.71, -5, 6);
-          transform: matrix(0.71, 0.71, -0.71, 0.71, -5, 6);
+  transform: matrix(0.71, 0.71, -0.71, 0.71, -5, 6);
 }
 
 .menu_content {
   pointer-events: none;
   height: 0;
   position: relative;
-  -webkit-clip-path: circle(100px at 120% -10%);
-          clip-path: circle(100px at 120% -10%);
-  -webkit-transition: all 1.2s ease-in-out;
+  clip-path: circle(100px at 120% -10%);
   transition: all 1.2s ease-in-out;
   overflow: hidden;
 }
@@ -170,8 +153,7 @@ header .container .head_content .menu.active .m_bar li:first-child {
 .menu_content.open {
   height: 100%;
   pointer-events: all;
-  -webkit-clip-path: circle(2500px at 0% -10%);
-          clip-path: circle(2500px at 0% -10%);
+  clip-path: circle(2500px at 0% -10%);
 }
 
 .menu_content .top {
@@ -180,17 +162,10 @@ header .container .head_content .menu.active .m_bar li:first-child {
 }
 
 .menu_content .top .container .nav_links {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
@@ -206,8 +181,7 @@ header .container .head_content .menu.active .m_bar li:first-child {
   font-size: 24px;
   font-weight: 600;
   color: #fff;
-  -webkit-transform: translateY(-5px);
-          transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 
 .menu_content .top .container .nav_links .nav_items a {
@@ -249,22 +223,14 @@ header .container .head_content .menu.active .m_bar li:first-child {
 }
 
 .menu_content .bottom .container .social_links {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .menu_content .bottom .container .social_links li {
   padding: 16px;
-  -webkit-transform: translateY(0);
-          transform: translateY(0);
-  -webkit-transition: all 0.4s linear;
+  transform: translateY(0);
   transition: all 0.4s linear;
   border-radius: 50%;
 }
@@ -275,10 +241,8 @@ header .container .head_content .menu.active .m_bar li:first-child {
 }
 
 .menu_content .bottom .container .social_links li:hover {
-  -webkit-box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.2);
-  -webkit-transform: translateY(-10px);
-          transform: translateY(-10px);
+  box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-10px);
 }
 
 .menu_content .bottom .container .c_rights {
@@ -331,13 +295,8 @@ header .container .head_content .menu.active .m_bar li:first-child {
 #work .container .project_slider .slide_item {
   margin: 0;
   padding: 0;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  align-items: center;
   display: flex;
-  -webkit-transition: all 0.6s linear;
   transition: all 0.6s linear;
 }
 
@@ -351,6 +310,79 @@ header .container .head_content .menu.active .m_bar li:first-child {
   pointer-events: all;
 }
 
+#about .about_content .about_contect_img {
+  margin-bottom: 30px;
+}
+
+#about .about_content .play-video {
+  margin-top: 20px;
+}
+
+#about .about_content .play-video span {
+  font-size: 16;
+  line-height: 38px;
+  color: #3E424B;
+}
+
+#about .about_content_wrapper {
+  padding-left: 36px;
+}
+
+#about .about_content_wrapper h3 {
+  color: #3E424B;
+  font-size: 46px;
+  font-weight: 600;
+  font-family: 'Oswald', sans-serif;
+  padding-bottom: 7px;
+  line-height: 55px;
+}
+
+#about .about_content_wrapper p {
+  color: #7A849A;
+  font-size: 20px;
+  line-height: 44px;
+  margin-right: 18px;
+}
+
+#about_content_2 .office_content_wrapper h3 {
+  color: #3E424B;
+  font-size: 46px;
+  font-weight: 600;
+  font-family: 'Oswald', sans-serif;
+  padding-bottom: 40px;
+  line-height: 55px;
+}
+
+#about_content_2 .office_content_wrapper p {
+  color: #7A849A;
+  font-size: 20px;
+  line-height: 44px;
+  margin-right: 18px;
+  padding-bottom: 50px;
+  margin-right: 75px;
+}
+
+#team .team_card .member_position {
+  margin-bottom: 70px;
+}
+
+#team .team_card .member_position h3 {
+  color: #3E424B;
+  font-size: 62px;
+  font-weight: 600;
+  font-family: 'Oswald', sans-serif;
+  padding-top: 70px;
+  line-height: 74px;
+}
+
+#team .team_card .member_position span {
+  font-size: 20px;
+  line-height: 20px;
+  color: #7A849A;
+  margin-top: 25px;
+  display: block;
+}
+
 /* WE_DO part start */
 #WE_Do .container .box_wrapper {
   position: relative;
@@ -362,9 +394,7 @@ header .container .head_content .menu.active .m_bar li:first-child {
   position: absolute;
   width: 100%;
   height: 100%;
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
-  -webkit-transition: all 1.2s ease;
+  transform-style: preserve-3d;
   transition: all 1.2s ease;
   border: 1.5px solid #3e424b;
 }
@@ -373,14 +403,9 @@ header .container .head_content .menu.active .m_bar li:first-child {
   position: absolute;
   width: 100%;
   height: 100%;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  backface-visibility: hidden;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 #WE_Do .container .box_wrapper .card_box .front_part h2 {
@@ -395,17 +420,11 @@ header .container .head_content .menu.active .m_bar li:first-child {
   position: absolute;
   width: 100%;
   height: 100%;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
   background: #3e424b;
-  -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
-  display: -webkit-box;
-  display: -ms-flexbox;
+  transform: rotateY(180deg);
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 #WE_Do .container .box_wrapper .card_box .back_part .box_title {
@@ -438,8 +457,7 @@ header .container .head_content .menu.active .m_bar li:first-child {
 }
 
 #WE_Do .container .box_wrapper .card_box:hover {
-  -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
+  transform: rotateY(180deg);
   border: transparent;
 }
 
