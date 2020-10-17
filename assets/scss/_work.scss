@@ -1,28 +1,92 @@
 #work {
   background-color: #f8f8f8;
+
   .container {
     .section_title {
       h2 {
         -webkit-text-stroke-color: #7a849a;
       }
     }
+
     .project_slider {
       .slide_item {
         margin: 0;
         padding: 0;
         align-items: center;
         display: flex;
-        transition: all 0.6s linear;
-
-        &.slick-slide {
           opacity: 0.2;
           pointer-events: none;
         }
+
         &.slick-current {
           opacity: 1;
           pointer-events: all;
         }
       }
     }
-  }
 }
+
+  .work_content {
+    .tab-text {
+      p {
+        font-size: 16px;
+        line-height: 38px;
+        color: #3E424B;
+        margin: 0;
+      }
+    }
+
+    .work_tab {
+      .nav-pills .nav-link {
+        color: #7A849A;
+        background-color: transparent;
+        text-transform: capitalize;
+        position: relative;
+        padding: 0;
+        margin: 0 20px;
+
+        &::before {
+          position: absolute;
+          content: "";
+          width: 0;
+          height: 2px;
+          background: #5787FF;
+          bottom: -15px;
+          left: 0;
+          transition: .3s;
+          -webkit-transition: .3s;
+          -moz-transition: .3s;
+          -ms-transition: .3s;
+          -o-transition: .3s;
+        }
+
+        &.nav-link.active {
+          &::before {
+            width: 120%;
+          }
+        }
+      }
+    }
+  }
+  .project_info{
+    span{
+      font-size: 12px;
+      line-height: 14px;
+      color: #7A849A;
+    }
+    h3 {
+      color: #3E424B;
+      font-size: 46px;
+      font-weight: 600;
+      font-family: 'Oswald', sans-serif;
+      padding-bottom: 40px;
+      line-height: 55px;
+  }
+  .v_project{
+    color: #3E424B;
+    line-height: 14px;
+    font-size: 12px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+  }
+  }

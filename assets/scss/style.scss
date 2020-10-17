@@ -6,6 +6,7 @@
 @import 'banner';
 @import 'work';
 @import 'about';
+@import '404';
 
 /* WE_DO part start */
 #WE_Do {
@@ -130,7 +131,12 @@
     }
   }
 }
-
+img{
+  max-width: 100%;
+}
+.mb-30{
+  margin-bottom: 30px;
+}
 /* brand_area part end */
 
 /* ?? part start */
