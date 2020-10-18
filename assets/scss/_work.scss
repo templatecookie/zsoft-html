@@ -1,7 +1,9 @@
 #work {
   background-color: #f8f8f8;
-
-  .container {
+  position: relative;
+  padding-top: 170px;
+  padding-bottom: 280px;
+  .container-fluid {
     .section_title {
       h2 {
         -webkit-text-stroke-color: #7a849a;
@@ -10,19 +12,66 @@
 
     .project_slider {
       .slide_item {
-        margin: 0;
-        padding: 0;
-        align-items: center;
-        display: flex;
-          opacity: 0.2;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+            .slide_info{
+              .p_type{
+                font-size: 12px;
+                line-height: 14px;
+                color: #7A849A;
+              }
+              .p_title{
+                font-size: 46px;
+                line-height: 55px;
+                font-weight: 600;
+                color: #3E424B;
+                font-family: 'Oswald', sans-serif;
+              }
+              .v_project{
+                font-size: 12px;
+                line-height: 14px;
+                font-weight: 600;
+                color: #3E424B;
+                letter-spacing: 4px;
+                text-transform: uppercase;
+                display: flex;
+                align-items: center;
+                img{
+                  // display: inline-block;
+                  display: inline;
+                  outline: none !important;
+                }
+              }
+            }
+
+        &.slick-cloned{
+          opacity: 0 !important;
           pointer-events: none;
         }
-
-        &.slick-current {
-          opacity: 1;
-          pointer-events: all;
+          &.slick-slide{
+          opacity: 0.2;
+          }
+          &.slick-active{
+            opacity: 1;
+            pointer-events: all;
+          }
+          // &.slick-slide {
+          //   opacity: 1;
+          // }
         }
+        // slick dots
+       
       }
+    }
+    .drag_text {
+      position: absolute;
+      bottom: 160px;
+      right: 50%;
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
     }
 }
 

@@ -15,6 +15,7 @@ a {
   }
   &:focus {
     @extend a;
+    outline: none !important;
   }
 }
 
@@ -29,6 +30,11 @@ button {
 /* container */
 .container {
   @media (min-width: 1440px) {
+    max-width: 1170px;
+  }
+}
+.container {
+  @media (min-width: 1200px) {
     max-width: 1170px;
   }
 }
@@ -76,5 +82,31 @@ section {
 
 // slick configuration
 .slick-slide {
-  outline: none;
+  outline: none !important;
+}
+.slick-dots{
+  position: absolute;
+  bottom: -126px;
+  left: 50%;
+  transform: translate(-55%);
+  display: flex !important;
+  justify-content: center;
+  padding-top: 60px;
+  li{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin: 0px 5px;
+    border: 1px solid #3E424B;
+    transition: all 0.6s linear;
+    &.slick-active{
+      background-color: #3E424B;
+      width: 16px;
+      height: 8px;
+      border-radius: 25px;
+    }
+    button{
+      font-size: 0px;
+    }
+  }
 }
