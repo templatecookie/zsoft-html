@@ -15,7 +15,7 @@
       position: relative;
       max-width: 570px;
       height: 435px;
-
+      margin: auto;
       .card_box {
         position: absolute;
         width: 100%;
@@ -131,9 +131,7 @@
     }
   }
 }
-img{
-  max-width: 100%;
-}
+
 .mb-30{
   margin-bottom: 30px;
 }

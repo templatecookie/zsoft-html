@@ -53,8 +53,9 @@ $(document).ready(function () {
   // @ts-ignore
   $('.project_slider').slick({
     arrows: false,
+    dots:true,
     centerMode: true,
     infinite: true,
-    centerPadding: '210px',
+    centerPadding: '290px',
   });
 });

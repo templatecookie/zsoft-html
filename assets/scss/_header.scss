@@ -70,32 +70,31 @@ header {
 .menu_content {
   pointer-events: none;
   height: 0;
-  // display: none;
   position: relative;
   clip-path: circle(100px at 120% -10%);
-  transition: all 1.2s ease-in-out;
+  transition: all 1.2s linear;
   overflow: hidden;
   &.open {
     height: 100%;
-    // display: block;
     pointer-events: all;
-    clip-path: circle(2500px at 0% -10%);
-    // overflow: hidden;
+    clip-path: circle(2200px at 0% -10%);
   }
   .top {
     background-color: #3e424b;
     padding: 220px 0px;
     .container {
       .nav_links {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
+        // display: flex;
+        // flex-wrap: wrap;
+        // justify-content: center;
+        // align-items: center;
         .nav_items {
-          margin: 0px 40px;
+          margin: 0px 45.5px;
           position: relative;
-
+          display: inline-block;
+          &:first-child{
+            margin-left: 0px;
+          }
           &::after {
             position: absolute;
             top: -8px;
@@ -107,12 +106,11 @@ header {
             transform: translateY(-5px);
           }
           a {
-            font-size: 76px;
+            font-size: 84px;
             line-height: 110px;
-            // color: #5787ff;
             color: #fff;
             font-family: 'Oswald', sans-serif;
-            text-transform: uppercase;
+            text-transform: capitalize;
           }
 
           &:hover {
