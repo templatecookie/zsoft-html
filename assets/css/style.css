@@ -533,6 +533,32 @@ header .container .head_content .menu.active .m_bar li:first-child {
   line-height: 1.5;
 }
 
+#footer-area {
+  text-align: center;
+  padding-top: 140px;
+}
+
+#footer-area .footer-menu span {
+  color: #3E424B;
+  font-size: 20px;
+  line-height: 2;
+}
+
+#footer-area .footer-menu ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#footer-area .footer-menu ul li a {
+  color: #3E424B;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.2;
+  padding: 25px 0;
+  display: block;
+}
+
 /* WE_DO part start */
 #WE_Do .container .box_wrapper {
   position: relative;

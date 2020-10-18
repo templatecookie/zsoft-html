@@ -1,0 +1,26 @@
+#footer-area{
+    text-align: center;
+    padding-top: 140px;
+    .footer-menu{
+        span{
+            color: #3E424B;
+            font-size: 20px;
+            line-height: 2;
+        }
+        ul{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            li{
+                a{
+                    color: #3E424B;
+                    font-size: 32px;
+                    font-weight: 600;
+                    line-height: 1.2;
+                    padding: 25px 0;
+                    display: block;
+                }
+            }
+         }
+    }
+}
