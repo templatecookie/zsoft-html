@@ -1,0 +1,35 @@
+#testimonial-area{
+    background: #3E424B;
+    padding: 160px 0;
+    .tes-title{
+        h2{
+            text-transform: capitalize;
+            padding: 0;
+            padding-bottom: 70px;;
+        }
+    }
+    .testimonial-active{
+        .single-testimonial{
+            p{
+                color: white;
+                font-size: 32px;
+                line-height: 1.5;
+                margin: 0 auto;
+                margin: 0 83px;
+                font-weight: 300;
+                margin-bottom: 26px;
+            }
+            span{
+                color: white;
+                font-size: 20px;
+                line-height: 44px;
+                text-transform: capitalize;
+            }
+            h2{
+                color: #7A849A;
+                font-size: 14px;
+                line-height: 1.5;
+            }
+        }
+    }
+}

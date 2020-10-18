@@ -341,6 +341,10 @@ header .container .head_content .menu.active .m_bar li:first-child {
   width: 120%;
 }
 
+.project_img img {
+  max-width: 100%;
+}
+
 .project_info span {
   font-size: 12px;
   line-height: 14px;
@@ -495,6 +499,40 @@ header .container .head_content .menu.active .m_bar li:first-child {
   font-weight: 600;
 }
 
+#testimonial-area {
+  background: #3E424B;
+  padding: 160px 0;
+}
+
+#testimonial-area .tes-title h2 {
+  text-transform: capitalize;
+  padding: 0;
+  padding-bottom: 70px;
+}
+
+#testimonial-area .testimonial-active .single-testimonial p {
+  color: white;
+  font-size: 32px;
+  line-height: 1.5;
+  margin: 0 auto;
+  margin: 0 83px;
+  font-weight: 300;
+  margin-bottom: 26px;
+}
+
+#testimonial-area .testimonial-active .single-testimonial span {
+  color: white;
+  font-size: 20px;
+  line-height: 44px;
+  text-transform: capitalize;
+}
+
+#testimonial-area .testimonial-active .single-testimonial h2 {
+  color: #7A849A;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
 /* WE_DO part start */
 #WE_Do .container .box_wrapper {
   position: relative;
@@ -581,10 +619,6 @@ header .container .head_content .menu.active .m_bar li:first-child {
 /* brand_area part start */
 #brand_area .container .brand_slider .single_brand img {
   margin: auto;
-}
-
-img {
-  max-width: 100%;
 }
 
 .mb-30 {

@@ -44,6 +44,7 @@ $(document).ready(function () {
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 3,
+    dots: true,
   });
   //details_slider
   // @ts-ignore
