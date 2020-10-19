@@ -84,7 +84,7 @@ input:required {
 
 .form-control:focus {
   box-shadow: none;
-  padding: 200px 0px !important;
+  
   @media(max-width: 1024px) {
     padding: 120px 0px !important;
   }
