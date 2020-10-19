@@ -3,6 +3,10 @@
   overflow: hidden;
   padding-top: 167px;
   padding-bottom: 180px;
+  @media(max-width: 575px) {
+   padding-top: 70px;    
+   padding-bottom: 112px;   
+  }
   .container {
     .banner_wrapper {
       h2 {
@@ -13,6 +17,13 @@
         @media(max-width: 767px) {
           font-size: 72px;
         }
+        @media(max-width: 575px) {
+        font-size: 52px;
+        line-height:  72px;
+        }
+        @media(max-width: 575px) {
+        font-size: 42px;
+        }
       }
       p {
         font-size: 16px;
@@ -22,6 +33,18 @@
         margin: 48px 0px 40px 0px;
         @media(max-width: 767px) {
           margin-bottom: 10px;
+        }
+        @media(max-width: 575px) {
+          margin-bottom: 10px;
+          padding-right: 0px;
+        }
+      }
+    }
+    .banner_img{
+      img{
+        @media(max-width: 575px) {
+
+          max-width: 100%;
         }
       }
     }

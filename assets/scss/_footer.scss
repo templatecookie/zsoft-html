@@ -19,11 +19,20 @@
       li {
         display: inline-block;
         margin: 0px 37.5px;
-        @media(max-width: 767px) {
+        @media(max-width: 991px) {
           margin: 0px 12.5px;
+        }
+        @media(max-width: 575px) {
+          margin: 0px 6.5px;
+        }
+        @media(max-width: 380px) {
+          margin: 0px 4.5px;
         }
         &:first-child {
           margin-left: 0px;
+        }
+        &:last-child {
+          margin-right: 0px;
         }
         a {
           font-size: 32px;

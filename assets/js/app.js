@@ -32,7 +32,7 @@ $(document).ready(function () {
         settings: {
           centerMode: true,
           centerPadding: '10px',
-          slidesToShow: 1,
+          slidesToShow: 2,
         },
       },
     ],
@@ -75,10 +75,7 @@ $(document).ready(function () {
           centerPadding: '0px',
         },
       },
-      {
-        breakpoint: 480,
-        settings: {},
-      },
+
     ],
   });
 });

@@ -22,6 +22,9 @@
           font-size: 18px;
           line-height: 38px;
         }
+        @media(max-width: 575px) {
+          font-size: 14px;
+        }
       }
       .client_name{
         font-size: 20px;
@@ -56,10 +59,15 @@
     &.slick-prev{
       // left: 0px;
       transform: translate(-195px, 81px);
+      @media(max-width: 480px ) {
+        transform: translate(-155px,78px);
+      }
     }
     &.slick-next{
-      // right: 0px;
       transform: translate(65px, 81px);
+      @media(max-width: 480px ) {
+        transform: translate(55px,78px);
+      }
     }
     }
     .slick-prev:before,
@@ -68,6 +76,10 @@
       font-size: 16px;
       outline: none;
       text-transform: capitalize;
+      @media(max-width: 480px) {
+        font-size: 12px;
+
+      }
     }
     
     .slick-prev:before {

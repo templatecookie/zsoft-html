@@ -2,6 +2,10 @@
   background-color: #f8f8f8;
   position: relative;
   padding-top: 170px;
+  padding-bottom: 200px;
+  @media(max-width: 575px){
+    padding-top: 90px;
+  }
   .container-fluid {
     .section_title {
       h2 {
@@ -20,6 +24,9 @@
             font-size: 12px;
             line-height: 14px;
             color: #7a849a;
+            @media(max-width: 480px ) {
+              font-size: 8px;
+            }
           }
           .p_title {
             font-size: 46px;
@@ -32,7 +39,15 @@
               line-height: 42px;
             }
             @media(max-width: 575px) {
-              font-size: 22px;
+              font-size: 18px;
+            }
+            @media(max-width: 480px) {
+              font-size: 14px;
+              line-height: 28px;
+            }
+            @media(max-width: 320px) {
+              font-size: 12px;
+              line-height: 28px;
             }
           }
           .v_project {
@@ -49,7 +64,8 @@
               padding-top: 8px;
             }
             @media(max-width: 575px) {
-              font-size: 10px;
+              white-space: nowrap;
+              font-size: 8px;
             }
             img {
               // display: inline-block;
@@ -87,6 +103,9 @@
     text-transform: uppercase;
     @media(max-width:1024px) {
       bottom: 60px;
+    }
+    @media(max-width:991px) {
+      bottom: 130px;
     }
   }
 }

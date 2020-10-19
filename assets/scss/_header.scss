@@ -8,15 +8,10 @@ header {
       justify-content: space-between;
       align-items: center;
       height: 90px;
-      .c_logo {
-        h2 {
-          font-size: 48px;
-          font-family: 'Rajdhani', sans-serif;
-          font-weight: 700;
-          color: #3e424b;
-          text-transform: uppercase;
-          .c_blue {
-            color: #5787ff;
+      .logo{
+        img{
+          @media(max-width: 525px) {
+            width: 190px;
           }
         }
       }
@@ -32,20 +27,20 @@ header {
           &::after {
             content: 'Menu';
             position: absolute;
-            left: -65px;
-            top: -2px;
-            font-size: 16px;
+            left: -43px;
+            top: -6px;
+            font-size: 12px;
             font-weight: 600;
             text-transform: uppercase;
           }
           li {
             width: 24px;
-            height: 4px;
+            height: 3px;
             background-color: #3e424b;
             transition: all 0.4s ease-in-out;
 
             &:first-child {
-              margin-bottom: 12px;
+              margin-bottom: 6px;
             }
           }
         }
@@ -58,9 +53,11 @@ header {
             }
             li {
               &:first-child {
-                transform: matrix(0.71, 0.71, -0.71, 0.71, -5, 6);
+                transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 6);
+
               }
-              transform: matrix(-0.71, 0.71, -0.71, -0.71, -5, -10);
+              transform: matrix(-0.71, 0.71, -0.71, -0.71, 0, -4);
+
             }
           }
         }
@@ -82,31 +79,42 @@ header {
   }
   .top {
     background-color: #3e424b;
-    padding: 220px 0px;
+    padding: 240px 0px;
+    @media(max-width: 991px) {
+      padding: 180px 0px;
+    }
     .container {
       .nav_links {
         .nav_items {
-          margin: 0px 45.5px;
+          margin: 0px 49px;
           position: relative;
           display: inline-block;
           @media(max-width: 1200px){
             margin-bottom: 20px;
           }
+          @media(max-width: 991px) {
+            width: 100%;
+            margin-left: 0px;
+            margin-bottom: 60px;
+          }
+
           &:first-child {
             margin-left: 0px;
           }
+          &:last-child {
+            margin-right: 0px;
+          }
+
           &::after {
             position: absolute;
-            top: -8px;
+            top: 10px;
             right: 50%;
             font-size: 24px;
             font-weight: 600;
             color: #fff;
-
-            transform: translateY(-5px);
           }
           a {
-            font-size: 84px;
+            font-size: 56px;
             line-height: 110px;
             color: #fff;
             font-family: 'Oswald', sans-serif;
@@ -114,6 +122,8 @@ header {
           }
 
           &:hover {
+
+         
             a {
               color: transparent;
               -webkit-text-stroke: 1.5px #7a849a;
@@ -149,10 +159,14 @@ header {
     }
   }
   .bottom {
-    padding: 60px 0px;
+    padding: 18px 0px;
     background-color: #fff;
+    @media(max-width: 991px) {
+      padding: 90px 0px;
+    }
     .container {
       .social_links {
+        margin-top: 95px !important;
         li {
           &::after {
             transition: all 0.6s ease-in-out;
@@ -164,7 +178,7 @@ header {
       }
       .c_rights {
         text-align: center;
-        margin-top: 30px;
+        margin-top: 80px;
         h5 {
           color: #3e424b;
           font-size: 16px;
