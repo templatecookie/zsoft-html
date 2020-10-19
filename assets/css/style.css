@@ -733,6 +733,7 @@ header .container .head_content .menu.active .m_bar li:first-child {
 #testimonial-area {
   background: #3e424b;
   padding: 160px 0;
+  position: relative;
 }
 
 #testimonial-area .tes-title h2 {
@@ -821,6 +822,13 @@ header .container .head_content .menu.active .m_bar li:first-child {
 
 #testimonial-area .testimonial_slider .slick-next:before {
   content: 'Next Clients';
+}
+
+#testimonial-area .qoute_img {
+  position: absolute;
+  content: "";
+  top: 34%;
+  left: 7%;
 }
 
 #joinus-area .join-designer h2 {

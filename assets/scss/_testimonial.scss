@@ -1,6 +1,7 @@
 #testimonial-area {
   background: #3e424b;
   padding: 160px 0;
+  position: relative;
   .tes-title {
     h2 {
       text-transform: capitalize;
@@ -77,5 +78,11 @@
      
     }
     
+  }
+  .qoute_img{
+    position: absolute;
+    content: "";
+    top: 34%;
+    left: 7%;
   }
 }
