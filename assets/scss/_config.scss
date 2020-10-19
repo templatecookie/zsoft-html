@@ -84,10 +84,6 @@ input:required {
 
 .form-control:focus {
   box-shadow: none;
-  
-  @media(max-width: 1024px) {
-    padding: 120px 0px !important;
-  }
 }
 
 .text_stroke {

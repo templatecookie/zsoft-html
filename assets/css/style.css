@@ -78,12 +78,6 @@ input:required {
   box-shadow: none;
 }
 
-@media (max-width: 1024px) {
-  .form-control:focus {
-    padding: 120px 0px !important;
-  }
-}
-
 .text_stroke {
   color: transparent;
   -webkit-text-stroke: 1.5px #3e424b;
