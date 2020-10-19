@@ -8,33 +8,74 @@
       padding-bottom: 70px;
     }
   }
-  .testimonial-active {
-    .single-testimonial {
-      p {
-        color: white;
+  .testimonial_slider {
+    text-align: center;
+    color: #fff;
+    .slide_item {
+      .content_text {
         font-size: 32px;
-        line-height: 1.5;
-        margin: 0 auto;
-        margin: 0 83px;
+        line-height: 55px;
         font-weight: 300;
-        margin-bottom: 26px;
+        padding-bottom: 40px;
+        @media(max-width: 767px) {
+          font-size: 18px;
+          line-height: 38px;
+        }
       }
-      span {
-        color: white;
+      .client_name{
         font-size: 20px;
         line-height: 44px;
-        text-transform: capitalize;
+        margin-bottom: 0px;
       }
-      h2 {
-        color: #7a849a;
+      .client_position {
         font-size: 14px;
-        line-height: 1.5;
+        line-height: 16px;
+        color: #7A849A;
+        display: inline-block;
+        margin-top: -5px;
       }
     }
-    .slick-dots {
-      li {
+    .slick-dots{
+      transform: translate(-55%,-45px);
+      li{
         border: 1px solid #fff;
+        &.slick-active{
+          background-color: #fff;
+        }
       }
     }
+    .slick-arrow{
+    font-size: 0px;
+    background: transparent;
+    position: absolute;
+    bottom: 0px;
+    @media(max-width:1024px) {
+      bottom: 50px;
+    }
+    &.slick-prev{
+      // left: 0px;
+      transform: translate(-195px, 81px);
+    }
+    &.slick-next{
+      // right: 0px;
+      transform: translate(65px, 81px);
+    }
+    }
+    .slick-prev:before,
+    .slick-next:before {
+      color: #fff;
+      font-size: 16px;
+      outline: none;
+      text-transform: capitalize;
+    }
+    
+    .slick-prev:before {
+     content: 'Previous Clients';
+    }
+    .slick-next:before {
+      content: 'Next Clients';
+     
+    }
+    
   }
 }

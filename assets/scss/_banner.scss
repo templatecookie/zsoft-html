@@ -9,14 +9,20 @@
         font-size: 84px;
         line-height: 110px;
         text-transform: uppercase;
-          font-family: 'Oswald', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        @media(max-width: 767px) {
+          font-size: 72px;
+        }
       }
       p {
         font-size: 16px;
         line-height: 38px;
         color: #3e424b;
         padding-right: 150px;
-        margin: 32px 0px 40px 0px;
+        margin: 48px 0px 40px 0px;
+        @media(max-width: 767px) {
+          margin-bottom: 10px;
+        }
       }
     }
   }
