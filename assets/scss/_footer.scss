@@ -1,11 +1,13 @@
 #footer_area {
   text-align: center;
-  padding-top: 140px;
+  padding-top: 100px;
   .footer_menu {
     span {
-      font-size: 20px;
-      line-height: 44px;
-      color: #3e424b;
+        font-size: 20px;
+        line-height: 44px;
+        color: #3e424b;
+        padding-bottom: 30px;
+        display: block;
     }
     ul {
       li {
