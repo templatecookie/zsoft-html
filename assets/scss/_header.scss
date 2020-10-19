@@ -85,14 +85,13 @@ header {
     padding: 220px 0px;
     .container {
       .nav_links {
-        // display: flex;
-        // flex-wrap: wrap;
-        // justify-content: center;
-        // align-items: center;
         .nav_items {
           margin: 0px 45.5px;
           position: relative;
           display: inline-block;
+          @media(max-width: 1200px){
+            margin-bottom: 20px;
+          }
           &:first-child {
             margin-left: 0px;
           }

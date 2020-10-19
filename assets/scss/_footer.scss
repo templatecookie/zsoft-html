@@ -1,6 +1,9 @@
 #footer_area {
   text-align: center;
   padding-top: 140px;
+  @media(max-width: 767px) {
+   padding-top: 80px;
+  }
   .footer_menu {
     span {
       font-size: 20px;
@@ -8,9 +11,15 @@
       color: #3e424b;
     }
     ul {
+      @media(max-width:1024px){
+        margin: 20px 0px !important;
+      }
       li {
         display: inline-block;
         margin: 0px 37.5px;
+        @media(max-width: 767px) {
+          margin: 0px 12.5px;
+        }
         &:first-child {
           margin-left: 0px;
         }
@@ -21,6 +30,10 @@
           color: #3e424b;
           display: inline-block;
           text-transform: capitalize;
+          @media(max-width: 767px) {
+            font-size: 18px;
+            line-height: 28px;
+          }
         }
       }
     }
@@ -28,6 +41,9 @@
   .connect_info {
     margin-top: 62px;
     margin-bottom: 22px;
+    @media(max-width: 1024px){
+      margin-top: 40px;
+    }
     h4 {
       font-size: 20px;
       line-height: 44px;
@@ -39,6 +55,9 @@
       font-size: 16px;
       line-height: 38px;
       color: #7a849a;
+      @media(max-width: 767px) {
+        white-space: normal;
+      }
     }
     .email {
       font-size: 16px;
@@ -49,5 +68,8 @@
   }
   .copyright_text {
     padding-bottom: 30px;
+    @media(max-width: 1024px) {
+      padding-bottom: 15px;
+    }
   }
 }

@@ -40,13 +40,13 @@ $(document).ready(function () {
 
   //testimonial_slider
   // @ts-ignore
-  $('.testimonial-active').slick({
+  $('.testimonial_slider').slick({
     infinite: true,
     slidesToShow: 1,
-    slidesToScroll: 3,
+    slidesToScroll: 1,
+    arrows: true,
     dots: true,
-    prevArrow: '.arrow_prev',
-    nextArrow: '.arrow_next',
+   
   });
   //details_slider
   // @ts-ignore
@@ -64,9 +64,9 @@ $(document).ready(function () {
     // autoplaySpeed: 1000,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1200,
         settings: {
-          centerPadding: '20px',
+          centerPadding: '0px',
         },
       },
       {

@@ -28,6 +28,13 @@
             font-weight: 600;
             color: #3e424b;
             font-family: 'Oswald', sans-serif;
+            @media(max-width: 1200px) {
+              font-size: 30px;
+              line-height: 42px;
+            }
+            @media(max-width: 575px) {
+              font-size: 22px;
+            }
           }
           .v_project {
             font-size: 12px;
@@ -38,7 +45,13 @@
             text-transform: uppercase;
             display: flex;
             align-items: center;
-
+            padding-top: 35px;
+            @media(max-width: 1200px) {
+              padding-top: 8px;
+            }
+            @media(max-width: 575px) {
+              font-size: 10px;
+            }
             img {
               // display: inline-block;
               display: inline;
@@ -67,11 +80,15 @@
   }
   .drag_text {
     position: absolute;
-    bottom: 160px;
-    right: 50%;
+    bottom: 85px;
+    left: 50%;
+    transform: translate(-50%);
     font-size: 12px;
     font-weight: 600;
     text-transform: uppercase;
+    @media(max-width:1024px) {
+      bottom: 60px;
+    }
   }
 }
 
