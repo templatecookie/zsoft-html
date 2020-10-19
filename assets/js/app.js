@@ -45,6 +45,8 @@ $(document).ready(function () {
     slidesToShow: 1,
     slidesToScroll: 3,
     dots: true,
+    prevArrow: '.arrow_prev',
+    nextArrow: '.arrow_next',
   });
   //details_slider
   // @ts-ignore
@@ -54,9 +56,29 @@ $(document).ready(function () {
   // @ts-ignore
   $('.project_slider').slick({
     arrows: false,
-    dots:true,
+    dots: true,
     centerMode: true,
     infinite: true,
     centerPadding: '290px',
+    // autoplay: true,
+    // autoplaySpeed: 1000,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          centerPadding: '20px',
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          centerPadding: '0px',
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {},
+      },
+    ],
   });
 });
