@@ -50,7 +50,7 @@ button {
 
 body {
   font-family: 'Poppins', sans-serif;
-  line-height: 0px;
+  // line-height: 0px;
 }
 
 .section_title h2 {
@@ -164,7 +164,7 @@ input:required {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 75px !important; 
+  // margin-bottom: 75px !important; 
   @media(max-width:1024px){
     padding-bottom: 35px;
   }

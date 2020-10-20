@@ -35,14 +35,14 @@ header {
           transition: all 0.4s ease-in-out;
           position: relative;
           line-height: 25px;
-          font-size: 12px;
-          font-weight: 600;
-          text-transform: uppercase;
           &::after {
             content: 'Menu';
             position: absolute;
             left: -43px;
             top: -6px;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
           }
           li {
             width: 24px;
@@ -76,6 +76,139 @@ header {
     }
   }
 }
+
+.fullscreen-menu {
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: $black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  
+  .menu {
+    &-body{
+      min-height: 75vh;
+      .menu-container {
+        min-height: 75vh;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        align-content: stretch;
+      }
+      .menu-close {
+        display: flex;
+        align-items: center;
+        padding-top: 39px;
+        justify-content: flex-end;
+        width: 100%;
+        height: 20px;
+        .close-bar {
+          cursor: pointer;
+          transition: all 0.4s ease-in-out;
+          position: relative;
+          line-height: 25px;
+          &::after {
+            content: 'close';
+            position: absolute;
+            left: -43px;
+            top: -5px;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: $white;
+          }
+          li {
+            width: 24px;
+            height: 3px;
+            background-color: $white;
+            transition: all 0.4s ease-in-out;
+            transform: matrix(-0.71, 0.71, -0.71, -0.71, 0, -4);
+    
+            &:first-child {
+              margin-bottom: 7px;
+              transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 6);
+            }
+          }
+        }
+      }
+      .main-menu {
+        ul {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-evenly;
+          li {
+            margin-bottom: 45px;
+            a {
+              font-size: 84px;
+              line-height: 110px;
+              font-weight: bold;
+              font-family: $oswald;
+              padding: 0 48px;
+              color: $white;
+              position: relative;
+              span {
+                visibility: hidden;
+                position: absolute;
+                top: 0;
+                left: 50%;
+                transform: translateX(-50%);
+                font-family: $poppins;
+                font-size: 24px;
+                line-height: 28px;
+                font-weight: 600;
+              }
+              &.active, &:hover {
+                color: transparent;
+                -webkit-text-stroke: 1.5px #7a849a;
+                span {
+                  visibility: visible;
+                  color: white;
+                  -webkit-text-stroke: 0;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    &-footer {
+      height: 25vh;
+      background-color: $white;
+      padding: 20px 0;
+      box-sizing: border-box;
+      .footer-social {
+        width: 100%;
+        min-height: calc(25vh - 63px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        li a {
+          display: inline-block;
+          color: $black;
+          font-size: 20px;
+          width: 50px;
+          height: 50px;
+          line-height: 50px;
+          text-align: center;
+          border-radius: 50%;
+          color: $black;
+          transition: background 0.4s ease-in;
+          &:hover {
+            background: $primary;
+            color: $white;
+          }
+        }
+      }
+      .copyright-text {
+        width: 100%;
+        text-align: center;
+        height: 23px;
+      }
+    }
+  }
+}
+
 .menu_content {
   pointer-events: none;
   height: 0;
@@ -133,8 +266,6 @@ header {
           }
 
           &:hover {
-
-         
             a {
               color: transparent;
               -webkit-text-stroke: 1.5px #7a849a;
@@ -189,12 +320,12 @@ header {
       }
       .c_rights {
         text-align: center;
+        margin-top: 80px;
         h5 {
           color: #3e424b;
           font-size: 16px;
-          line-height: 1.7;
-          padding-bottom: 30px;
-          margin: 0;
+          line-height: 32px;
+          font-weight: 600;
         }
       }
     }
