@@ -9,6 +9,17 @@ header {
       align-items: center;
       height: 90px;
       .logo{
+        font-family: 'Rajdhani', sans-serif;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 38px;
+        a {
+          color: #3E424B;
+          span {
+            color: #5787ff;
+          }
+        }
         img{
           @media(max-width: 525px) {
             width: 190px;
@@ -40,7 +51,7 @@ header {
             transition: all 0.4s ease-in-out;
 
             &:first-child {
-              margin-bottom: 6px;
+              margin-bottom: 9px;
             }
           }
         }
