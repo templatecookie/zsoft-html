@@ -1,39 +1,49 @@
 #footer_area {
   text-align: center;
-  padding-top: 140px;
+  padding-top: 165px;
+
   @media(max-width: 767px) {
-   padding-top: 80px;
+    padding-top: 80px;
   }
+
   .footer_menu {
     span {
-        font-size: 20px;
-        line-height: 44px;
-        color: #3e424b;
-        padding-bottom: 30px;
-        display: block;
+      font-size: 20px;
+      line-height: 44px;
+      color: #3e424b;
+      padding-bottom: 10px;
+      display: block;
     }
+
     ul {
-      @media(max-width:1024px){
+      @media(max-width:1024px) {
         margin: 20px 0px !important;
       }
+
       li {
         display: inline-block;
         margin: 0px 37.5px;
+
         @media(max-width: 991px) {
           margin: 0px 12.5px;
         }
+
         @media(max-width: 575px) {
           margin: 0px 6.5px;
         }
+
         @media(max-width: 380px) {
           margin: 0px 4.5px;
         }
+
         &:first-child {
           margin-left: 0px;
         }
+
         &:last-child {
           margin-right: 0px;
         }
+
         a {
           font-size: 32px;
           line-height: 38px;
@@ -41,6 +51,7 @@
           color: #3e424b;
           display: inline-block;
           text-transform: capitalize;
+
           @media(max-width: 767px) {
             font-size: 18px;
             line-height: 28px;
@@ -49,27 +60,33 @@
       }
     }
   }
+
   .connect_info {
-    margin-top: 62px;
-    margin-bottom: 22px;
-    @media(max-width: 1024px){
+    margin-top: 51px;
+    margin-bottom: 26px;
+
+    @media(max-width: 1024px) {
       margin-top: 40px;
     }
+
     h4 {
       font-size: 20px;
       line-height: 44px;
       color: #3e424b;
     }
+
     p {
       text-align: center;
-      white-space: pre-line;
       font-size: 16px;
       line-height: 38px;
       color: #7a849a;
+      margin: 0 21%;
+
       @media(max-width: 767px) {
         white-space: normal;
       }
     }
+
     .email {
       font-size: 16px;
       line-height: 38px;
@@ -77,10 +94,21 @@
       color: #3e424b;
     }
   }
+
   .copyright_text {
-    padding-bottom: 30px;
     @media(max-width: 1024px) {
       padding-bottom: 15px;
     }
+  }
+}
+
+.copyright_text {
+  p {
+    color: #3E424B;
+    padding-bottom: 30px;
+    font-size: 16px;
+    line-height: 1.7;
+    padding-bottom: 30px;
+    margin: 0;
   }
 }
