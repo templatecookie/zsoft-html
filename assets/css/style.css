@@ -504,7 +504,7 @@ header .container .head_content .menu.active .m_bar li:first-child {
 }
 
 /* Banner section end */
-#work {
+#Project {
   background-color: #f8f8f8;
   position: relative;
   padding-top: 180px;
@@ -512,41 +512,41 @@ header .container .head_content .menu.active .m_bar li:first-child {
 }
 
 @media (max-width: 1024px) {
-  #work {
+  #Project {
     padding-bottom: 126px;
   }
 }
 
 @media (max-width: 575px) {
-  #work {
+  #Project {
     padding-top: 90px;
   }
 }
 
-#work .container-fluid .section_title h2 {
+#Project .container-fluid .section_title h2 {
   -webkit-text-stroke-color: #7a849a;
 }
 
-#work .container-fluid .project_slider .slide_item {
+#Project .container-fluid .project_slider .slide_item {
   display: flex;
   justify-content: space-between;
   align-items: center;
   transition: all 0.6s linear;
 }
 
-#work .container-fluid .project_slider .slide_item .slide_info .p_type {
+#Project .container-fluid .project_slider .slide_item .slide_info .p_type {
   font-size: 12px;
   line-height: 14px;
   color: #7a849a;
 }
 
 @media (max-width: 480px) {
-  #work .container-fluid .project_slider .slide_item .slide_info .p_type {
+  #Project .container-fluid .project_slider .slide_item .slide_info .p_type {
     font-size: 8px;
   }
 }
 
-#work .container-fluid .project_slider .slide_item .slide_info .p_title {
+#Project .container-fluid .project_slider .slide_item .slide_info .p_title {
   font-size: 46px;
   line-height: 55px;
   font-weight: 600;
@@ -555,33 +555,33 @@ header .container .head_content .menu.active .m_bar li:first-child {
 }
 
 @media (max-width: 1200px) {
-  #work .container-fluid .project_slider .slide_item .slide_info .p_title {
+  #Project .container-fluid .project_slider .slide_item .slide_info .p_title {
     font-size: 30px;
     line-height: 42px;
   }
 }
 
 @media (max-width: 575px) {
-  #work .container-fluid .project_slider .slide_item .slide_info .p_title {
+  #Project .container-fluid .project_slider .slide_item .slide_info .p_title {
     font-size: 18px;
   }
 }
 
 @media (max-width: 480px) {
-  #work .container-fluid .project_slider .slide_item .slide_info .p_title {
+  #Project .container-fluid .project_slider .slide_item .slide_info .p_title {
     font-size: 14px;
     line-height: 28px;
   }
 }
 
 @media (max-width: 320px) {
-  #work .container-fluid .project_slider .slide_item .slide_info .p_title {
+  #Project .container-fluid .project_slider .slide_item .slide_info .p_title {
     font-size: 12px;
     line-height: 28px;
   }
 }
 
-#work .container-fluid .project_slider .slide_item .slide_info .v_project {
+#Project .container-fluid .project_slider .slide_item .slide_info .v_project {
   font-size: 12px;
   line-height: 14px;
   font-weight: 600;
@@ -594,44 +594,44 @@ header .container .head_content .menu.active .m_bar li:first-child {
 }
 
 @media (max-width: 1200px) {
-  #work .container-fluid .project_slider .slide_item .slide_info .v_project {
+  #Project .container-fluid .project_slider .slide_item .slide_info .v_project {
     padding-top: 8px;
   }
 }
 
 @media (max-width: 575px) {
-  #work .container-fluid .project_slider .slide_item .slide_info .v_project {
+  #Project .container-fluid .project_slider .slide_item .slide_info .v_project {
     white-space: nowrap;
     font-size: 8px;
   }
 }
 
 @media (max-width: 320px) {
-  #work .container-fluid .project_slider .slide_item .slide_info .v_project {
+  #Project .container-fluid .project_slider .slide_item .slide_info .v_project {
     letter-spacing: 0px;
   }
 }
 
-#work .container-fluid .project_slider .slide_item .slide_info .v_project img {
+#Project .container-fluid .project_slider .slide_item .slide_info .v_project img {
   display: inline;
   outline: none !important;
 }
 
-#work .container-fluid .project_slider .slide_item.slick-cloned {
+#Project .container-fluid .project_slider .slide_item.slick-cloned {
   opacity: 0 !important;
   pointer-events: none;
 }
 
-#work .container-fluid .project_slider .slide_item.slick-slide {
+#Project .container-fluid .project_slider .slide_item.slick-slide {
   opacity: 0.2;
 }
 
-#work .container-fluid .project_slider .slide_item.slick-active {
+#Project .container-fluid .project_slider .slide_item.slick-active {
   opacity: 1;
   pointer-events: all;
 }
 
-#work .drag_text {
+#Project .drag_text {
   position: absolute;
   bottom: 226px;
   left: 50%;
@@ -642,13 +642,13 @@ header .container .head_content .menu.active .m_bar li:first-child {
 }
 
 @media (max-width: 1024px) {
-  #work .drag_text {
+  #Project .drag_text {
     bottom: 60px;
   }
 }
 
 @media (max-width: 991px) {
-  #work .drag_text {
+  #Project .drag_text {
     bottom: 60px;
   }
 }
