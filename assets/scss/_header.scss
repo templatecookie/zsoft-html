@@ -35,12 +35,9 @@ header {
           transition: all 0.4s ease-in-out;
           position: relative;
           line-height: 25px;
-<<<<<<< HEAD
-=======
           font-size: 12px;
           font-weight: $semi_bold;
           text-transform: uppercase;
->>>>>>> 5034c918c9ab5c1069e6a856d346809d63df7691
           &::after {
             content: 'Menu';
             position: absolute;

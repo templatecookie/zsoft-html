@@ -95,6 +95,8 @@
          
         }
     }
+
+
      /* about section end */
 
     /* ?? section start */
@@ -105,11 +107,51 @@
 /* Xtra_Small devices 0 - 575 */
 
 @include xs {
+
+// social links
+.social_links {
+    
+    margin-bottom: 20px !important;
+}
+
+
+
+
+// For section
+section{
+    padding: 60px 0px;
+}
+
 // About page
 
-    /* ?? section start */
-     /* ?? section end */
+    /* About section start */
+    #about{
+        .about_content{
+            
+         .col-lg-6{
+             .play_video{
+               margin-top: -15px;
+               white-space: nowrap;
+             }
+         }
+         
+        }
+    }
 
-    /* ?? section start */
-     /* ?? section end */
+    #about_content_2{
+        .container{
+            .r_space {
+                padding-left: 15px !important;
+                margin-bottom: 30px;
+            }
+        }
+    }
+
+     /* About section end */
+
+    //  footer
+    #footer_area .connect_info p {
+        margin: 0 10%;
+        line-height: 32px;
+    }
 }
