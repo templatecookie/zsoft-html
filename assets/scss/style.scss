@@ -4,8 +4,8 @@
 /* ?? part start */
 @import 'header';
 @import 'banner';
-@import 'work';
 @import 'works';
+@import 'work_slider';
 @import 'about';
 @import '404';
 @import 'testimonial';
@@ -15,6 +15,7 @@
 
 /* WE_DO part start */
 #WE_Do {
+  padding-top: 180px;
   .container {
     .box_wrapper {
       position: relative;
@@ -130,7 +131,8 @@
 
 /* brand_area part start */
 #brand_area {
-  // padding: 90px 0px !important;
+  padding-top: 20px;
+  padding-bottom: 200px;
   .container {
     .brand_slider {
       .single_brand {

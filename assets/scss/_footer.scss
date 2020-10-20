@@ -1,12 +1,16 @@
 #footer_area {
   text-align: center;
-  padding-top: 165px;
+  padding-top: 188px;
 
   @media(max-width: 767px) {
     padding-top: 80px;
   }
 
   .footer_menu {
+
+    .nav_links{
+      padding-top: 18px;
+    }
     span {
       font-size: 20px;
       line-height: 44px;
