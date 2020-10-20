@@ -50,7 +50,7 @@ body {
   -webkit-text-stroke: 1.5px #7a849a;
   padding-bottom: 85px;
   font-family: 'Oswald', sans-serif;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 @media (max-width: 575px) {
@@ -152,7 +152,7 @@ input:required {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 75px !important;
+  margin-bottom: 90px !important;
 }
 
 @media (max-width: 1024px) {
@@ -229,6 +229,22 @@ header .container .head_content {
   height: 90px;
 }
 
+header .container .head_content .logo {
+  font-family: 'Rajdhani', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 38px;
+}
+
+header .container .head_content .logo a {
+  color: #3E424B;
+}
+
+header .container .head_content .logo a span {
+  color: #5787ff;
+}
+
 @media (max-width: 525px) {
   header .container .head_content .logo img {
     width: 190px;
@@ -265,7 +281,7 @@ header .container .head_content .menu .m_bar li {
 }
 
 header .container .head_content .menu .m_bar li:first-child {
-  margin-bottom: 6px;
+  margin-bottom: 9px;
 }
 
 header .container .head_content .menu.active .m_bar::after {
@@ -687,8 +703,9 @@ header .container .head_content .menu.active .m_bar li:first-child {
   font-size: 46px;
   font-weight: 600;
   font-family: 'Oswald', sans-serif;
-  padding-bottom: 40px;
+  padding-bottom: 42px;
   line-height: 55px;
+  margin: 0;
 }
 
 .project_info .v_project {
@@ -697,6 +714,11 @@ header .container .head_content .menu.active .m_bar li:first-child {
   font-size: 12px;
   letter-spacing: 8px;
   text-transform: uppercase;
+}
+
+#about {
+  margin-top: 25px;
+  padding-bottom: 100px;
 }
 
 #about .about_content .about_contect_img {
@@ -722,7 +744,7 @@ header .container .head_content .menu.active .m_bar li:first-child {
   font-size: 46px;
   font-weight: 600;
   font-family: 'Oswald', sans-serif;
-  padding-bottom: 7px;
+  padding-bottom: 20px;
   line-height: 55px;
 }
 
@@ -733,12 +755,17 @@ header .container .head_content .menu.active .m_bar li:first-child {
   margin-right: 18px;
 }
 
+#about_content_2 {
+  padding-top: 100px;
+  padding-bottom: 190px;
+}
+
 #about_content_2 .office_content_wrapper h3 {
   color: #3E424B;
   font-size: 46px;
   font-weight: 600;
   font-family: 'Oswald', sans-serif;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
   line-height: 55px;
 }
 
@@ -747,12 +774,17 @@ header .container .head_content .menu.active .m_bar li:first-child {
   font-size: 20px;
   line-height: 44px;
   margin-right: 18px;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
   margin-right: 75px;
 }
 
+#team {
+  padding: 188px 0;
+  padding-bottom: 120px;
+}
+
 #team .team_card .member_position {
-  margin-bottom: 70px;
+  margin-bottom: 105px;
 }
 
 #team .team_card .member_position h3 {
@@ -760,7 +792,7 @@ header .container .head_content .menu.active .m_bar li:first-child {
   font-size: 62px;
   font-weight: 600;
   font-family: 'Oswald', sans-serif;
-  padding-top: 70px;
+  padding-top: 35px;
   line-height: 74px;
 }
 
@@ -768,7 +800,7 @@ header .container .head_content .menu.active .m_bar li:first-child {
   font-size: 20px;
   line-height: 20px;
   color: #7A849A;
-  margin-top: 25px;
+  margin-top: 12px;
   display: block;
 }
 
@@ -1061,7 +1093,7 @@ header .container .head_content .menu.active .m_bar li:first-child {
   font-size: 20px;
   line-height: 44px;
   color: #3e424b;
-  padding-bottom: 10px;
+  padding-bottom: 25px;
   display: block;
 }
 
@@ -1119,8 +1151,8 @@ header .container .head_content .menu.active .m_bar li:first-child {
 }
 
 #footer_area .connect_info {
-  margin-top: 80px;
-  margin-bottom: 26px;
+  margin-top: 78px;
+  margin-bottom: 35px;
 }
 
 @media (max-width: 1024px) {
@@ -1133,7 +1165,7 @@ header .container .head_content .menu.active .m_bar li:first-child {
   font-size: 20px;
   line-height: 44px;
   color: #3e424b;
-  margin-bottom: 22px;
+  padding-bottom: 12px;
 }
 
 #footer_area .connect_info p {
@@ -1312,6 +1344,18 @@ header .container .head_content .menu.active .m_bar li:first-child {
 
 .mb-30 {
   margin-bottom: 30px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
 }
 
 /* brand_area part end */

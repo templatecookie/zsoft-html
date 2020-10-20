@@ -61,7 +61,7 @@ body {
   -webkit-text-stroke: 1.5px #7a849a;
   padding-bottom: 85px;
   font-family: 'Oswald', sans-serif;
-  text-transform: uppercase;
+  text-transform: capitalize;
   @media(max-width: 575px) {
     font-size: 52px;
   }
@@ -164,7 +164,7 @@ input:required {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 75px !important; 
+  margin-bottom: 90px !important; 
   @media(max-width:1024px){
     padding-bottom: 35px;
   }
