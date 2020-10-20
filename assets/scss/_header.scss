@@ -35,9 +35,6 @@ header {
           transition: all 0.4s ease-in-out;
           position: relative;
           line-height: 25px;
-          font-size: 12px;
-          font-weight: $semi_bold;
-          text-transform: uppercase;
           &::after {
             content: 'Menu';
             position: absolute;
@@ -196,10 +193,32 @@ header {
           text-align: center;
           border-radius: 50%;
           color: $black;
-          transition: background 0.4s ease-in;
+          position: relative;
+          z-index: 1;
+          transition: all 0.3s linear 0.2s;
+          &::after {
+            content: '';
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            border-radius: 50%;
+            transform: scale(0);
+            transition-delay: 0.3s;
+            transition: all 0.3s linear;
+            // transition-property: width;
+            // transition-duration: 5s;
+            // transition-delay: 2s;
+            // transition-timing-function: linear;
+          }
           &:hover {
-            background: $primary;
             color: $white;
+            &::after {
+              transform: scale(1);
+              background-color: $primary;
+            }
           }
         }
       }
