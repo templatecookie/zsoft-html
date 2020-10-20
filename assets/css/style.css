@@ -229,6 +229,22 @@ header .container .head_content {
   height: 90px;
 }
 
+header .container .head_content .logo {
+  font-family: 'Rajdhani', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 38px;
+}
+
+header .container .head_content .logo a {
+  color: #3E424B;
+}
+
+header .container .head_content .logo a span {
+  color: #5787ff;
+}
+
 @media (max-width: 525px) {
   header .container .head_content .logo img {
     width: 190px;
@@ -265,7 +281,7 @@ header .container .head_content .menu .m_bar li {
 }
 
 header .container .head_content .menu .m_bar li:first-child {
-  margin-bottom: 6px;
+  margin-bottom: 9px;
 }
 
 header .container .head_content .menu.active .m_bar::after {
@@ -621,14 +637,20 @@ header .container .head_content .menu.active .m_bar li:first-child {
   }
 }
 
-.work_content .tab-text p {
+#work {
+  position: relative;
+  padding-top: 175px;
+  padding-bottom: 100px;
+}
+
+#work .work_content .tab-text p {
   font-size: 16px;
   line-height: 38px;
   color: #3e424b;
   margin: 0;
 }
 
-.work_content .work_tab .nav-pills .nav-link {
+#work .work_content .work_tab .nav-pills .nav-link {
   color: #7a849a;
   background-color: transparent;
   text-transform: capitalize;
@@ -637,7 +659,7 @@ header .container .head_content .menu.active .m_bar li:first-child {
   margin: 0 20px;
 }
 
-.work_content .work_tab .nav-pills .nav-link::before {
+#work .work_content .work_tab .nav-pills .nav-link::before {
   position: absolute;
   content: '';
   width: 0;
@@ -652,21 +674,21 @@ header .container .head_content .menu.active .m_bar li:first-child {
   -o-transition: 0.3s;
 }
 
-.work_content .work_tab .nav-pills .nav-link.nav-link.active::before {
+#work .work_content .work_tab .nav-pills .nav-link.nav-link.active::before {
   width: 120%;
 }
 
-.project_img img {
+#work .project_img img {
   max-width: 100%;
 }
 
-.project_info span {
+#work .project_info span {
   font-size: 12px;
   line-height: 14px;
   color: #7a849a;
 }
 
-.project_info h3 {
+#work .project_info h3 {
   color: #3e424b;
   font-size: 46px;
   font-weight: 600;
@@ -676,7 +698,7 @@ header .container .head_content .menu.active .m_bar li:first-child {
   margin: 0;
 }
 
-.project_info .v_project {
+#work .project_info .v_project {
   color: #3e424b;
   line-height: 14px;
   font-size: 12px;
