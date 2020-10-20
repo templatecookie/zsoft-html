@@ -1,4 +1,7 @@
 #about {
+    margin-top: 25px;
+    padding-bottom: 100px;
+
     .about_content {
         .about_contect_img {
             margin-bottom: 30px;
@@ -10,7 +13,7 @@
             span {
                 font-size: 16;
                 line-height: 38px;
-                color: #3E424B;
+                color: $black;
             }
         }
     }
@@ -19,16 +22,16 @@
         padding-left: 36px;
 
         h3 {
-            color: #3E424B;
+            color: $black;
             font-size: 46px;
-            font-weight: 600;
-            font-family: 'Oswald', sans-serif;
-            padding-bottom: 7px;
+            font-weight: $semi_bold;
+            font-family: $oswald;
+            padding-bottom: 20px;
             line-height: 55px;
         }
 
         p {
-            color: #7A849A;
+            color: $gray;
             font-size: 20px;
             line-height: 44px;
             margin-right: 18px;
@@ -37,46 +40,50 @@
 }
 
 #about_content_2 {
+    padding-top: 100px;
+    padding-bottom: 190px;
     .office_content_wrapper {
         h3 {
-            color: #3E424B;
+            color: $black;
             font-size: 46px;
-            font-weight: 600;
-            font-family: 'Oswald', sans-serif;
-            padding-bottom: 40px;
+            font-weight: $semi_bold;
+            font-family: $oswald;
+            padding-bottom: 20px;
             line-height: 55px;
         }
 
         p {
-            color: #7A849A;
+            color: $gray;
             font-size: 20px;
             line-height: 44px;
             margin-right: 18px;
-            padding-bottom: 50px;
+            padding-bottom: 20px;
             margin-right: 75px;
         }
     }
 }
 
 #team {
+    padding: 188px 0;
+    padding-bottom: 120px;
     .team_card {
         .member_position {
-            margin-bottom: 70px;
+            margin-bottom: 105px;
 
             h3 {
-                color: #3E424B;
+                color: $black;
                 font-size: 62px;
-                font-weight: 600;
-                font-family: 'Oswald', sans-serif;
-                padding-top: 70px;
+                font-weight: $semi_bold;
+                font-family: $oswald;
+                padding-top: 35px;
                 line-height: 74px;
             }
 
             span {
                 font-size: 20px;
                 line-height: 20px;
-                color: #7A849A;
-                margin-top: 25px;
+                color: $gray;
+                margin-top: 12px;
                 display: block;
             }
         }

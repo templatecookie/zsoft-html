@@ -4,16 +4,19 @@
 /* ?? part start */
 @import 'header';
 @import 'banner';
-@import 'work';
+@import 'works';
+@import 'work_slider';
 @import 'about';
 @import '404';
 @import 'testimonial';
 @import 'career';
 @import 'joinus';
 @import 'footer';
+@import 'responsive';
 
 /* WE_DO part start */
 #WE_Do {
+  padding-top: 180px;
   .container {
     .box_wrapper {
       position: relative;
@@ -26,7 +29,7 @@
         height: 100%;
         transform-style: preserve-3d;
         transition: all 0.9s ease-in-out;
-        border: 1.5px solid #3e424b;
+        border: 1.5px solid $black;
 
         .front_part {
           position: absolute;
@@ -40,7 +43,7 @@
             font-size: 84px;
             line-height: 110px;
             text-align: center;
-            font-family: 'Oswald', sans-serif;
+            font-family: $oswald;
             text-transform: uppercase;
             @media(max-width: 575px) {
               font-size: 66px;
@@ -58,7 +61,7 @@
           width: 100%;
           height: 100%;
           backface-visibility: hidden;
-          background: #3e424b;
+          background: $black;
           transform: rotateY(180deg);
           display: flex;
           align-items: center;
@@ -70,8 +73,8 @@
               font-size: 46px;
               line-height: 55px;
               text-transform: uppercase;
-              color: #fff;
-              font-family: 'Oswald', sans-serif;
+              color: $white;
+              font-family: $oswald;
               margin-bottom: 32px;
               @media(max-width: 575px) {
                 font-size: 30px;
@@ -86,7 +89,7 @@
             p {
               font-size: 16px;
               line-height: 38px;
-              color: #7a849a;
+              color: $gray;
               margin-bottom: 40px;
               @media(max-width: 575px) {
                 line-height: 32px;
@@ -97,9 +100,9 @@
               font-size: 12px;
               line-height: 14px;
               text-transform: uppercase;
-              color: #fff;
+              color: $white;
               font-family: 'Poppins', sans-serif;
-              font-weight: 600;
+              font-weight: $semi_bold;
               img{
                 @media(max-width: 575px) {
                   width: 22px !important;
@@ -129,7 +132,8 @@
 
 /* brand_area part start */
 #brand_area {
-  // padding: 90px 0px !important;
+  padding-top: 20px;
+  padding-bottom: 200px;
   .container {
     .brand_slider {
       .single_brand {
@@ -143,6 +147,15 @@
 
 .mb-30 {
   margin-bottom: 30px;
+}
+.mt-50{
+  margin-top: 50px;
+}
+.mb-50{
+  margin-bottom: 50px;
+}
+.mb-100{
+  margin-bottom: 100px;
 }
 /* brand_area part end */
 

@@ -5,16 +5,16 @@
         h2{
             font-size: 62px;
             line-height: 74px;
-            color: #3E424B;
-            font-family: 'Oswald', sans-serif;
+            color: $black;
+            font-family: $oswald;
             text-transform: capitalize;
-            font-weight: 600;
+            font-weight: $semi_bold;
             margin-top: 60px;
         }
     }
     .bottom {
         padding: 60px 0px;
-        background-color: #fff;
+        background-color: $white;
         .container {
           .social_links {
             display: flex;
@@ -27,7 +27,7 @@
               border-radius: 50%;
               a {
                 i {
-                  color: #3e424b;
+                  color: $black;
                   font-size: 28px;
                 }
               }
@@ -41,10 +41,10 @@
             text-align: center;
             margin-top: 30px;
             h5 {
-              color: #3e424b;
+              color: $black;
               font-size: 16px;
               line-height: 32px;
-              font-weight: 600;
+              font-weight: $semi_bold;
               padding-bottom: 30px !important;
             }
           }

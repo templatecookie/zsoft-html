@@ -3,14 +3,14 @@
         h2 {
             font-size: 46;
             line-height: 1.2;
-            color: #3E424B;
-            font-family: 'Oswald', sans-serif;
+            color: $black;
+            font-family: $oswald;
             padding-bottom: 10px;
-            font-weight: 600;
+            font-weight: $semi_bold;
         }
 
         p {
-            color: #7A849A;
+            color: $gray;
             font-size: 20PX;
             line-height: 2;
 

@@ -58,10 +58,10 @@ body {
   line-height: 110px;
   margin: auto;
   color: transparent;
-  -webkit-text-stroke: 1.5px #7a849a;
-  padding-bottom: 70px;
-  font-family: 'Oswald', sans-serif;
-  text-transform: uppercase;
+  -webkit-text-stroke: 1.5px $gray;
+  padding-bottom: 85px;
+  font-family: $oswald;
+  text-transform: capitalize;
   @media(max-width: 575px) {
     font-size: 52px;
   }
@@ -69,7 +69,7 @@ body {
 
 section {
   position: relative;
-  padding: 15px 0;
+  padding: 150px 0;
 }
 
 input:required {
@@ -88,21 +88,21 @@ input:required {
 
 .text_stroke {
   color: transparent;
-  -webkit-text-stroke: 1.5px #3e424b;
+  -webkit-text-stroke: 1.5px $black;
 }
 
 .button {
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 2.1px;
-  color: #3e424b;
-  border: 2px solid #3e424b;
+  color: $black;
+  border: 2px solid $black;
   padding: 16px;
-  font-weight: 600;
+  font-weight: $semi_bold;
   text-transform: uppercase;
   display: inline-block;
   &:hover {
-    color: #3e424b;
+    color: $black;
   }
 }
 
@@ -129,7 +129,7 @@ input:required {
 
 .slick-dots {
   position: absolute;
-  bottom: -126px;
+  bottom: -120px;
   left: 50%;
   transform: translate(-55%);
   display: flex !important;
@@ -143,11 +143,11 @@ input:required {
     height: 8px;
     border-radius: 50%;
     margin: 0px 5px;
-    border: 1px solid #3e424b;
+    border: 1px solid $black;
     transition: all 0.6s linear;
     cursor: pointer;
     &.slick-active {
-      background-color: #3e424b;
+      background-color: $black;
       width: 16px;
       height: 8px;
       border-radius: 25px;
@@ -164,7 +164,7 @@ input:required {
   display: flex;
   align-items: center;
   justify-content: center;
-  // margin-bottom: 75px !important; 
+  margin-bottom: 90px !important; 
   @media(max-width:1024px){
     padding-bottom: 35px;
   }
@@ -188,7 +188,7 @@ input:required {
       padding: 0;
 
       i {
-        color: #3e424b;
+        color: $black;
         font-size: 16px;
         transition: all 0.6s ease-in-out;
       }
@@ -209,13 +209,13 @@ input:required {
     &:hover {
       &::after {
         transform: scale(1);
-        background-color: #5787ff;
+        background-color: $primary;
         // z-index: 1;
       }
 
       a {
         i {
-          color: #fff;
+          color: $white;
         }
       }
     }

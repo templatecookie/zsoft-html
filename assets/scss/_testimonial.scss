@@ -1,6 +1,7 @@
 #testimonial-area {
-  background: #3e424b;
-  padding: 160px 0;
+  background: $black;
+  padding-top: 178px;
+  padding-bottom: 310px;
   position: relative;
   .tes-title {
     h2 {
@@ -11,13 +12,13 @@
   }
   .testimonial_slider {
     text-align: center;
-    color: #fff;
+    color: $white;
     .slide_item {
       .content_text {
         font-size: 32px;
         line-height: 55px;
         font-weight: 300;
-        padding-bottom: 40px;
+        padding-bottom: 30px;
         @media(max-width: 767px) {
           font-size: 18px;
           line-height: 38px;
@@ -34,17 +35,17 @@
       .client_position {
         font-size: 14px;
         line-height: 16px;
-        color: #7A849A;
+        color: $gray;
         display: inline-block;
-        margin-top: -5px;
+        margin-top: -10px;
       }
     }
     .slick-dots{
-      transform: translate(-55%,-45px);
+      transform: translate(-55%,-12px);
       li{
-        border: 1px solid #fff;
+        border: 1px solid $white;
         &.slick-active{
-          background-color: #fff;
+          background-color: $white;
         }
       }
     }
@@ -58,21 +59,28 @@
     }
     &.slick-prev{
       // left: 0px;
-      transform: translate(-195px, 81px);
+      transform: translate(-195px, 108px);
+      @media(max-width:1024px) {
+      transform: translate(-195px, 113px);
+
+      }
       @media(max-width: 480px ) {
-        transform: translate(-155px,78px);
+        transform: translate(-155px,113px);
       }
     }
     &.slick-next{
-      transform: translate(65px, 81px);
+      transform: translate(65px, 108px);
+      @media(max-width: 1024px) {
+        transform: translate(65px,113px);
+      }
       @media(max-width: 480px ) {
-        transform: translate(55px,78px);
+        transform: translate(55px,113px);
       }
     }
     }
     .slick-prev:before,
     .slick-next:before {
-      color: #fff;
+      color: $white;
       font-size: 16px;
       outline: none;
       text-transform: capitalize;
