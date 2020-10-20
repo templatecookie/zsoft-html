@@ -245,6 +245,9 @@ header .container .head_content .menu .m_bar {
   transition: all 0.4s ease-in-out;
   position: relative;
   line-height: 25px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 header .container .head_content .menu .m_bar::after {
@@ -252,9 +255,6 @@ header .container .head_content .menu .m_bar::after {
   position: absolute;
   left: -43px;
   top: -6px;
-  font-size: 12px;
-  font-weight: 600;
-  text-transform: uppercase;
 }
 
 header .container .head_content .menu .m_bar li {
@@ -432,6 +432,7 @@ header .container .head_content .menu.active .m_bar li:first-child {
 #banner .container .banner_wrapper h2 {
   font-size: 84px;
   line-height: 110px;
+  color: #3E424B;
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
 }
