@@ -1,5 +1,5 @@
 #Project {
-  background-color: #f8f8f8;
+  background-color: $off_white;
   position: relative;
   padding-top: 180px;
   padding-bottom: 333px;
@@ -34,9 +34,9 @@
           .p_title {
             font-size: 46px;
             line-height: 55px;
-            font-weight: 600;
-            color: #3e424b;
-            font-family: 'Oswald', sans-serif;
+            font-weight: $semi_bold;
+            color: $black;
+            font-family: $oswald;
             @media(max-width: 1200px) {
               font-size: 30px;
               line-height: 42px;
@@ -56,8 +56,8 @@
           .v_project {
             font-size: 12px;
             line-height: 14px;
-            font-weight: 600;
-            color: #3e424b;
+            font-weight: $semi_bold;
+            color: $black;
             letter-spacing: 2px;
             text-transform: uppercase;
             display: flex;
@@ -100,12 +100,13 @@
     }
   }
   .drag_text {
+    color: $black;
     position: absolute;
     bottom: 226px;
     left: 50%;
     transform: translate(-50%);
     font-size: 12px;
-    font-weight: 600;
+    font-weight: $semi_bold;
     text-transform: uppercase;
     @media(max-width:1024px) {
       bottom: 60px;

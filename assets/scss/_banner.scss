@@ -12,9 +12,9 @@
       h2 {
         font-size: 84px;
         line-height: 110px;
-        color: #3E424B;
+        color: $black;
         text-transform: uppercase;
-        font-family: 'Oswald', sans-serif;
+        font-family: $oswald;
         @media(max-width: 767px) {
           font-size: 72px;
         }
@@ -29,7 +29,7 @@
       p {
         font-size: 16px;
         line-height: 38px;
-        color: #3e424b;
+        color: $black;
         padding-right: 150px;
         margin: 48px 0px 40px 0px;
         @media(max-width: 767px) {
