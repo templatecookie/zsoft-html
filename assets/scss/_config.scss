@@ -59,7 +59,7 @@ body {
   margin: auto;
   color: transparent;
   -webkit-text-stroke: 1.5px #7a849a;
-  padding-bottom: 70px;
+  padding-bottom: 85px;
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
   @media(max-width: 575px) {
@@ -69,7 +69,7 @@ body {
 
 section {
   position: relative;
-  padding: 15px 0;
+  padding: 150px 0;
 }
 
 input:required {
@@ -129,7 +129,7 @@ input:required {
 
 .slick-dots {
   position: absolute;
-  bottom: -126px;
+  bottom: -120px;
   left: 50%;
   transform: translate(-55%);
   display: flex !important;

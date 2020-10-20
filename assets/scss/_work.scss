@@ -1,8 +1,11 @@
 #work {
   background-color: #f8f8f8;
   position: relative;
-  padding-top: 170px;
-  padding-bottom: 200px;
+  padding-top: 180px;
+  padding-bottom: 333px;
+  @media(max-width: 1024px) {
+    padding-bottom: 126px;
+  }
   @media(max-width: 575px){
     padding-top: 90px;
   }
@@ -67,6 +70,9 @@
               white-space: nowrap;
               font-size: 8px;
             }
+            @media(max-width: 320px) {
+              letter-spacing: 0px;
+            }
             img {
               // display: inline-block;
               display: inline;
@@ -95,7 +101,7 @@
   }
   .drag_text {
     position: absolute;
-    bottom: 85px;
+    bottom: 226px;
     left: 50%;
     transform: translate(-50%);
     font-size: 12px;
@@ -105,7 +111,7 @@
       bottom: 60px;
     }
     @media(max-width:991px) {
-      bottom: 130px;
+      bottom: 60px;
     }
   }
 }
