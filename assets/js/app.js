@@ -1,11 +1,20 @@
-const menuClick = document.querySelector('.menu');
-const menuContent = document.querySelector('.menu_content');
+const menuOpen = document.querySelector('.menu');
+const menuClose = document.querySelector('.menu-close');
+
+
+const menuContent = document.querySelector('.fullscreen-menu');
 const section = document.querySelectorAll('.none');
 // @ts-ignore
-menuClick.addEventListener('click', e => {
-    menuClick.classList.toggle('active');
-    menuContent.classList.toggle('open');
+menuOpen.addEventListener('click', e => {
+    menuContent.classList.add('active');
     // display none all section after click menu
+    section.forEach(content => {
+        content.classList.toggle('active');
+    });
+});
+
+menuClose.addEventListener('click', e => {
+    menuContent.classList.remove('active')
     section.forEach(content => {
         content.classList.toggle('active');
     });

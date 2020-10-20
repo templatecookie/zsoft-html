@@ -55,23 +55,6 @@ header {
             }
           }
         }
-
-        // effect on hover/click
-        &.active {
-          .m_bar {
-            &::after {
-              content: 'close';
-            }
-            li {
-              &:first-child {
-                transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 6);
-
-              }
-              transform: matrix(-0.71, 0.71, -0.71, -0.71, 0, -4);
-
-            }
-          }
-        }
       }
     }
   }
@@ -85,7 +68,10 @@ header {
   top: 0;
   left: 0;
   z-index: 9999;
-  
+  display: none;
+  &.active{
+    display: block;
+  }
   .menu {
     &-body{
       min-height: 75vh;

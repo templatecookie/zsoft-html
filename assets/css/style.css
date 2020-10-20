@@ -283,18 +283,6 @@ header .container .head_content .menu .m_bar li:first-child {
   margin-bottom: 9px;
 }
 
-header .container .head_content .menu.active .m_bar::after {
-  content: 'close';
-}
-
-header .container .head_content .menu.active .m_bar li {
-  transform: matrix(-0.71, 0.71, -0.71, -0.71, 0, -4);
-}
-
-header .container .head_content .menu.active .m_bar li:first-child {
-  transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 6);
-}
-
 .fullscreen-menu {
   min-width: 100vw;
   min-height: 100vh;
@@ -303,6 +291,11 @@ header .container .head_content .menu.active .m_bar li:first-child {
   top: 0;
   left: 0;
   z-index: 9999;
+  display: none;
+}
+
+.fullscreen-menu.active {
+  display: block;
 }
 
 .fullscreen-menu .menu-body {
