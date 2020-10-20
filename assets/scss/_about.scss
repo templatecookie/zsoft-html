@@ -1,4 +1,7 @@
 #about {
+    margin-top: 25px;
+    padding-bottom: 100px;
+
     .about_content {
         .about_contect_img {
             margin-bottom: 30px;
@@ -23,7 +26,7 @@
             font-size: 46px;
             font-weight: 600;
             font-family: 'Oswald', sans-serif;
-            padding-bottom: 7px;
+            padding-bottom: 20px;
             line-height: 55px;
         }
 
@@ -37,13 +40,15 @@
 }
 
 #about_content_2 {
+    padding-top: 100px;
+    padding-bottom: 190px;
     .office_content_wrapper {
         h3 {
             color: #3E424B;
             font-size: 46px;
             font-weight: 600;
             font-family: 'Oswald', sans-serif;
-            padding-bottom: 40px;
+            padding-bottom: 20px;
             line-height: 55px;
         }
 
@@ -52,23 +57,25 @@
             font-size: 20px;
             line-height: 44px;
             margin-right: 18px;
-            padding-bottom: 50px;
+            padding-bottom: 20px;
             margin-right: 75px;
         }
     }
 }
 
 #team {
+    padding: 188px 0;
+    padding-bottom: 120px;
     .team_card {
         .member_position {
-            margin-bottom: 70px;
+            margin-bottom: 105px;
 
             h3 {
                 color: #3E424B;
                 font-size: 62px;
                 font-weight: 600;
                 font-family: 'Oswald', sans-serif;
-                padding-top: 70px;
+                padding-top: 35px;
                 line-height: 74px;
             }
 
@@ -76,7 +83,7 @@
                 font-size: 20px;
                 line-height: 20px;
                 color: #7A849A;
-                margin-top: 25px;
+                margin-top: 12px;
                 display: block;
             }
         }

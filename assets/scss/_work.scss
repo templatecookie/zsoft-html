@@ -1,8 +1,8 @@
 #work {
   background-color: #f8f8f8;
   position: relative;
-  padding-top: 170px;
-  padding-bottom: 200px;
+  padding-top: 175px;
+  padding-bottom: 100px;
   @media(max-width: 575px){
     padding-top: 90px;
   }
@@ -168,8 +168,9 @@
     font-size: 46px;
     font-weight: 600;
     font-family: 'Oswald', sans-serif;
-    padding-bottom: 40px;
+    padding-bottom: 42px;
     line-height: 55px;
+    margin: 0;
   }
   .v_project {
     color: #3e424b;
