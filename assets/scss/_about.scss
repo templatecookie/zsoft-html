@@ -3,12 +3,20 @@
     padding-bottom: 100px;
 
     .about_content {
+
         .about_contect_img {
             margin-bottom: 30px;
         }
+        .about_content_img_1{
+            img{
+                width: 200px;
+                height: 354px;
+                object-fit: contain;
+            }
+        }
 
         .play_video {
-            margin-top: 20px;
+            margin-top: -4px;
 
             span {
                 font-size: 16;
@@ -19,7 +27,7 @@
     }
 
     .about_content_wrapper {
-        padding-left: 36px;
+        padding-left: 40px;
 
         h3 {
             color: #3E424B;
@@ -61,12 +69,35 @@
             margin-right: 75px;
         }
     }
+    .about_content_2_img {
+        img{
+            padding-top: 34px;
+        }
+    }
+
+    // remove space for img
+    .container{
+        .row{
+            // remove space from img
+        .r_space{
+            padding-left: 0px;
+        }
+      }
+       }
 }
 
 #team {
-    padding: 188px 0;
-    padding-bottom: 120px;
+    padding-top: 178px;
+    padding-bottom: 100px;
+    background-color: #F9F9F9;
+    .section_title{
+        h2{
+            // display: none;
+            padding-bottom: 74px;
+        }
+    }
     .team_card {
+        margin-top: 22px;
         .member_position {
             margin-bottom: 105px;
 
@@ -83,7 +114,7 @@
                 font-size: 20px;
                 line-height: 20px;
                 color: #7A849A;
-                margin-top: 12px;
+                margin-top: 9px;
                 display: block;
             }
         }
