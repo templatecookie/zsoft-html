@@ -830,7 +830,7 @@ header .container .head_content .menu.active .m_bar li:first-child {
   font-size: 20px;
   line-height: 20px;
   color: #7A849A;
-  margin-top: 9px;
+  margin-top: 12px;
   display: block;
 }
 
@@ -1237,114 +1237,57 @@ header .container .head_content .menu.active .m_bar li:first-child {
 /*----------------------------------------*/
 /*  RESPONSIVE CSS START 
 /*----------------------------------------*/
-/* laptop devices 1200 - 1600 */
-@media only screen and (min-width: 1200px) and (max-width: 1600px) {
-  /* common area start */
-  /* sidebar extra info  area start*/
-  /* header area start */
-  /* slider area start */
-  /* about area start */
-  /* features area start */
-  /* services area start */
-  /* counter area start */
-  /* sychologist area start */
-  /* appointment area start */
-  /* case area start */
-  /* why area start */
-  /* faq area start */
-  /* testimonial area start */
-  /* team area start */
-  /* blog area start */
-  /* event area start */
-  /* award slider area start */
+@media (max-width: 991px) {
+  #about .about_content .col-lg-6:first-child {
+    margin-left: 30px;
+    margin-bottom: 30px;
+  }
+  #about .about_content .col-lg-6 .play_video {
+    margin-top: 32px;
+  }
 }
 
+/* laptop devices 1200 - 1600 */
+/* ?? section start */
+/* ?? section end */
 /* large devices 992 - 1199*/
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  /* common area start */
-  /* sidebar extra info  area start*/
-  /* header area start */
-  /* slider area start */
-  /* about area start */
-  /* features area start */
-  /* services area start */
-  /* counter area start */
-  /* sychologist area start */
-  /* appointment area start */
-  /* case area start */
-  /* why area start */
-  /* faq area start */
-  /* testimonial area start */
-  /* team area start */
-  /* blog area start */
-  /* event area start */
-  /* award slider area start */
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* ?? section start */
+  /* ?? section end */
 }
 
 /* Medium devices 768 - 991 */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* common area start */
-  /* sidebar extra info  area start*/
-  /* header area start */
-  /* slider area start */
-  /* about area start */
-  /* features area start */
-  /* services area start */
-  /* counter area start */
-  /* sychologist area start */
-  /* appointment area start */
-  /* case area start */
-  /* why area start */
-  /* faq area start */
-  /* testimonial area start */
-  /* team area start */
-  /* blog area start */
-  /* event area start */
-  /* award slider area start */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* about section start */
+  #about .about_content .col-lg-6:first-child {
+    margin-left: 30px;
+    margin-bottom: 30px;
+  }
+  #about .about_content .col-lg-6 .play_video {
+    margin-top: 32px;
+  }
+  /* about section end */
+  /* ?? section start */
+  /* ?? section end */
 }
 
 /* Small devices 576 - 767 */
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* common area start */
-  /* sidebar extra info  area start*/
-  /* header area start */
-  /* slider area start */
-  /* about area start */
-  /* features area start */
-  /* services area start */
-  /* counter area start */
-  /* sychologist area start */
-  /* appointment area start */
-  /* case area start */
-  /* why area start */
-  /* faq area start */
-  /* testimonial area start */
-  /* team area start */
-  /* blog area start */
-  /* event area start */
-  /* award slider area start */
+@media (min-width: 576px) and (max-width: 767px) {
+  /* about section start */
+  #about .about_content .col-lg-6 .play_video {
+    margin-top: -22px;
+  }
+  /* about section end */
+  /* ?? section start */
+  /* ?? section end */
 }
 
-/* Small devices 0 - 575 */
+/* Xtra_Small devices 0 - 575 */
 @media (max-width: 575px) {
-  /* common area start */
-  /* sidebar extra info  area start*/
-  /* header area start */
-  /* slider area start */
-  /* about area start */
-  /* features area start */
-  /* services area start */
-  /* counter area start */
-  /* sychologist area start */
-  /* appointment area start */
-  /* case area start */
-  /* why area start */
-  /* faq area start */
-  /* testimonial area start */
-  /* team area start */
-  /* blog area start */
-  /* event area start */
-  /* award slider area start */
+  /* ?? section start */
+  /* ?? section end */
+  /* ?? section start */
+  /* ?? section end */
 }
 
 /* WE_DO part start */
