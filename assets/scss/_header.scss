@@ -24,14 +24,14 @@ header {
           transition: all 0.4s ease-in-out;
           position: relative;
           line-height: 25px;
+          font-size: 12px;
+          font-weight: 600;
+          text-transform: uppercase;
           &::after {
             content: 'Menu';
             position: absolute;
             left: -43px;
             top: -6px;
-            font-size: 12px;
-            font-weight: 600;
-            text-transform: uppercase;
           }
           li {
             width: 24px;

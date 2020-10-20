@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+@import './var';
 ul,
 ol {
   list-style: none;
@@ -225,3 +225,12 @@ input:required {
 .mb-70 {
   margin-bottom: 70px;
 }
+
+// fonts function
+@mixin fonts_style($size,$l_height,$weight,$family) {
+  font-size: $size;
+  line-height: $line_height;
+  font-weight: $weight;
+  font-family: $family;
+}
+
