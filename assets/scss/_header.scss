@@ -1,7 +1,7 @@
 header {
-  background-color: #fff;
+  background-color: $white;
   position: relative;
-  border-bottom: 2px solid #5787ff;
+  border-bottom: 2px solid $primary;
   .container {
     .head_content {
       display: flex;
@@ -15,9 +15,9 @@ header {
         font-size: 24px;
         line-height: 38px;
         a {
-          color: #3E424B;
+          color: $black;
           span {
-            color: #5787ff;
+            color: $primary;
           }
         }
         img{
@@ -36,7 +36,7 @@ header {
           position: relative;
           line-height: 25px;
           font-size: 12px;
-          font-weight: 600;
+          font-weight: $semi_bold;
           text-transform: uppercase;
           &::after {
             content: 'Menu';
@@ -47,7 +47,7 @@ header {
           li {
             width: 24px;
             height: 3px;
-            background-color: #3e424b;
+            background-color: $black;
             transition: all 0.4s ease-in-out;
 
             &:first-child {
@@ -89,7 +89,7 @@ header {
     clip-path: circle(2200px at 0% -10%);
   }
   .top {
-    background-color: #3e424b;
+    background-color: $black;
     padding: 240px 0px;
     @media(max-width: 991px) {
       padding: 180px 0px;
@@ -121,14 +121,14 @@ header {
             top: 10px;
             right: 50%;
             font-size: 24px;
-            font-weight: 600;
-            color: #fff;
+            font-weight: $semi_bold;
+            color: $white;
           }
           a {
             font-size: 56px;
             line-height: 110px;
-            color: #fff;
-            font-family: 'Oswald', sans-serif;
+            color: $white;
+            font-family: $oswald;
             text-transform: capitalize;
           }
 
@@ -137,7 +137,7 @@ header {
          
             a {
               color: transparent;
-              -webkit-text-stroke: 1.5px #7a849a;
+              -webkit-text-stroke: 1.5px $gray;
             }
             &:nth-child(1) {
               &::after {
@@ -171,7 +171,7 @@ header {
   }
   .bottom {
     padding: 18px 0px;
-    background-color: #fff;
+    background-color: $white;
     @media(max-width: 991px) {
       padding: 90px 0px;
     }
@@ -190,7 +190,7 @@ header {
       .c_rights {
         text-align: center;
         h5 {
-          color: #3e424b;
+          color: $black;
           font-size: 16px;
           line-height: 1.7;
           padding-bottom: 30px;

@@ -21,7 +21,7 @@
             span {
                 font-size: 16;
                 line-height: 38px;
-                color: #3E424B;
+                color: $black;
             }
         }
     }
@@ -30,16 +30,16 @@
         padding-left: 40px;
 
         h3 {
-            color: #3E424B;
+            color: $black;
             font-size: 46px;
-            font-weight: 600;
-            font-family: 'Oswald', sans-serif;
+            font-weight: $semi_bold;
+            font-family: $oswald;
             padding-bottom: 20px;
             line-height: 55px;
         }
 
         p {
-            color: #7A849A;
+            color: $gray;
             font-size: 20px;
             line-height: 44px;
             margin-right: 18px;
@@ -52,16 +52,16 @@
     padding-bottom: 190px;
     .office_content_wrapper {
         h3 {
-            color: #3E424B;
+            color: $black;
             font-size: 46px;
-            font-weight: 600;
-            font-family: 'Oswald', sans-serif;
+            font-weight: $semi_bold;
+            font-family: $oswald;
             padding-bottom: 20px;
             line-height: 55px;
         }
 
         p {
-            color: #7A849A;
+            color: $gray;
             font-size: 20px;
             line-height: 44px;
             margin-right: 18px;
@@ -102,10 +102,10 @@
             margin-bottom: 105px;
 
             h3 {
-                color: #3E424B;
+                color: $black;
                 font-size: 62px;
-                font-weight: 600;
-                font-family: 'Oswald', sans-serif;
+                font-weight: $semi_bold;
+                font-family: $oswald;
                 padding-top: 35px;
                 line-height: 74px;
             }
@@ -113,8 +113,13 @@
             span {
                 font-size: 20px;
                 line-height: 20px;
+<<<<<<< HEAD
                 color: #7A849A;
                 margin-top: 9px;
+=======
+                color: $gray;
+                margin-top: 12px;
+>>>>>>> 8140fb9f9d3e2f98625ae1353783686c29382fee
                 display: block;
             }
         }

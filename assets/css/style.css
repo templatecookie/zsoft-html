@@ -47,9 +47,9 @@ body {
   line-height: 110px;
   margin: auto;
   color: transparent;
-  -webkit-text-stroke: 1.5px #7a849a;
+  -webkit-text-stroke: 1.5px #7A849A;
   padding-bottom: 85px;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   text-transform: capitalize;
 }
 
@@ -80,15 +80,15 @@ input:required {
 
 .text_stroke {
   color: transparent;
-  -webkit-text-stroke: 1.5px #3e424b;
+  -webkit-text-stroke: 1.5px #3E424B;
 }
 
 .button {
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 2.1px;
-  color: #3e424b;
-  border: 2px solid #3e424b;
+  color: #3E424B;
+  border: 2px solid #3E424B;
   padding: 16px;
   font-weight: 600;
   text-transform: uppercase;
@@ -96,7 +96,7 @@ input:required {
 }
 
 .button:hover {
-  color: #3e424b;
+  color: #3E424B;
 }
 
 .slick-slide {
@@ -132,13 +132,13 @@ input:required {
   height: 8px;
   border-radius: 50%;
   margin: 0px 5px;
-  border: 1px solid #3e424b;
+  border: 1px solid #3E424B;
   transition: all 0.6s linear;
   cursor: pointer;
 }
 
 .slick-dots li.slick-active {
-  background-color: #3e424b;
+  background-color: #3E424B;
   width: 16px;
   height: 8px;
   border-radius: 25px;
@@ -185,7 +185,7 @@ input:required {
 }
 
 .social_links li a i {
-  color: #3e424b;
+  color: #3E424B;
   font-size: 16px;
   transition: all 0.6s ease-in-out;
 }
@@ -204,7 +204,7 @@ input:required {
 
 .social_links li:hover::after {
   transform: scale(1);
-  background-color: #5787ff;
+  background-color: #5787FF;
 }
 
 .social_links li:hover a i {
@@ -219,7 +219,7 @@ input:required {
 header {
   background-color: #fff;
   position: relative;
-  border-bottom: 2px solid #5787ff;
+  border-bottom: 2px solid #5787FF;
 }
 
 header .container .head_content {
@@ -242,7 +242,7 @@ header .container .head_content .logo a {
 }
 
 header .container .head_content .logo a span {
-  color: #5787ff;
+  color: #5787FF;
 }
 
 @media (max-width: 525px) {
@@ -276,7 +276,7 @@ header .container .head_content .menu .m_bar::after {
 header .container .head_content .menu .m_bar li {
   width: 24px;
   height: 3px;
-  background-color: #3e424b;
+  background-color: #3E424B;
   transition: all 0.4s ease-in-out;
 }
 
@@ -312,7 +312,7 @@ header .container .head_content .menu.active .m_bar li:first-child {
 }
 
 .menu_content .top {
-  background-color: #3e424b;
+  background-color: #3E424B;
   padding: 240px 0px;
 }
 
@@ -363,13 +363,13 @@ header .container .head_content .menu.active .m_bar li:first-child {
   font-size: 56px;
   line-height: 110px;
   color: #fff;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   text-transform: capitalize;
 }
 
 .menu_content .top .container .nav_links .nav_items:hover a {
   color: transparent;
-  -webkit-text-stroke: 1.5px #7a849a;
+  -webkit-text-stroke: 1.5px #7A849A;
 }
 
 .menu_content .top .container .nav_links .nav_items:hover:nth-child(1)::after {
@@ -420,7 +420,7 @@ header .container .head_content .menu.active .m_bar li:first-child {
 }
 
 .menu_content .bottom .container .c_rights h5 {
-  color: #3e424b;
+  color: #3E424B;
   font-size: 16px;
   line-height: 1.7;
   padding-bottom: 30px;
@@ -450,7 +450,7 @@ header .container .head_content .menu.active .m_bar li:first-child {
   line-height: 110px;
   color: #3E424B;
   text-transform: uppercase;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 @media (max-width: 767px) {
@@ -475,7 +475,7 @@ header .container .head_content .menu.active .m_bar li:first-child {
 #banner .container .banner_wrapper p {
   font-size: 16px;
   line-height: 38px;
-  color: #3e424b;
+  color: #3E424B;
   padding-right: 150px;
   margin: 48px 0px 40px 0px;
 }
@@ -507,7 +507,7 @@ header .container .head_content .menu.active .m_bar li:first-child {
 #work {
   position: relative;
   padding-top: 175px;
-  padding-bottom: 100px;
+  padding-bottom: 0;
 }
 
 #work .work_content .tab-text p {
@@ -574,7 +574,7 @@ header .container .head_content .menu.active .m_bar li:first-child {
 }
 
 #Project {
-  background-color: #f8f8f8;
+  background-color: #F8F8F8;
   position: relative;
   padding-top: 180px;
   padding-bottom: 333px;
@@ -619,8 +619,8 @@ header .container .head_content .menu.active .m_bar li:first-child {
   font-size: 46px;
   line-height: 55px;
   font-weight: 600;
-  color: #3e424b;
-  font-family: 'Oswald', sans-serif;
+  color: #3E424B;
+  font-family: "Oswald", sans-serif;
 }
 
 @media (max-width: 1200px) {
@@ -654,7 +654,7 @@ header .container .head_content .menu.active .m_bar li:first-child {
   font-size: 12px;
   line-height: 14px;
   font-weight: 600;
-  color: #3e424b;
+  color: #3E424B;
   letter-spacing: 2px;
   text-transform: uppercase;
   display: flex;
@@ -701,6 +701,7 @@ header .container .head_content .menu.active .m_bar li:first-child {
 }
 
 #Project .drag_text {
+  color: #3E424B;
   position: absolute;
   bottom: 226px;
   left: 50%;
@@ -755,7 +756,7 @@ header .container .head_content .menu.active .m_bar li:first-child {
   color: #3E424B;
   font-size: 46px;
   font-weight: 600;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   padding-bottom: 20px;
   line-height: 55px;
 }
@@ -776,7 +777,7 @@ header .container .head_content .menu.active .m_bar li:first-child {
   color: #3E424B;
   font-size: 46px;
   font-weight: 600;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   padding-bottom: 20px;
   line-height: 55px;
 }
@@ -820,7 +821,7 @@ header .container .head_content .menu.active .m_bar li:first-child {
   color: #3E424B;
   font-size: 62px;
   font-weight: 600;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   padding-top: 35px;
   line-height: 74px;
 }
@@ -845,7 +846,7 @@ header .container .head_content .menu.active .m_bar li:first-child {
   font-size: 62px;
   line-height: 74px;
   color: #3E424B;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   text-transform: capitalize;
   font-weight: 600;
   margin-top: 60px;
@@ -870,7 +871,7 @@ header .container .head_content .menu.active .m_bar li:first-child {
 }
 
 #error_area .bottom .container .social_links li a i {
-  color: #3e424b;
+  color: #3E424B;
   font-size: 28px;
 }
 
@@ -885,7 +886,7 @@ header .container .head_content .menu.active .m_bar li:first-child {
 }
 
 #error_area .bottom .container .c_rights h5 {
-  color: #3e424b;
+  color: #3E424B;
   font-size: 16px;
   line-height: 32px;
   font-weight: 600;
@@ -893,7 +894,7 @@ header .container .head_content .menu.active .m_bar li:first-child {
 }
 
 #testimonial-area {
-  background: #3e424b;
+  background: #3E424B;
   padding-top: 178px;
   padding-bottom: 310px;
   position: relative;
@@ -1035,7 +1036,7 @@ header .container .head_content .menu.active .m_bar li:first-child {
   font-size: 46;
   line-height: 1.2;
   color: #3E424B;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   padding-bottom: 10px;
   font-weight: 600;
 }
@@ -1085,8 +1086,8 @@ header .container .head_content .menu.active .m_bar li:first-child {
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 2.1px;
-  color: #3e424b;
-  border: 2px solid #3e424b;
+  color: #3E424B;
+  border: 2px solid #3E424B;
   padding: 16px;
   font-weight: 600;
   text-transform: uppercase;
@@ -1121,7 +1122,7 @@ header .container .head_content .menu.active .m_bar li:first-child {
 #footer_area .footer_menu span {
   font-size: 20px;
   line-height: 44px;
-  color: #3e424b;
+  color: #3E424B;
   padding-bottom: 25px;
   display: block;
 }
@@ -1167,7 +1168,7 @@ header .container .head_content .menu.active .m_bar li:first-child {
   font-size: 32px;
   line-height: 38px;
   font-weight: 600;
-  color: #3e424b;
+  color: #3E424B;
   display: inline-block;
   text-transform: capitalize;
 }
@@ -1193,7 +1194,7 @@ header .container .head_content .menu.active .m_bar li:first-child {
 #footer_area .connect_info h4 {
   font-size: 20px;
   line-height: 44px;
-  color: #3e424b;
+  color: #3E424B;
   padding-bottom: 12px;
 }
 
@@ -1201,7 +1202,7 @@ header .container .head_content .menu.active .m_bar li:first-child {
   text-align: center;
   font-size: 16px;
   line-height: 38px;
-  color: #7a849a;
+  color: #7A849A;
   margin: 0 21%;
 }
 
@@ -1215,7 +1216,7 @@ header .container .head_content .menu.active .m_bar li:first-child {
   font-size: 16px;
   line-height: 38px;
   font-weight: 600;
-  color: #3e424b;
+  color: #3E424B;
 }
 
 @media (max-width: 1024px) {
@@ -1251,7 +1252,7 @@ header .container .head_content .menu.active .m_bar li:first-child {
   height: 100%;
   transform-style: preserve-3d;
   transition: all 0.9s ease-in-out;
-  border: 1.5px solid #3e424b;
+  border: 1.5px solid #3E424B;
 }
 
 #WE_Do .container .box_wrapper .card_box .front_part {
@@ -1267,7 +1268,7 @@ header .container .head_content .menu.active .m_bar li:first-child {
   font-size: 84px;
   line-height: 110px;
   text-align: center;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   text-transform: uppercase;
 }
 
@@ -1290,7 +1291,7 @@ header .container .head_content .menu.active .m_bar li:first-child {
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
-  background: #3e424b;
+  background: #3E424B;
   transform: rotateY(180deg);
   display: flex;
   align-items: center;
@@ -1305,7 +1306,7 @@ header .container .head_content .menu.active .m_bar li:first-child {
   line-height: 55px;
   text-transform: uppercase;
   color: #fff;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   margin-bottom: 32px;
 }
 
@@ -1326,7 +1327,7 @@ header .container .head_content .menu.active .m_bar li:first-child {
 #WE_Do .container .box_wrapper .card_box .back_part .box_title p {
   font-size: 16px;
   line-height: 38px;
-  color: #7a849a;
+  color: #7A849A;
   margin-bottom: 40px;
 }
 
