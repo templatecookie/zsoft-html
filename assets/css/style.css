@@ -61,7 +61,7 @@ body {
 
 section {
   position: relative;
-  padding: 90px 0;
+  padding: 15px 0;
 }
 
 input:required {
@@ -152,7 +152,7 @@ input:required {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 105px !important;
+  margin-bottom: 75px !important;
 }
 
 @media (max-width: 1024px) {
@@ -401,14 +401,14 @@ header .container .head_content .menu.active .m_bar li:first-child {
 
 .menu_content .bottom .container .c_rights {
   text-align: center;
-  margin-top: 80px;
 }
 
 .menu_content .bottom .container .c_rights h5 {
   color: #3e424b;
   font-size: 16px;
-  line-height: 32px;
-  font-weight: 600;
+  line-height: 1.7;
+  padding-bottom: 30px;
+  margin: 0;
 }
 
 .none.active {
@@ -1014,7 +1014,7 @@ header .container .head_content .menu.active .m_bar li:first-child {
 
 #footer_area {
   text-align: center;
-  padding-top: 140px;
+  padding-top: 165px;
 }
 
 @media (max-width: 767px) {
@@ -1027,7 +1027,7 @@ header .container .head_content .menu.active .m_bar li:first-child {
   font-size: 20px;
   line-height: 44px;
   color: #3e424b;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
   display: block;
 }
 
@@ -1085,8 +1085,8 @@ header .container .head_content .menu.active .m_bar li:first-child {
 }
 
 #footer_area .connect_info {
-  margin-top: 62px;
-  margin-bottom: 22px;
+  margin-top: 51px;
+  margin-bottom: 26px;
 }
 
 @media (max-width: 1024px) {
@@ -1103,10 +1103,10 @@ header .container .head_content .menu.active .m_bar li:first-child {
 
 #footer_area .connect_info p {
   text-align: center;
-  white-space: pre-line;
   font-size: 16px;
   line-height: 38px;
   color: #7a849a;
+  margin: 0 21%;
 }
 
 @media (max-width: 767px) {
@@ -1122,14 +1122,19 @@ header .container .head_content .menu.active .m_bar li:first-child {
   color: #3e424b;
 }
 
-#footer_area .copyright_text {
-  padding-bottom: 30px;
-}
-
 @media (max-width: 1024px) {
   #footer_area .copyright_text {
     padding-bottom: 15px;
   }
+}
+
+.copyright_text p {
+  color: #3E424B;
+  padding-bottom: 30px;
+  font-size: 16px;
+  line-height: 1.7;
+  padding-bottom: 30px;
+  margin: 0;
 }
 
 /* WE_DO part start */
