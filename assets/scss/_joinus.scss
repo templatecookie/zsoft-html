@@ -8,6 +8,9 @@
             padding: 30px 10px;
             outline: none;
             margin: 20px 0;
+            &.form-control {
+                background-clip: unset;
+            }
         }
         .subject{
             width: 100%;

@@ -1219,6 +1219,10 @@ header .container .head_content .menu .m_bar li:first-child {
   margin: 20px 0;
 }
 
+#joinus-contact_area .contact_form .form-row input.form-control {
+  background-clip: unset;
+}
+
 #joinus-contact_area .contact_form .subject {
   width: 100%;
   border: 0;
