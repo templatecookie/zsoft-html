@@ -7,19 +7,20 @@
 
 // for common device size
 @media(max-width: 991px) {
-    #about{
-        .about_content{
-            
-         .col-lg-6{
-             &:first-child{
-                 margin-left: 30px;
-                 margin-bottom: 30px;
-             }
-             .play_video{
-               margin-top: 32px;
-             }
-         }
-         
+    #about {
+        .about_content {
+
+            .col-lg-6 {
+                &:first-child {
+                    margin-left: 30px;
+                    margin-bottom: 30px;
+                }
+
+                .play_video {
+                    margin-top: 32px;
+                }
+            }
+
         }
     }
 }
@@ -33,21 +34,19 @@
 
 
 /* laptop devices 1200 - 1600 */
-@include laptop {
+@include laptop {}
 
-}
-
-   /* ?? section start */
-   /* ?? section end */
+/* ?? section start */
+/* ?? section end */
 
 
 /* large devices 992 - 1199*/
 @include lg {
 
     /* ?? section start */
-     /* ?? section end */
+    /* ?? section end */
 }
-      
+
 
 /* Medium devices 768 - 991 */
 
@@ -55,52 +54,156 @@
     // About page 
 
     /* about section start */
-       #about{
-           .about_content{
-               
-            .col-lg-6{
-                &:first-child{
+    #about {
+        .about_content {
+
+            .col-lg-6 {
+                &:first-child {
                     margin-left: 30px;
                     margin-bottom: 30px;
                 }
-                .play_video{
-                  margin-top: 32px;
+
+                .play_video {
+                    margin-top: 25px;
                 }
             }
-            
-           }
-       }
-     /* about section end */
 
-
-    /* ?? section start */
-     /* ?? section end */
-}
-       
-
-/* Small devices 576 - 767 */
-
-@include sm {
-// About page
-    /* about section start */
-    #about{
-        .about_content{
-            
-         .col-lg-6{
-            
-             .play_video{
-               margin-top: -22px;
-             }
-         }
-         
         }
     }
 
+    .about_content_2_img {
+        margin-bottom: 30px;
+    }
 
-     /* about section end */
+    .member_position h3 {
+        font-size: 52px !important;
+    }
 
-    /* ?? section start */
-     /* ?? section end */
+    /* about section end */
+
+
+    /* work section start */
+    #work .work_content .work_tab .nav-pills .nav-link {
+        margin: 0 10px;
+    }
+
+    #work .work_content .tab-text p {
+        font-size: 15px;
+    }
+
+    // #work .work_content .work_tab .nav-pills .nav-link::before {
+    //     bottom: -8px;
+    // }
+    .project_img {
+        height: 300px !important;
+
+        img {
+            height: 300px !important;
+        }
+    }
+
+    #work .project_info h3 {
+        font-size: 36px;
+        padding-bottom: 20px;
+
+    }
+
+    .social_links {
+        padding-bottom: 0px;
+    }
+
+
+    /* work section end */
+}
+
+
+/* Small devices 320 - 767 */
+
+@include sm {
+
+    // About page
+    /* about section start */
+    #about {
+        .about_content {
+
+            .col-lg-6 {
+
+                .play_video {
+                    margin-top: 25px;
+                }
+            }
+
+        }
+    }
+
+    #about_content_2 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #team {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .about_content_2_img {
+        margin-bottom: 30px;
+    }
+
+    .member_position h3 {
+        font-size: 52px !important;
+    }
+
+    // For section
+    section {
+        padding: 60px 0px;
+    }
+
+
+    /* about section end */
+
+    /* work  section start */
+    .project_img {
+        height: 200px !important;
+
+        img {
+            height: 200px !important;
+        }
+    }
+    #work{
+        padding-top: 80px;
+    }
+    #work .project_info h3 {
+        font-size: 24px;
+        padding-bottom: 0px;
+
+    }
+
+    #work .project_info .v_project {
+        letter-spacing: 5px;
+    }
+
+    .social_links li {
+        margin: 0 10px;
+    }
+
+    .social_links {
+        padding-bottom: 0px;
+    }
+    #work .work_content .tab-text p {
+        padding-bottom: 15px;
+    }
+
+    #work .work_content .work_tab .nav-pills .nav-link {
+        margin: 0;
+        margin-right: 20px;
+    }
+
+    #work .work_content .work_tab .nav-pills .nav-link::before {
+        bottom: -2px;
+    }
+
+    /* work  section end */
 }
 
 
@@ -108,38 +211,38 @@
 
 @include xs {
 
-// social links
-.social_links {
-    
-    margin-bottom: 20px !important;
-}
+    // social links
+    .social_links {
+
+        margin-bottom: 20px !important;
+    }
 
 
 
 
-// For section
-section{
-    padding: 60px 0px;
-}
+    // For section
+    section {
+        padding: 60px 0px;
+    }
 
-// About page
+    // About page
 
     /* About section start */
-    #about{
-        .about_content{
-            
-         .col-lg-6{
-             .play_video{
-               margin-top: -15px;
-               white-space: nowrap;
-             }
-         }
-         
+    #about {
+        .about_content {
+
+            .col-lg-6 {
+                .play_video {
+                    margin-top: 10px;
+                    white-space: wrap;
+                }
+            }
+
         }
     }
 
-    #about_content_2{
-        .container{
+    #about_content_2 {
+        .container {
             .r_space {
                 padding-left: 15px !important;
                 margin-bottom: 30px;
@@ -147,7 +250,15 @@ section{
         }
     }
 
-     /* About section end */
+    .about_content_2_img {
+        margin-bottom: 30px;
+    }
+
+    .member_position h3 {
+        font-size: 52px !important;
+    }
+
+    /* About section end */
 
     //  footer
     #footer_area .connect_info p {
