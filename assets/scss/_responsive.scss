@@ -83,14 +83,15 @@
 
 
     /* work section start */
-    #work .work_content .work_tab .nav-pills .nav-link {
-        margin: 0 10px;
-    }
 
     #work .work_content .tab-text p {
         font-size: 15px;
     }
+    #work .work_content .work_tab .nav-pills .nav-link {
 
+        margin-left: 20px;
+    }
+    
     // #work .work_content .work_tab .nav-pills .nav-link::before {
     //     bottom: -8px;
     // }
@@ -170,9 +171,11 @@
             height: 200px !important;
         }
     }
-    #work{
+
+    #work {
         padding-top: 80px;
     }
+
     #work .project_info h3 {
         font-size: 24px;
         padding-bottom: 0px;
@@ -180,7 +183,7 @@
     }
 
     #work .project_info .v_project {
-        letter-spacing: 5px;
+        letter-spacing: 2px;
     }
 
     .social_links li {
@@ -190,6 +193,7 @@
     .social_links {
         padding-bottom: 0px;
     }
+
     #work .work_content .tab-text p {
         padding-bottom: 15px;
     }
@@ -200,7 +204,10 @@
     }
 
     #work .work_content .work_tab .nav-pills .nav-link::before {
-        bottom: -2px;
+        bottom: -6px;
+    }
+    #work .work_content .work_tab ul {
+        justify-content: flex-start;
     }
 
     /* work  section end */
