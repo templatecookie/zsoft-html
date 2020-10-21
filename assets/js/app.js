@@ -85,4 +85,9 @@ $(document).ready(function () {
 
         ],
     });
+
+    / magnificPopup video view /
+    $('.popup-video').magnificPopup({
+        type: 'iframe'
+    });
 });
