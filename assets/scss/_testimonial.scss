@@ -59,7 +59,7 @@
     }
     &.slick-prev{
       // left: 0px;
-      transform: translate(-195px, 108px);
+      transform: translate(400px, 116px);
       @media(max-width:1024px) {
       transform: translate(-195px, 113px);
 
@@ -69,7 +69,7 @@
       }
     }
     &.slick-next{
-      transform: translate(65px, 108px);
+      transform: translate(633px, 116px);
       @media(max-width: 1024px) {
         transform: translate(65px,113px);
       }

@@ -17,12 +17,14 @@
 /* WE_DO part start */
 #WE_Do {
   padding-top: 180px;
+
   .container {
     .box_wrapper {
       position: relative;
       max-width: 570px;
       height: 435px;
       margin: auto;
+
       .card_box {
         position: absolute;
         width: 100%;
@@ -45,10 +47,12 @@
             text-align: center;
             font-family: $oswald;
             text-transform: uppercase;
+
             @media(max-width: 575px) {
               font-size: 66px;
               line-height: 90px;
             }
+
             @media(max-width: 480px) {
               font-size: 52px;
               line-height: 76px;
@@ -76,11 +80,13 @@
               color: $white;
               font-family: $oswald;
               margin-bottom: 32px;
+
               @media(max-width: 575px) {
                 font-size: 30px;
                 line-height: 42px;
                 margin-bottom: 26px;
               }
+
               @media(max-width: 480px) {
                 font-size: 20px;
               }
@@ -91,6 +97,7 @@
               line-height: 38px;
               color: $gray;
               margin-bottom: 40px;
+
               @media(max-width: 575px) {
                 line-height: 32px;
               }
@@ -103,7 +110,8 @@
               color: $white;
               font-family: 'Poppins', sans-serif;
               font-weight: $semi_bold;
-              img{
+
+              img {
                 @media(max-width: 575px) {
                   width: 22px !important;
                 }
@@ -122,8 +130,7 @@
     .mb-30 {
       margin-bottom: 30px;
 
-      @media (max-width: 1024px) {
-      }
+      @media (max-width: 1024px) {}
     }
   }
 }
@@ -134,6 +141,7 @@
 #brand_area {
   padding-top: 20px;
   padding-bottom: 200px;
+
   .container {
     .brand_slider {
       .single_brand {
@@ -145,21 +153,27 @@
   }
 }
 
+.pb-5 {
+  padding-bottom: 5px !important;
+}
+
 .mb-30 {
   margin-bottom: 30px;
 }
-.mt-50{
+
+.mt-50 {
   margin-top: 50px;
 }
-.mb-50{
+
+.mb-50 {
   margin-bottom: 50px;
 }
-.mb-100{
+
+.mb-100 {
   margin-bottom: 100px;
 }
+
 /* brand_area part end */
 
 /* ?? part start */
 /* ?? part end */
-
-

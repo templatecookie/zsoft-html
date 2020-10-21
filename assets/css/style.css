@@ -680,7 +680,7 @@ header .container .head_content .menu .m_bar li:first-child {
   text-transform: capitalize;
   position: relative;
   padding: 0;
-  margin: 0 20px;
+  margin-left: 50px;
 }
 
 #work .work_content .work_tab .nav-pills .nav-link::before {
@@ -689,7 +689,7 @@ header .container .head_content .menu .m_bar li:first-child {
   width: 0;
   height: 2px;
   background: #5787ff;
-  bottom: -8px;
+  bottom: -13px;
   left: 0;
   transition: 0.3s;
   -webkit-transition: 0.3s;
@@ -699,7 +699,7 @@ header .container .head_content .menu .m_bar li:first-child {
 }
 
 #work .work_content .work_tab .nav-pills .nav-link.nav-link.active::before {
-  width: 120%;
+  width: 100%;
 }
 
 #work .project_img {
@@ -731,10 +731,11 @@ header .container .head_content .menu .m_bar li:first-child {
 }
 
 #work .project_info .v_project {
-  color: #3e424b;
+  color: #3E424B;
   line-height: 14px;
   font-size: 12px;
-  letter-spacing: 8px;
+  letter-spacing: 3px;
+  font-weight: 600;
   text-transform: uppercase;
 }
 
@@ -1178,7 +1179,7 @@ header .container .head_content .menu .m_bar li:first-child {
 }
 
 #testimonial-area .testimonial_slider .slick-arrow.slick-prev {
-  transform: translate(-195px, 108px);
+  transform: translate(400px, 116px);
 }
 
 @media (max-width: 1024px) {
@@ -1194,7 +1195,7 @@ header .container .head_content .menu .m_bar li:first-child {
 }
 
 #testimonial-area .testimonial_slider .slick-arrow.slick-next {
-  transform: translate(65px, 108px);
+  transform: translate(633px, 116px);
 }
 
 @media (max-width: 1024px) {
@@ -1733,6 +1734,10 @@ header .container .head_content .menu .m_bar li:first-child {
 
 #brand_area .container .brand_slider .single_brand img {
   margin: auto;
+}
+
+.pb-5 {
+  padding-bottom: 5px !important;
 }
 
 .mb-30 {
