@@ -20,6 +20,23 @@ menuClose.addEventListener('click', e => {
     });
 });
 
+
+// header menubar [ full-height]
+    // vars
+        // const menu = document.querySelector('.menu');
+    
+        
+        // menu.addEventListener('click',(e)=>{
+
+        //    menu.classList.toggle('active');
+
+        //     // stop default behavior
+        //     e.preventDefault()
+        // });
+
+
+
+
 // @ts-ignore
 $(document).ready(function () {
     //brand_slider
@@ -67,7 +84,7 @@ $(document).ready(function () {
         dots: true,
         centerMode: true,
         infinite: true,
-        centerPadding: '290px',
+        centerPadding: '180px',
         // autoplay: true,
         // autoplaySpeed: 1000,
         responsive: [{

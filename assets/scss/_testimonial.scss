@@ -60,22 +60,9 @@
     &.slick-prev{
       // left: 0px;
       transform: translate(400px, 116px);
-      @media(max-width:1024px) {
-      transform: translate(-195px, 113px);
-
-      }
-      @media(max-width: 480px ) {
-        transform: translate(-155px,113px);
-      }
     }
     &.slick-next{
       transform: translate(633px, 116px);
-      @media(max-width: 1024px) {
-        transform: translate(65px,113px);
-      }
-      @media(max-width: 480px ) {
-        transform: translate(55px,113px);
-      }
     }
     }
     .slick-prev:before,
@@ -84,10 +71,6 @@
       font-size: 16px;
       outline: none;
       text-transform: capitalize;
-      @media(max-width: 480px) {
-        font-size: 12px;
-
-      }
     }
     
     .slick-prev:before {
