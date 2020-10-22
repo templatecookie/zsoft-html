@@ -77,7 +77,8 @@ header {
 
 .fullscreen-menu {
   min-width: 100vw;
-  min-height: 100vh;
+  height: 100vh;
+  min-height: 800px;
   background-color: $black;
   position: fixed;
   top: 0;
@@ -90,8 +91,14 @@ header {
   .menu {
     &-body{
       min-height: 75vh;
+      @media(max-width: 767px){
+        min-height: 70vh;
+      }
       .menu-container {
         min-height: 75vh;
+        @media(max-width: 767px){
+          min-height: 70vh;
+        }
         display: flex;
         flex-wrap: wrap;
         align-items: stretch;
@@ -125,7 +132,7 @@ header {
             background-color: $white;
             transition: all 0.4s ease-in-out;
             transform: matrix(-0.71, 0.71, -0.71, -0.71, 0, -4);
-    
+
             &:first-child {
               margin-bottom: 7px;
               transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 6);
@@ -168,6 +175,41 @@ header {
                   -webkit-text-stroke: 0;
                 }
               }
+              @media(max-width: 991px) and (min-width: 768px){
+                font-size: 60px;
+                line-height: 70px;
+                padding: 0 40px;
+              }
+              @media(max-width: 767px){
+                font-size: 35px;
+                line-height: 45px;
+                padding: 0 26px;
+                width: 100%;
+                span {
+                  top: -8px;
+                  left: 50%;
+                  font-size: 16px;
+                  line-height: 25px;
+                }
+              }
+              @media(max-width: 574px){
+                font-size: 30px;
+                line-height: 35px;
+                padding: 0 20px;
+                width: 100%;
+                span {
+                  font-size: 14px;
+                  line-height: 20px;
+                }
+              }
+            }
+            @media(max-width: 767px){
+              width: 100%;
+              text-align: center;
+              margin-bottom: 25px;
+            }
+            @media(max-width: 574px){
+              margin-bottom: 20px;
             }
           }
         }
@@ -178,6 +220,9 @@ header {
       background-color: $white;
       padding: 20px 0;
       box-sizing: border-box;
+      @media(max-width: 767px){
+        height: 30vh;
+      }
       .footer-social {
         width: 100%;
         min-height: calc(25vh - 63px);
