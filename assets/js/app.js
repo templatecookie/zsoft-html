@@ -75,7 +75,13 @@ $(document).ready(function () {
     });
     //details_slider
     // @ts-ignore
-    $('.details-slider-active').slick();
+    $('.details-slider-active').slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: false,
+    });
 
     // Projects slider
     // @ts-ignore
@@ -84,7 +90,11 @@ $(document).ready(function () {
         dots: true,
         centerMode: true,
         infinite: true,
+<<<<<<< HEAD
         centerPadding: '180px',
+=======
+        centerPadding: '190px',
+>>>>>>> 4ad76948eeb31f681fe909d31721239cf80494d3
         // autoplay: true,
         // autoplaySpeed: 1000,
         responsive: [{

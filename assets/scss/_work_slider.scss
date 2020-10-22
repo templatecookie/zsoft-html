@@ -80,6 +80,7 @@
             }
           }
         }
+<<<<<<< HEAD
 
         .project_img{
           img{
@@ -89,6 +90,17 @@
           }
         }
 
+=======
+        .project_img{
+          width: 800px;
+          height: 400px;
+          img{
+            width: 800px;
+            height: 400px;
+            object-fit: cover;
+          }
+        }
+>>>>>>> 4ad76948eeb31f681fe909d31721239cf80494d3
         &.slick-cloned {
           opacity: 0 !important;
           pointer-events: none;

@@ -744,6 +744,14 @@ header .container .head_content .menu .m_bar li:first-child {
   outline: none !important;
 }
 
+<<<<<<< HEAD
+=======
+#Project .container-fluid .project_slider .slide_item .project_img {
+  width: 800px;
+  height: 400px;
+}
+
+>>>>>>> 4ad76948eeb31f681fe909d31721239cf80494d3
 #Project .container-fluid .project_slider .slide_item .project_img img {
   width: 800px;
   height: 400px;
@@ -1181,6 +1189,78 @@ header .container .head_content .menu .m_bar li:first-child {
 
 #joinus-contact_area button:hover {
   border: 2px solid transparent;
+}
+
+#details_slier {
+  margin-top: 50px;
+  padding-bottom: 100px;
+}
+
+#details_slier .single-slider {
+  width: 100%;
+  height: 791px;
+}
+
+#details_slier .single-slider img {
+  width: 100%;
+  height: 791px;
+  object-fit: cover;
+}
+
+#details_slier .project_title h2 {
+  color: #3E424B;
+  -webkit-text-stroke: inherit;
+  padding-top: 10px;
+  padding-bottom: 0;
+}
+
+#project_area {
+  padding-top: 90px;
+}
+
+#project_area .project_title_2 h2 {
+  color: #3E424B;
+  font-size: 46px;
+  line-height: 55px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  padding-bottom: 25px;
+}
+
+#project_area .project_wrapper .project_text p {
+  color: #7A849A;
+  font-size: 20px;
+  line-height: 44px;
+  padding-right: 230px;
+  margin: 0;
+}
+
+#project_area .project_wrapper .project_button {
+  margin-top: 40px;
+}
+
+#project_area .project_wrapper .project_button a {
+  margin-right: 45px;
+  color: #3E424B;
+  line-height: 14px;
+  font-size: 12px;
+  letter-spacing: 3px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#project_area .our_role ul h4 {
+  color: #3E424B;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14px;
+  margin-bottom: 10px;
+}
+
+#project_area .our_role ul li {
+  font-size: 16px;
+  color: #7A849A;
+  line-height: 24px;
 }
 
 #footer_area {
@@ -1692,6 +1772,10 @@ header .container .head_content .menu .m_bar li:first-child {
 
 .mb-50 {
   margin-bottom: 50px;
+}
+
+.mt-100 {
+  margin-top: 100px;
 }
 
 .mb-100 {
