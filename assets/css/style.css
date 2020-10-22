@@ -1211,11 +1211,6 @@ header .container .head_content .menu .m_bar li:first-child {
   padding-bottom: 100px;
 }
 
-#details_slier .single-slider {
-  width: 100%;
-  height: 791px;
-}
-
 #details_slier .single-slider img {
   width: 100%;
   height: 791px;
@@ -1231,6 +1226,7 @@ header .container .head_content .menu .m_bar li:first-child {
 
 #project_area {
   padding-top: 90px;
+  padding-bottom: 75px;
 }
 
 #project_area .project_title_2 h2 {
@@ -1264,6 +1260,10 @@ header .container .head_content .menu .m_bar li:first-child {
   text-transform: uppercase;
 }
 
+#project_area .our_role {
+  margin-bottom: 40px;
+}
+
 #project_area .our_role ul h4 {
   color: #3E424B;
   font-size: 12px;
@@ -1276,6 +1276,48 @@ header .container .head_content .menu .m_bar li:first-child {
   font-size: 16px;
   color: #7A849A;
   line-height: 24px;
+  padding-bottom: 5px;
+}
+
+#project_area .our_role_img {
+  width: 100%;
+  height: 363px;
+}
+
+#project_area .our_role_img img {
+  width: 100%;
+  height: 363px;
+  object-fit: cover;
+}
+
+#details_project {
+  padding-top: 75px;
+  padding-bottom: 100px;
+}
+
+#details_project .project_info span {
+  font-size: 12px;
+  line-height: 14px;
+  color: #7a849a;
+}
+
+#details_project .project_info h3 {
+  color: #3e424b;
+  font-size: 46px;
+  font-weight: 600;
+  font-family: 'Oswald', sans-serif;
+  padding-bottom: 42px;
+  line-height: 55px;
+  margin: 0;
+}
+
+#details_project .project_info .v_project {
+  color: #3E424B;
+  line-height: 14px;
+  font-size: 12px;
+  letter-spacing: 3px;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 #footer_area {
@@ -1476,7 +1518,13 @@ header .container .head_content .menu .m_bar li:first-child {
   .member_position h3 {
     font-size: 52px !important;
   }
-  /* about section end */
+  /* details section end */
+  #project_area {
+    padding-top: 0;
+  }
+  .single-slider img {
+    height: 500px !important;
+  }
   /* work section start */
   #work .work_content .tab-text p {
     font-size: 15px;
@@ -1484,14 +1532,29 @@ header .container .head_content .menu .m_bar li:first-child {
   #work .work_content .work_tab .nav-pills .nav-link {
     margin-left: 20px;
   }
+<<<<<<< HEAD
   #work .project_info h3 {
     font-size: 36px;
     padding-bottom: 20px;
+=======
+  .project_img {
+    height: 300px !important;
+  }
+  .project_img img {
+    height: 300px !important;
+  }
+  .project_info h3 {
+    font-size: 36px !important;
+    padding-bottom: 20px !important;
+>>>>>>> b7cc2706f38421c7b2b2ed992f49cd19483a64d8
   }
   .social_links {
     padding-bottom: 0px;
   }
-  /* work section end */
+  /* footer section end */
+  #footer_area {
+    padding-top: 50px !important;
+  }
 }
 
 /* Small devices 320 - 767 */
@@ -1528,12 +1591,12 @@ header .container .head_content .menu .m_bar li:first-child {
   #work {
     padding-top: 80px;
   }
-  #work .project_info h3 {
-    font-size: 24px;
-    padding-bottom: 0px;
+  .project_info h3 {
+    font-size: 24px !important;
+    padding-bottom: 0px !important;
   }
-  #work .project_info .v_project {
-    letter-spacing: 2px;
+  .project_info .v_project {
+    letter-spacing: 2px !important;
   }
   .social_links li {
     margin: 0 10px;
@@ -1554,6 +1617,7 @@ header .container .head_content .menu .m_bar li:first-child {
   #work .work_content .work_tab ul {
     justify-content: flex-start;
   }
+<<<<<<< HEAD
   /* work  section end */
   /* testimonial  section start */
   #testimonial-area .testimonial_slider .slick-arrow.slick-prev {
@@ -1563,6 +1627,17 @@ header .container .head_content .menu .m_bar li:first-child {
     transform: translate(335px, 120px);
   }
   /* testimonial  section end */
+=======
+  /* detaile  section start */
+  #project_area .project_wrapper .project_button a {
+    margin-right: 15px;
+    letter-spacing: 2px;
+  }
+  #details_slier .single-slider img {
+    height: 400px;
+  }
+  /* detaile  section end */
+>>>>>>> b7cc2706f38421c7b2b2ed992f49cd19483a64d8
 }
 
 /* Xtra_Small devices 0 - 575 */
