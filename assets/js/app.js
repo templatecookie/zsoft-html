@@ -58,7 +58,13 @@ $(document).ready(function () {
     });
     //details_slider
     // @ts-ignore
-    $('.details-slider-active').slick();
+    $('.details-slider-active').slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: false,
+    });
 
     // Projects slider
     // @ts-ignore
@@ -67,7 +73,7 @@ $(document).ready(function () {
         dots: true,
         centerMode: true,
         infinite: true,
-        centerPadding: '290px',
+        centerPadding: '190px',
         // autoplay: true,
         // autoplaySpeed: 1000,
         responsive: [{

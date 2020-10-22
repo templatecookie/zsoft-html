@@ -80,7 +80,15 @@
             }
           }
         }
-
+        .project_img{
+          width: 800px;
+          height: 400px;
+          img{
+            width: 800px;
+            height: 400px;
+            object-fit: cover;
+          }
+        }
         &.slick-cloned {
           opacity: 0 !important;
           pointer-events: none;
