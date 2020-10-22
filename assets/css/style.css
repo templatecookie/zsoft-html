@@ -473,8 +473,13 @@ header .container .head_content .menu .m_bar li:first-child {
 /* Banner section start */
 #banner {
   overflow: hidden;
-  padding-top: 187px;
-  padding-bottom: 209px;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-top: 188px;
+  padding-bottom: 208px;
 }
 
 @media (max-width: 575px) {
@@ -536,10 +541,28 @@ header .container .head_content .menu .m_bar li:first-child {
   margin-top: 36px;
 }
 
+@media (max-width: 1024px) {
+  #banner .container .banner_img img {
+    display: none;
+  }
+}
+
 @media (max-width: 575px) {
   #banner .container .banner_img img {
     max-width: 100%;
   }
+}
+
+#banner .round_shape_img {
+  position: absolute;
+  z-index: -1;
+  pointer-events: none;
+  top: -478px;
+  left: -480px;
+}
+
+#banner .round_shape_img img {
+  max-width: 100%;
 }
 
 /* Banner section end */
@@ -744,14 +767,6 @@ header .container .head_content .menu .m_bar li:first-child {
   outline: none !important;
 }
 
-<<<<<<< HEAD
-=======
-#Project .container-fluid .project_slider .slide_item .project_img {
-  width: 800px;
-  height: 400px;
-}
-
->>>>>>> 4ad76948eeb31f681fe909d31721239cf80494d3
 #Project .container-fluid .project_slider .slide_item .project_img img {
   width: 800px;
   height: 400px;
@@ -1276,6 +1291,20 @@ header .container .head_content .menu .m_bar li:first-child {
 
 #footer_area .footer_menu .nav_links {
   padding-top: 18px;
+}
+
+#footer_area .footer_menu .nav_links li a.active {
+  position: relative;
+}
+
+#footer_area .footer_menu .nav_links li a.active::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  left: 0;
+  bottom: 0;
+  background-color: #3E424B;
 }
 
 #footer_area .footer_menu span {

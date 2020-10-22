@@ -21,6 +21,9 @@ menuClose.addEventListener('click', e => {
 });
 
 
+
+
+
 // header menubar [ full-height]
     // vars
         // const menu = document.querySelector('.menu');
@@ -90,11 +93,7 @@ $(document).ready(function () {
         dots: true,
         centerMode: true,
         infinite: true,
-<<<<<<< HEAD
         centerPadding: '180px',
-=======
-        centerPadding: '190px',
->>>>>>> 4ad76948eeb31f681fe909d31721239cf80494d3
         // autoplay: true,
         // autoplaySpeed: 1000,
         responsive: [{
