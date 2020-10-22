@@ -1532,21 +1532,9 @@ header .container .head_content .menu .m_bar li:first-child {
   #work .work_content .work_tab .nav-pills .nav-link {
     margin-left: 20px;
   }
-<<<<<<< HEAD
-  #work .project_info h3 {
-    font-size: 36px;
-    padding-bottom: 20px;
-=======
-  .project_img {
-    height: 300px !important;
-  }
-  .project_img img {
-    height: 300px !important;
-  }
   .project_info h3 {
     font-size: 36px !important;
     padding-bottom: 20px !important;
->>>>>>> b7cc2706f38421c7b2b2ed992f49cd19483a64d8
   }
   .social_links {
     padding-bottom: 0px;
@@ -1617,7 +1605,6 @@ header .container .head_content .menu .m_bar li:first-child {
   #work .work_content .work_tab ul {
     justify-content: flex-start;
   }
-<<<<<<< HEAD
   /* work  section end */
   /* testimonial  section start */
   #testimonial-area .testimonial_slider .slick-arrow.slick-prev {
@@ -1627,7 +1614,6 @@ header .container .head_content .menu .m_bar li:first-child {
     transform: translate(335px, 120px);
   }
   /* testimonial  section end */
-=======
   /* detaile  section start */
   #project_area .project_wrapper .project_button a {
     margin-right: 15px;
@@ -1637,7 +1623,6 @@ header .container .head_content .menu .m_bar li:first-child {
     height: 400px;
   }
   /* detaile  section end */
->>>>>>> b7cc2706f38421c7b2b2ed992f49cd19483a64d8
 }
 
 /* Xtra_Small devices 0 - 575 */
