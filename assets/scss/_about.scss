@@ -1,7 +1,7 @@
 #about {
     margin-top: 25px;
     padding-bottom: 100px;
-
+    position: relative;
     .about_content {
 
         .about_content_img {
@@ -150,4 +150,21 @@
             }
         }
     }
+}
+
+
+// shape 
+body {
+    
+    .round_shape_img {
+        position: absolute;
+        pointer-events: none;
+        top: 800px;
+        left: 600px;
+        z-index: -1;
+        img{
+          max-width: 100%;
+        }
+      }
+
 }
