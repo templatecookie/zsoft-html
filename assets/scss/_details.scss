@@ -1,7 +1,8 @@
-#details_slier{
+#details_slider{
     margin-top: 50px;
     padding-bottom: 100px;
     .single-slider{
+        position: relative;
         img{
             width: 100%;
             height: 791px;
@@ -111,3 +112,6 @@
         }
     }
 }
+
+
+

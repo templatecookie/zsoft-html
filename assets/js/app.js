@@ -82,8 +82,10 @@ $(document).ready(function () {
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
-        arrows: false,
+        arrows: true,
         dots: false,
+        prevArrow: '<span class="prev-arrow"><i class="fa fa-angle-left"></i></span>',
+        nextArrow: '<span class="next-arrow"><i class="fa fa-angle-right"></i></span>'
     });
 
     // Projects slider
