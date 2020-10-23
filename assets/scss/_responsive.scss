@@ -2,392 +2,392 @@
 /*  RESPONSIVE CSS START
 /*----------------------------------------*/
 
-
-
-
 // for common device size
 
-@media(max-width: 1440px) {
-    .project_img img {
-        max-width: 100%;
-        object-fit: contain !important;
-    }
+@media (max-width: 1440px) {
+  .project_img img {
+    max-width: 100%;
+    object-fit: contain !important;
+  }
 }
-@media(max-width: 991px) {
 
-    // menu
-    .fullscreen-menu .menu-body .menu-container {
-        justify-content: center;
+@media (max-width: 1024px) {
+  #banner {
+    .banner_wrapper {
+      text-align: center;
     }
-    .fullscreen-menu .menu-body .main-menu ul {
-        flex-direction: column;
-    }
-    .fullscreen-menu .menu-body .main-menu ul li {
-        margin-bottom: 0px;
-    }
+  }
+  #banner .container .banner_wrapper p {
+    padding-right: 0px;
+  }
+  #banner .round_shape_img {
+    top: -370px;
+    left: -400px;
+  }
+}
 
+@media (max-width: 991px) {
+  // menu
+  .fullscreen-menu .menu-body .menu-container {
+    justify-content: center;
+  }
+  .fullscreen-menu .menu-body .main-menu ul {
+    flex-direction: column;
+    text-align: center;
+  }
+  .fullscreen-menu .menu-body .main-menu ul li {
+    margin-bottom: 0px;
+    padding-bottom: 22px;
+  }
 
-    #about {
-        .about_content {
-
-            .col-lg-6 {
-                &:first-child {
-                    margin-left: 30px;
-                    margin-bottom: 30px;
-                }
-
-                .play_video {
-                    margin-top: 32px;
-                }
-            }
-
+  #about {
+    .about_content {
+      .col-lg-6 {
+        &:first-child {
+          margin-left: 30px;
+          margin-bottom: 30px;
         }
+
+        .play_video {
+          margin-top: 32px;
+        }
+      }
     }
+  }
+
+  //   404 error page
+  #error_area .error_wrapper h2 {
+    font-size: 50px;
+  }
 }
+@media (max-width: 480px) {
+  /* testimonial section start  */
 
+  #testimonial-area .testimonial_slider .slick-prev:before,
+  #testimonial-area .testimonial_slider .slick-next:before {
+    font-size: 12px;
+  }
 
+  #testimonial-area .testimonial_slider .slick-arrow.slick-next {
+    transform: translate(300px, 118px);
+  }
+  #testimonial-area .testimonial_slider .slick-arrow.slick-prev {
+    transform: translate(70px, 118px);
+  }
+  /* testimonial section end  */
 
+  /* ?? section start  */
+  /* ?? section end  */
+}
+@media (max-width: 380px) {
+  /* testimonial section start  */
 
+  #testimonial-area .testimonial_slider .slick-arrow.slick-next {
+    transform: translate(245px, 118px);
+  }
+  #testimonial-area .testimonial_slider .slick-arrow.slick-prev {
+    transform: translate(30px, 118px);
+  }
+  /* testimonial section end  */
 
+  /* ?? section start  */
+  /* ?? section end  */
+}
+@media (max-width: 320px) {
+  /* testimonial section start  */
 
+  #testimonial-area .testimonial_slider .slick-arrow.slick-next {
+    transform: translate(210px, 118px);
+  }
+  #testimonial-area .testimonial_slider .slick-arrow.slick-prev {
+    transform: translate(8px, 118px);
+  }
+  .fullscreen-menu .menu-body .menu-close .close-bar {
+    padding-right: 56px;
+  }
 
+  /* testimonial section end  */
 
+  /* ?? section start  */
+  /* ?? section end  */
+}
 
 /* laptop devices 1200 - 1600 */
-@include laptop {}
+@include laptop {
+}
 
 /* ?? section start */
 /* ?? section end */
 
-
 /* large devices 992 - 1199*/
 @include lg {
-
-    /* ?? section start */
-    /* ?? section end */
+  /* ?? section start */
+  /* ?? section end */
 }
-
 
 /* Medium devices 768 - 991 */
 
 @include md {
-    // About page
+  // About page
 
-    /* about section start */
-    #about {
-        .about_content {
-
-            .col-lg-6 {
-                &:first-child {
-                    margin-left: 30px;
-                    margin-bottom: 30px;
-                }
-
-                .play_video {
-                    margin-top: 25px;
-                }
-            }
-
-        }
-    }
-
-    .about_content_2_img {
-        margin-bottom: 30px;
-    }
-
-    .member_position h3 {
-        font-size: 52px !important;
-    }
-
-    /* details section end */
-    #project_area {
-        padding-top: 0;}
-        .single-slider{
-            img{
-                height: 500px !important;
-            }
+  /* about section start */
+  #about {
+    .about_content {
+      .col-lg-6 {
+        &:first-child {
+          margin-left: 30px;
+          margin-bottom: 30px;
         }
 
-
-    /* work section start */
-
-    #work .work_content .tab-text p {
-        font-size: 15px;
+        .play_video {
+          margin-top: 25px;
+        }
+      }
     }
-    #work .work_content .work_tab .nav-pills .nav-link {
+  }
 
-        margin-left: 20px;
+  .about_content_2_img {
+    margin-bottom: 30px;
+  }
+
+  .member_position h3 {
+    font-size: 52px !important;
+  }
+
+  /* details section end */
+  #project_area {
+    padding-top: 0;
+  }
+  .single-slider {
+    img {
+      height: 500px !important;
     }
+  }
 
-    // #work .work_content .work_tab .nav-pills .nav-link::before {
-    //     bottom: -8px;
-    // }
+  /* work section start */
 
+  #work .work_content .tab-text p {
+    font-size: 15px;
+  }
+  #work .work_content .work_tab .nav-pills .nav-link {
+    margin-left: 20px;
+  }
 
-    .project_info h3 {
-        font-size: 36px !important;
-        padding-bottom: 20px !important;
+  // #work .work_content .work_tab .nav-pills .nav-link::before {
+  //     bottom: -8px;
+  // }
 
-    }
+  .project_info h3 {
+    font-size: 36px !important;
+    padding-bottom: 20px !important;
+  }
 
-    .social_links {
-        padding-bottom: 0px;
-    }
+  .social_links {
+    padding-bottom: 0px;
+  }
 
-
-
-    /* footer section end */
-    #footer_area {
-        padding-top: 50px !important;
-    }
+  /* footer section end */
+  #footer_area {
+    padding-top: 50px !important;
+  }
 }
 
-
-/* Small devices 320 - 767 */
-
+/* Small devices 0 - 767 */
 @include sm {
+  // For section
+  section {
+    padding: 60px 0px;
+  }
 
-    // About page
-    /* about section start */
-    #about {
-        .about_content {
-
-            .col-lg-6 {
-
-                .play_video {
-                    margin-top: 25px;
-                }
-            }
-
+  // About page
+  /* about section start */
+  #about {
+    .about_content {
+      .col-lg-6 {
+        .play_video {
+          margin-top: 25px;
         }
+      }
     }
+  }
 
-    #about_content_2 {
-        padding-top: 50px;
-        padding-bottom: 50px;
+  #about_content_2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  #team {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .about_content_2_img {
+    margin-bottom: 30px;
+  }
+
+  .member_position h3 {
+    font-size: 52px !important;
+  }
+
+  /* about section end */
+
+  /* work  section start */
+  .project_img {
+    height: 200px !important;
+
+    img {
+      height: 200px !important;
     }
+  }
 
-    #team {
-        padding-top: 100px;
-        padding-bottom: 100px;
+  #work {
+    padding-top: 80px;
+  }
+
+  .project_info h3 {
+    font-size: 24px !important;
+    padding-bottom: 0px !important;
+  }
+
+  .project_info .v_project {
+    letter-spacing: 2px !important;
+  }
+
+  .social_links li {
+    margin: 0 10px;
+  }
+
+  .social_links {
+    padding-bottom: 0px;
+  }
+
+  #work .work_content .tab-text p {
+    padding-bottom: 15px;
+  }
+
+  #work .work_content .work_tab .nav-pills .nav-link {
+    margin: 0;
+    margin-right: 20px;
+  }
+
+  #work .work_content .work_tab .nav-pills .nav-link::before {
+    bottom: -6px;
+  }
+  #work .work_content .work_tab ul {
+    justify-content: flex-start;
+  }
+
+  /* work  section end */
+
+  /* testimonial  section start */
+  // slick buttons [ prev & next ]
+  #testimonial-area .testimonial_slider .slick-arrow.slick-prev {
+    transform: translate(65px, 120px);
+  }
+  #testimonial-area .testimonial_slider .slick-arrow.slick-next {
+    transform: translate(335px, 120px);
+  }
+  /* testimonial  section end */
+  /* detaile  section start */
+  #project_area .project_wrapper .project_button a {
+    margin-right: 15px;
+    letter-spacing: 2px;
+  }
+  #details_slier .single-slider img {
+    height: 400px;
+  }
+  /* detaile  section end */
+
+  //   404 error page
+  .error_img {
+    img {
+      max-width: 100%;
+      object-fit: contain;
     }
-
-    .about_content_2_img {
-        margin-bottom: 30px;
-    }
-
-    .member_position h3 {
-        font-size: 52px !important;
-    }
-
-    // For section
-    section {
-        padding: 60px 0px;
-    }
-
-
-    /* about section end */
-
-    /* work  section start */
-    .project_img {
-        height: 200px !important;
-
-        img {
-            height: 200px !important;
-        }
-    }
-
-    #work {
-        padding-top: 80px;
-    }
-
-    .project_info h3 {
-        font-size: 24px !important;
-        padding-bottom: 0px !important;
-
-    }
-
-    .project_info .v_project {
-        letter-spacing: 2px !important;
-    }
-
-    .social_links li {
-        margin: 0 10px;
-    }
-
-    .social_links {
-        padding-bottom: 0px;
-    }
-
-    #work .work_content .tab-text p {
-        padding-bottom: 15px;
-    }
-
-    #work .work_content .work_tab .nav-pills .nav-link {
-        margin: 0;
-        margin-right: 20px;
-    }
-
-    #work .work_content .work_tab .nav-pills .nav-link::before {
-        bottom: -6px;
-    }
-    #work .work_content .work_tab ul {
-        justify-content: flex-start;
-    }
-
-    /* work  section end */
-
-    /* testimonial  section start */
-    // slick buttons [ prev & next ]
-    #testimonial-area .testimonial_slider .slick-arrow.slick-prev {
-        transform: translate(65px, 120px);
-    }
-    #testimonial-area .testimonial_slider .slick-arrow.slick-next {
-        transform: translate(335px, 120px);
-    }
-    /* testimonial  section end */
-    /* detaile  section start */
-    #project_area .project_wrapper .project_button a {
-        margin-right: 15px;
-        letter-spacing: 2px;
-    }
-    #details_slier .single-slider img {
-        height: 400px;
-    }
-    /* detaile  section end */
+  }
+  #error_area .error_wrapper h2 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+  #error_area .bottom {
+    padding-bottom: 0px;
+  }
 }
-
 
 /* Xtra_Small devices 0 - 575 */
 
 @include xs {
+  // banner round shape img
+  #banner .round_shape_img {
+    top: -160px;
+    left: -400px;
+  }
 
-    // social links
-    .social_links {
+  // social links
+  .social_links {
+    margin-bottom: 20px !important;
+  }
 
-        margin-bottom: 20px !important;
-    }
+  // For section
+  section {
+    padding: 60px 0px;
+  }
 
+  // About page
 
-
-
-    // For section
-    section {
-        padding: 60px 0px;
-    }
-
-    // About page
-
-    /* About section start */
-    #about {
-        .about_content {
-
-            .col-lg-6 {
-                .play_video {
-                    margin-top: 10px;
-                    white-space: wrap;
-                }
-            }
-
+  /* About section start */
+  #about {
+    .about_content {
+      .col-lg-6 {
+        .play_video {
+          margin-top: 10px;
+          white-space: wrap;
         }
+      }
     }
+  }
 
-    #about_content_2 {
-        .container {
-            .r_space {
-                padding-left: 15px !important;
-                margin-bottom: 30px;
-            }
-        }
-    }
-
-    .about_content_2_img {
+  #about_content_2 {
+    .container {
+      .r_space {
+        padding-left: 15px !important;
         margin-bottom: 30px;
+      }
     }
+  }
 
-    .member_position h3 {
-        font-size: 52px !important;
-    }
+  .about_content_2_img {
+    margin-bottom: 30px;
+  }
 
-    /* About section end */
+  .member_position h3 {
+    font-size: 52px !important;
+  }
 
-    /* testimonial section start  */
+  /* About section end */
 
-#testimonial-area {
+  /* testimonial section start  */
+
+  #testimonial-area {
     padding-top: 60px;
     padding-bottom: 180px;
+  }
+  #testimonial-area .testimonial_slider .slick-arrow.slick-prev {
+    transform: translate(100px, 120px);
+  }
+  /* testimonial section end  */
+
+  /* ?? section start  */
+  /* ?? section end  */
+
+  //  footer
+  #footer_area .connect_info p {
+    margin: 0 10%;
+    line-height: 32px;
+  }
+
+  //   404 page
+  #error_area .bottom .container .social_links li {
+    padding: 0px;
+  }
 }
-    #testimonial-area .testimonial_slider .slick-arrow.slick-prev {
-        transform: translate(100px, 120px);
-    }
-    /* testimonial section end  */
-
-    /* ?? section start  */
-    /* ?? section end  */
-
-    //  footer
-    #footer_area .connect_info p {
-        margin: 0 10%;
-        line-height: 32px;
-    }
-}
-
-//  for special size of small devices
-@media (max-width: 480px) {
-    
-
-    /* testimonial section start  */
-
-    #testimonial-area .testimonial_slider .slick-prev:before, #testimonial-area .testimonial_slider .slick-next:before {
-        font-size: 12px;
-    }
-
-    #testimonial-area .testimonial_slider .slick-arrow.slick-next {
-        transform: translate(300px, 118px);
-    }
-    #testimonial-area .testimonial_slider .slick-arrow.slick-prev {
-        transform: translate(70px, 118px);
-    }
-    /* testimonial section end  */
-
-    /* ?? section start  */
-    /* ?? section end  */
-
-
-} 
-@media (max-width: 380px) {
-    
-
-    /* testimonial section start  */
-
-    #testimonial-area .testimonial_slider .slick-arrow.slick-next {
-        transform: translate(245px, 118px);
-    }
-    #testimonial-area .testimonial_slider .slick-arrow.slick-prev {
-        transform: translate(30px, 118px);
-    }
-    /* testimonial section end  */
-
-    /* ?? section start  */
-    /* ?? section end  */
-
-
-} 
-@media (max-width: 320px) {
-    
-
-    /* testimonial section start  */
-
-    #testimonial-area .testimonial_slider .slick-arrow.slick-next {
-        transform: translate(210px, 118px);
-    }
-    #testimonial-area .testimonial_slider .slick-arrow.slick-prev {
-        transform: translate(8px, 118px);
-    }
-    /* testimonial section end  */
-
-    /* ?? section start  */
-    /* ?? section end  */
-
-
-} 

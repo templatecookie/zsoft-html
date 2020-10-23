@@ -1,53 +1,60 @@
 #error_area {
-    padding-bottom: 0 !important;
-    .error_wrapper{
-        padding-top: 50px;
-        h2{
-            font-size: 62px;
-            line-height: 74px;
-            color: $black;
-            font-family: $oswald;
-            text-transform: capitalize;
-            font-weight: $semi_bold;
-            margin-top: 60px;
-        }
+  padding-bottom: 0 !important;
+  .error_wrapper {
+    padding-top: 50px;
+    h2 {
+      font-size: 62px;
+      line-height: 74px;
+      color: $black;
+      font-family: $oswald;
+      text-transform: capitalize;
+      font-weight: $semi_bold;
+      margin-top: 60px;
     }
-    .bottom {
-        padding: 60px 0px;
-        background-color: $white;
-        .container {
-          .social_links {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            li {
-              padding: 16px;
-              transform: translateY(0);
-              transition: all 0.4s linear;
-              border-radius: 50%;
-              a {
-                i {
-                  color: $black;
-                  font-size: 28px;
-                }
-              }
-              &:hover {
-                box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.2);
-                transform: translateY(-10px);
+  }
+  .bottom {
+    padding: 60px 0px;
+    background-color: $white;
+    .container {
+      .social_links {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        li {
+          padding: 16px;
+          transform: translateY(0);
+          transition: all 0.4s linear;
+          border-radius: 50%;
+
+          &:hover {
+            a {
+              i {
+                color: #fff;
               }
             }
           }
-          .c_rights {
-            text-align: center;
-            margin-top: 30px;
-            h5 {
+          a {
+            i {
               color: $black;
-              font-size: 16px;
-              line-height: 32px;
-              font-weight: $semi_bold;
-              padding-bottom: 30px !important;
+              font-size: 28px;
+              &:hover {
+                // color: #fff;
+              }
             }
           }
         }
       }
+      .c_rights {
+        text-align: center;
+        margin-top: 30px;
+        h5 {
+          color: $black;
+          font-size: 16px;
+          line-height: 32px;
+          font-weight: $semi_bold;
+          padding-bottom: 30px !important;
+        }
+      }
+    }
+  }
 }

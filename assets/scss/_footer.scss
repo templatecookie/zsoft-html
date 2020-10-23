@@ -2,19 +2,18 @@
   text-align: center;
   padding-top: 188px;
 
-  @media(max-width: 767px) {
+  @media (max-width: 767px) {
     padding-top: 80px;
   }
 
   .footer_menu {
-
-    .nav_links{
+    .nav_links {
       padding-top: 18px;
-        li {
-          a {
-            &.active{
-              position: relative;
-            &::after{
+      li {
+        a {
+          &.active {
+            position: relative;
+            &::after {
               content: '';
               position: absolute;
               width: 100%;
@@ -23,9 +22,9 @@
               bottom: 0;
               background-color: $black;
             }
-           }
           }
         }
+      }
     }
     span {
       font-size: 20px;
@@ -36,7 +35,7 @@
     }
 
     ul {
-      @media(max-width:1024px) {
+      @media (max-width: 1024px) {
         margin: 20px 0px !important;
       }
 
@@ -44,15 +43,15 @@
         display: inline-block;
         margin: 0px 37.5px;
 
-        @media(max-width: 991px) {
+        @media (max-width: 991px) {
           margin: 0px 12.5px;
         }
 
-        @media(max-width: 575px) {
+        @media (max-width: 575px) {
           margin: 0px 6.5px;
         }
 
-        @media(max-width: 380px) {
+        @media (max-width: 380px) {
           margin: 0px 4.5px;
         }
 
@@ -72,7 +71,7 @@
           display: inline-block;
           text-transform: capitalize;
 
-          @media(max-width: 767px) {
+          @media (max-width: 767px) {
             font-size: 18px;
             line-height: 28px;
           }
@@ -85,7 +84,7 @@
     margin-top: 78px;
     margin-bottom: 35px;
 
-    @media(max-width: 1024px) {
+    @media (max-width: 1024px) {
       margin-top: 40px;
     }
 
@@ -103,7 +102,7 @@
       color: $gray;
       margin: 0 21%;
 
-      @media(max-width: 767px) {
+      @media (max-width: 767px) {
         white-space: normal;
       }
     }
@@ -117,7 +116,7 @@
   }
 
   .copyright_text {
-    @media(max-width: 1024px) {
+    @media (max-width: 1024px) {
       padding-bottom: 15px;
     }
   }
@@ -129,7 +128,6 @@
     padding-bottom: 30px;
     font-size: 16px;
     line-height: 1.7;
-    padding-bottom: 30px;
     margin: 0;
   }
 }

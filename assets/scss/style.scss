@@ -7,18 +7,19 @@
 @import 'works';
 @import 'work_slider';
 @import 'about';
-@import '404';
 @import 'testimonial';
 @import 'career';
 @import 'joinus';
 @import 'details';
 @import 'footer';
+@import '404';
 @import 'responsive';
 
 /* WE_DO part start */
 #WE_Do {
   padding-top: 180px;
-
+  position: relative;
+  z-index: 1;
   .container {
     .box_wrapper {
       position: relative;
@@ -33,7 +34,7 @@
         transform-style: preserve-3d;
         transition: all 0.9s ease-in-out;
         border: 1.5px solid $black;
-
+        background-color: #fff;
         .front_part {
           position: absolute;
           width: 100%;
@@ -49,12 +50,12 @@
             font-family: $oswald;
             text-transform: uppercase;
 
-            @media(max-width: 575px) {
+            @media (max-width: 575px) {
               font-size: 66px;
               line-height: 90px;
             }
 
-            @media(max-width: 480px) {
+            @media (max-width: 480px) {
               font-size: 52px;
               line-height: 76px;
             }
@@ -82,13 +83,13 @@
               font-family: $oswald;
               margin-bottom: 32px;
 
-              @media(max-width: 575px) {
+              @media (max-width: 575px) {
                 font-size: 30px;
                 line-height: 42px;
                 margin-bottom: 26px;
               }
 
-              @media(max-width: 480px) {
+              @media (max-width: 480px) {
                 font-size: 20px;
               }
             }
@@ -99,7 +100,7 @@
               color: $gray;
               margin-bottom: 40px;
 
-              @media(max-width: 575px) {
+              @media (max-width: 575px) {
                 line-height: 32px;
               }
             }
@@ -113,7 +114,7 @@
               font-weight: $semi_bold;
 
               img {
-                @media(max-width: 575px) {
+                @media (max-width: 575px) {
                   width: 22px !important;
                 }
               }
@@ -131,7 +132,19 @@
     .mb-30 {
       margin-bottom: 30px;
 
-      @media (max-width: 1024px) {}
+      @media (max-width: 1024px) {
+      }
+    }
+  }
+  .round_shape_img {
+    position: absolute;
+    left: 60%;
+    bottom: -900px;
+    pointer-events: none;
+    z-index: -1;
+    img {
+      pointer-events: none;
+      z-index: -1;
     }
   }
 }
@@ -142,7 +155,8 @@
 #brand_area {
   padding-top: 20px;
   padding-bottom: 200px;
-
+  position: relative;
+  z-index: 1;
   .container {
     .brand_slider {
       .single_brand {
@@ -169,7 +183,7 @@
 .mb-50 {
   margin-bottom: 50px;
 }
-.mt-100{
+.mt-100 {
   margin-top: 100px;
 }
 .mb-100 {
