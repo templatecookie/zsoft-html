@@ -61,9 +61,21 @@
       &.slick-prev {
         // left: 0px;
         transform: translate(400px, 116px);
+        @media(max-width: 991px ) {
+          transform: translate(170px, 120px);
+        }
+        @media(max-width: 380px ) {
+          transform: translate(35px, 118px);
+        }
       }
       &.slick-next {
         transform: translate(633px, 116px);
+        @media(max-width: 991px) {
+          transform: translate(420px, 120px);
+        }
+        @media(max-width: 380px ) {
+          transform: translate(245px, 118px);
+        }
       }
     }
     .slick-prev:before,

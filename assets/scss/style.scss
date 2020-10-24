@@ -138,13 +138,22 @@
   }
   .round_shape_img {
     position: absolute;
-    left: 60%;
+    left: 55%;
     bottom: -900px;
     pointer-events: none;
     z-index: -1;
+    @media(max-width: 1024px ) {
+      left: 35%;
+    }
+    @media(max-width: 767px ) {
+      left: 20%;
+    }
+
     img {
       pointer-events: none;
       z-index: -1;
+      max-width: 100%;
+      object-fit: contain;
     }
   }
 }
