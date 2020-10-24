@@ -1490,7 +1490,7 @@ header .container .head_content .menu .m_bar li:first-child {
 
 @media (max-width: 767px) {
   #footer_area .footer_menu ul li a {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 28px;
   }
 }
