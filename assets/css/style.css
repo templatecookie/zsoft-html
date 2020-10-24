@@ -224,7 +224,7 @@ header {
   top: 0px;
   left: 0px;
   width: 100%;
-  z-index: 99999;
+  z-index: 999;
 }
 
 header .container .head_content {
@@ -754,6 +754,12 @@ header .container .head_content .menu .m_bar li:first-child {
   -webkit-text-stroke-color: #7a849a;
 }
 
+@media (max-width: 991px) {
+  #Project .container-fluid .project_slider {
+    padding: 0px 15px;
+  }
+}
+
 #Project .container-fluid .project_slider .slide_item {
   display: flex;
   justify-content: space-between;
@@ -767,45 +773,12 @@ header .container .head_content .menu .m_bar li:first-child {
   color: #7a849a;
 }
 
-@media (max-width: 480px) {
-  #Project .container-fluid .project_slider .slide_item .slide_info .p_type {
-    font-size: 8px;
-  }
-}
-
 #Project .container-fluid .project_slider .slide_item .slide_info .p_title {
   font-size: 46px;
   line-height: 55px;
   font-weight: 600;
   color: #3E424B;
   font-family: "Oswald", sans-serif;
-}
-
-@media (max-width: 1200px) {
-  #Project .container-fluid .project_slider .slide_item .slide_info .p_title {
-    font-size: 30px;
-    line-height: 42px;
-  }
-}
-
-@media (max-width: 575px) {
-  #Project .container-fluid .project_slider .slide_item .slide_info .p_title {
-    font-size: 18px;
-  }
-}
-
-@media (max-width: 480px) {
-  #Project .container-fluid .project_slider .slide_item .slide_info .p_title {
-    font-size: 14px;
-    line-height: 28px;
-  }
-}
-
-@media (max-width: 320px) {
-  #Project .container-fluid .project_slider .slide_item .slide_info .p_title {
-    font-size: 12px;
-    line-height: 28px;
-  }
 }
 
 #Project .container-fluid .project_slider .slide_item .slide_info .v_project {
@@ -826,13 +799,6 @@ header .container .head_content .menu .m_bar li:first-child {
   }
 }
 
-@media (max-width: 575px) {
-  #Project .container-fluid .project_slider .slide_item .slide_info .v_project {
-    white-space: nowrap;
-    font-size: 8px;
-  }
-}
-
 @media (max-width: 320px) {
   #Project .container-fluid .project_slider .slide_item .slide_info .v_project {
     letter-spacing: 0px;
@@ -842,6 +808,12 @@ header .container .head_content .menu .m_bar li:first-child {
 #Project .container-fluid .project_slider .slide_item .slide_info .v_project img {
   display: inline;
   outline: none !important;
+}
+
+@media (max-width: 991px) {
+  #Project .container-fluid .project_slider .slide_item .project_img {
+    margin-bottom: 30px;
+  }
 }
 
 #Project .container-fluid .project_slider .slide_item .project_img img {

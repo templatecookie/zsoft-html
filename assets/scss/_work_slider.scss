@@ -17,6 +17,9 @@
     }
 
     .project_slider {
+      @media(max-width: 991px){
+        padding: 0px 15px;
+      }
       .slide_item {
         display: flex;
         justify-content: space-between;
@@ -27,9 +30,9 @@
             font-size: 12px;
             line-height: 14px;
             color: #7a849a;
-            @media(max-width: 480px ) {
-              font-size: 8px;
-            }
+            // @media(max-width: 480px ) {
+            //   font-size: 8px;
+            // }
           }
           .p_title {
             font-size: 46px;
@@ -37,21 +40,6 @@
             font-weight: $semi_bold;
             color: $black;
             font-family: $oswald;
-            @media(max-width: 1200px) {
-              font-size: 30px;
-              line-height: 42px;
-            }
-            @media(max-width: 575px) {
-              font-size: 18px;
-            }
-            @media(max-width: 480px) {
-              font-size: 14px;
-              line-height: 28px;
-            }
-            @media(max-width: 320px) {
-              font-size: 12px;
-              line-height: 28px;
-            }
           }
           .v_project {
             font-size: 12px;
@@ -66,15 +54,11 @@
             @media(max-width: 1200px) {
               padding-top: 8px;
             }
-            @media(max-width: 575px) {
-              white-space: nowrap;
-              font-size: 8px;
-            }
+            
             @media(max-width: 320px) {
               letter-spacing: 0px;
             }
             img {
-              // display: inline-block;
               display: inline;
               outline: none !important;
             }
@@ -82,6 +66,9 @@
         }
 
         .project_img{
+          @media(max-width: 991px) {
+            margin-bottom: 30px;
+          }
           img{
              width: 800px;
              height: 400px;
@@ -100,11 +87,9 @@
           opacity: 1;
           pointer-events: all;
         }
-        // &.slick-slide {
-        //   opacity: 1;
-        // }
+     
       }
-      // slick dots
+     
     }
   }
   .drag_text {
