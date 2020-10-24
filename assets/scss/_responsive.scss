@@ -7,7 +7,7 @@
 @media (max-width: 1440px) {
   .project_img img {
     max-width: 100%;
-    object-fit: contain !important;
+    object-fit: cover;
   }
 }
 
@@ -132,12 +132,29 @@
 @include lg {
   /* ?? section start */
   /* ?? section end */
+
+
+    /* testimonial  section start */
+    #testimonial-area .testimonial_slider .slick-arrow.slick-prev {
+      transform: translate(270px, 120px);
+  }
+
+  #testimonial-area .testimonial_slider .slick-arrow.slick-next {
+    transform: translate(550px, 120px);
+}
+  /* testimonial  section end */
+
+
 }
 
 /* Medium devices 768 - 991 */
 
 @include md {
-  // About page
+
+  section {
+    padding: 100px  0px!important;
+  }
+
 
   /* about section start */
   #about {
@@ -182,9 +199,6 @@
     margin-left: 20px;
   }
 
-  // #work .work_content .work_tab .nav-pills .nav-link::before {
-  //     bottom: -8px;
-  // }
 
   .project_info h3 {
     font-size: 36px !important;
@@ -195,17 +209,33 @@
     padding-bottom: 0px;
   }
 
+  // round shape
+  #WE_Do .round_shape_img {
+    left: 15% !important;
+}
+
+#testimonial-area .testimonial_slider .slick-arrow.slick-prev {
+  transform: translate(165px, 120px);
+}
+
+#testimonial-area .testimonial_slider .slick-arrow.slick-next {
+  transform: translate(420px, 120px);
+}
+
   /* footer section end */
   #footer_area {
     padding-top: 50px !important;
   }
+
+
+
 }
 
 /* Small devices 0 - 767 */
 @include sm {
   // For section
   section {
-    padding: 60px 0px;
+    padding: 60px 0px !important;
   }
 
   // About page
@@ -288,15 +318,7 @@
 
   /* work  section end */
 
-  /* testimonial  section start */
-  // slick buttons [ prev & next ]
-  #testimonial-area .testimonial_slider .slick-arrow.slick-prev {
-    transform: translate(65px, 120px);
-  }
-  #testimonial-area .testimonial_slider .slick-arrow.slick-next {
-    transform: translate(335px, 120px);
-  }
-  /* testimonial  section end */
+
   /* detaile  section start */
   #project_area .project_wrapper .project_button a {
     margin-right: 15px;
@@ -321,6 +343,31 @@
   #error_area .bottom {
     padding-bottom: 0px;
   }
+  #testimonial-area .testimonial_slider .slick-arrow {
+    display: none !important;
+}
+
+  #Project{
+    padding-top: 0px;
+  }
+
+  #Project .drag_text {
+    bottom: 30px;
+}
+#Project .slick-dots,
+#testimonial-area .slick-dots {
+  bottom: -40px;
+}
+
+#Project .slide_info{
+  margin-bottom: 30px;
+}
+
+#about .about_content .col-lg-6:first-child {
+  margin-left: 0px;
+}
+
+
 }
 
 /* Xtra_Small devices 0 - 575 */
@@ -388,7 +435,7 @@
 
   //  footer
   #footer_area .connect_info p {
-    margin: 0 10%;
+    margin: 0;
     line-height: 32px;
   }
 

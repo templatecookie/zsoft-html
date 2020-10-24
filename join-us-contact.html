@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>zakirsoft</title>
+    <!-- =========== Favicon ============ -->
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/logo/16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/logo/32x32.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="assets/images/logo/64x64.png">
+
     <link rel="stylesheet" href="assets/css/all.min.css" />
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/magnific-popup.css">
@@ -18,7 +23,7 @@
         <div class="container">
           <nav class="head_content">
             <div class="logo">
-              <a href="index.html"> Zakir <span>Soft</span> </a>
+              <img src="assets/images/logo/1.png" alt="Zakir Soft">
             </div>
             <div class="menu">
               <ul class="m_bar">
@@ -82,20 +87,27 @@
                     <div class="contact_form text-center">
                         <form>
                             <div class="form-row">
-                                <div class="col">
+                                <div class="col-md-6 col-12">
                                     <input type="text" class="form-control" placeholder="Enter Your name" required>
                                 </div>
-                                <div class="col">
+                                <div class="col-md-6 col-12">
                                     <input type="email" class="form-control" placeholder="Please enter a valid email"
                                         required>
                                 </div>
                             </div>
                             <div class="form-row">
-                                <div class="col">
+                                <div class="col-md-6 col-12">
                                     <input type="text" class="form-control" placeholder="What do you want from us?">
                                 </div>
-                                <div class="col">
-                                    <input type="text" class="form-control" placeholder="Your experience level">
+                                <div class="col-md-6 col-12">
+                                  
+                                    <select class="form-control alterationTypeSelect" name="alterationTypeSelect">
+                                      <option value="button" selected>Your Experiance level</option>
+                                      <option value="stitching">Begineer</option>
+                                      <option value="cloth">Intermediate</option>
+                                      <option value="fabrics">advanced </option>
+                                      <option value="otherClick">master</option>
+                                    </select>
                                 </div>
                             </div>
                             <textarea name="" id="" cols="30" rows="10" placeholder="Tell me something about you."></textarea>
@@ -108,19 +120,65 @@
     </section>
     <!-- joinus section end -->
 
-            <!-- footer section start -->
-            <div class="footer_c_right text-center none">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="copyright_text">
-                                <p>&#169; 2020 - Zakirsoft</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+        <!-- footer section start -->
+        <footer id="footer_area" class="none pt-0">
+          <div class="container">
+          <div class="row">
+              <div class="col-12">
+              <div class="footer_menu">
+                  <span>Quick Link</span>
+                  <ul class="nav_links">
+                  <li class="nav_items"><a href="index.html">Home</a></li>
+                  <li class="nav_items"><a href="about.html">About</a></li>
+                  <li class="nav_items"><a href="work.html">work</a></li>
+                  <li class="nav_items"><a href="career.html">Career</a></li>
+                  <li class="nav_items"><a href="join-us-contact.html" class="active">Contact</a></li>
+                  </ul>
+              </div>
+              <div class="connect_info">
+                  <h4>Connect With us</h4>
+                  <p>
+                  In consequat, quam id sodales hendrerit, eros mi molestie leo,
+                  nec lacinia risus neque tristique augue. Proin tempus urna vel
+                  congue elementum.
+                  </p>
+                  <span class="email">Zakirsoft@outlook.com</span>
+              </div>
+              <div>
+                  <ul class="social_links">
+                  <li>
+                      <a href="#"><i class="fab fa-behance"></i></a>
+                  </li>
+                  <li>
+                      <a href="#"><i class="fab fa-dribbble"></i></a>
+                  </li>
+                  <li>
+                      <a href="#"><i class="fab fa-github"></i></a>
+                  </li>
+                  <li>
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                  </li>
+                  <li>
+                      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  </li>
+                  </ul>
+              </div>
+              </div>
+              <div class="col-12">
+              <div class="copyright_text">
+                  <p>&#169; 2020 - Zakirsoft</p>
+              </div>
+              </div>
+          </div>
+          </div>
+      </footer>
+    <!-- footer section end -->
     <!-- all js goes here -->
     <script src="assets/js/jquery-1.12.4.min.js"></script>
     <script src="assets/js/popper.min.js"></script>

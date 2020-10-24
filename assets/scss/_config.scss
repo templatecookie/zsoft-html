@@ -65,6 +65,7 @@ body {
   text-transform: capitalize;
   @media (max-width: 575px) {
     font-size: 52px;
+    padding-bottom: 26px;
   }
 }
 
@@ -135,7 +136,6 @@ input:required {
   transform: translate(-55%);
   display: flex !important;
   justify-content: center;
-  padding-top: 60px;
   @media (max-width: 1024px) {
     bottom: -75px;
   }

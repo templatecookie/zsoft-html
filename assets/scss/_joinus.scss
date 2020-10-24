@@ -4,12 +4,31 @@
   .contact_form {
     .form-row input {
       border: 0;
+      border-radius: 0px;
       border-bottom: 1px solid #ddd;
       padding: 30px 10px;
       outline: none;
       margin: 20px 0;
+      color: #7A849A;
       &.form-control {
         background-clip: unset;
+      }
+    }
+    .form-row{
+      select {
+        border: none;
+        border-radius: 0px;
+        border-bottom: 1px solid #ddd;
+        margin: 43px 0px;
+        color: #7A849A;
+        font-size: 16px;
+        option {
+         font-size: 16px;
+         text-transform: capitalize;
+         &[selected] {
+         
+         }
+        }
       }
     }
     .subject {
@@ -28,6 +47,8 @@
     padding: 30px 10px;
     outline: none;
     margin: 20px 0;
+    resize: none;
+    height: 150px;
   }
   button {
     margin-top: 25px;

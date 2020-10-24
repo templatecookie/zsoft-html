@@ -142,13 +142,6 @@
     bottom: -900px;
     pointer-events: none;
     z-index: -1;
-    @media(max-width: 1024px ) {
-      left: 35%;
-    }
-    @media(max-width: 767px ) {
-      left: 20%;
-    }
-
     img {
       pointer-events: none;
       z-index: -1;

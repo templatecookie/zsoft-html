@@ -16,6 +16,12 @@
 
         }
     }
+    .join_team {
+        margin-bottom: 60px;
+       @media(max-width:991px) {
+           margin-bottom: 40px;
+       }
+    }
 }
 #joinus_footer{
     .copyright_text {
