@@ -812,7 +812,7 @@ header .container .head_content .menu .m_bar li:first-child {
 
 @media (max-width: 991px) {
   #Project .container-fluid .project_slider .slide_item .project_img {
-    margin-bottom: 30px;
+    margin-bottom: 16px;
   }
 }
 
