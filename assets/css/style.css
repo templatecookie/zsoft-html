@@ -252,7 +252,7 @@ header .container .head_content .logo a span {
 
 @media (max-width: 525px) {
   header .container .head_content .logo img {
-    width: 190px;
+    width: 140px;
   }
 }
 
@@ -512,6 +512,14 @@ header .container .head_content .menu .m_bar li:first-child {
   transition: all 0.3s linear 0.2s;
 }
 
+@media (max-width: 575px) {
+  .fullscreen-menu .menu-footer .footer-social li a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+  }
+}
+
 .fullscreen-menu .menu-footer .footer-social li a::after {
   content: '';
   position: absolute;
@@ -524,6 +532,13 @@ header .container .head_content .menu .m_bar li:first-child {
   transform: scale(0);
   transition-delay: 0.3s;
   transition: all 0.3s linear;
+}
+
+@media (max-width: 575px) {
+  .fullscreen-menu .menu-footer .footer-social li a::after {
+    width: 40px;
+    height: 40px;
+  }
 }
 
 .fullscreen-menu .menu-footer .footer-social li a:hover {
@@ -539,6 +554,12 @@ header .container .head_content .menu .m_bar li:first-child {
   width: 100%;
   text-align: center;
   height: 23px;
+}
+
+@media (max-width: 575px) {
+  .fullscreen-menu .menu-footer .copyright-text {
+    margin-top: 30px;
+  }
 }
 
 .none.active {
@@ -972,10 +993,24 @@ header .container .head_content .menu .m_bar li:first-child {
   height: 825px;
 }
 
+@media (max-width: 575px) {
+  #about_content_2 .about_content_2_img {
+    height: 0px;
+    padding-bottom: 30px;
+  }
+}
+
 #about_content_2 .about_content_2_img img {
   width: 100%;
   height: 825px;
   object-fit: cover;
+}
+
+@media (max-width: 575px) {
+  #about_content_2 .about_content_2_img img {
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 #about_content_2 .container .row .r_space {
@@ -1006,6 +1041,12 @@ header .container .head_content .menu .m_bar li:first-child {
 
 #team .team_card {
   margin-top: 22px;
+}
+
+@media (max-width: 575px) {
+  #team .team_card {
+    margin-top: 0px;
+  }
 }
 
 #team .team_card .members_img img {
@@ -1282,6 +1323,13 @@ header .container .head_content .menu .m_bar li:first-child {
 #details_slider {
   margin-top: 50px;
   padding-bottom: 100px;
+  position: relative;
+}
+
+@media (max-width: 991px) {
+  #details_slider {
+    margin-top: 0;
+  }
 }
 
 #details_slider .single-slider {
@@ -1294,11 +1342,54 @@ header .container .head_content .menu .m_bar li:first-child {
   object-fit: cover;
 }
 
+@media (max-width: 1024px) {
+  #details_slider .single-slider img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
 #details_slider .project_title h2 {
   color: #3E424B;
   -webkit-text-stroke: inherit;
   padding-top: 10px;
   padding-bottom: 0;
+}
+
+@media (max-width: 767px) {
+  #details_slider .project_title h2 {
+    font-size: 8vw;
+  }
+}
+
+#details_slider .slick-arrow {
+  position: absolute;
+  z-index: 9;
+  top: 50%;
+  background: #7A849A;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+  transition: all 0.3s linear;
+  opacity: 0.6;
+}
+
+#details_slider .slick-arrow.next-arrow {
+  right: 0;
+}
+
+#details_slider .slick-arrow.prev-arrow {
+  left: 0;
+}
+
+#details_slider .slick-arrow:active {
+  transform: scale(0.9);
+}
+
+#details_slider .slick-arrow:hover {
+  opacity: 1;
 }
 
 #project_area {
@@ -1315,12 +1406,31 @@ header .container .head_content .menu .m_bar li:first-child {
   padding-bottom: 25px;
 }
 
+@media (max-width: 575px) {
+  #project_area .project_title_2 h2 {
+    font-size: 8vw;
+  }
+}
+
 #project_area .project_wrapper .project_text p {
-  color: #7A849A;
+  color: #7a849a;
   font-size: 20px;
   line-height: 44px;
   padding-right: 230px;
   margin: 0;
+}
+
+@media (max-width: 991px) {
+  #project_area .project_wrapper .project_text p {
+    padding-right: 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  #project_area .project_wrapper .project_text p {
+    font-size: 16px;
+    line-height: 32px;
+  }
 }
 
 #project_area .project_wrapper .project_button {
@@ -1329,7 +1439,7 @@ header .container .head_content .menu .m_bar li:first-child {
 
 #project_area .project_wrapper .project_button a {
   margin-right: 45px;
-  color: #3E424B;
+  color: #3e424b;
   line-height: 14px;
   font-size: 12px;
   letter-spacing: 3px;
@@ -1337,12 +1447,19 @@ header .container .head_content .menu .m_bar li:first-child {
   text-transform: uppercase;
 }
 
+@media (max-width: 767px) {
+  #project_area .project_wrapper .project_button a {
+    text-align: center;
+    width: 100%;
+  }
+}
+
 #project_area .our_role {
   margin-bottom: 40px;
 }
 
 #project_area .our_role ul h4 {
-  color: #3E424B;
+  color: #3e424b;
   font-size: 12px;
   font-weight: 600;
   line-height: 14px;
@@ -1351,7 +1468,7 @@ header .container .head_content .menu .m_bar li:first-child {
 
 #project_area .our_role ul li {
   font-size: 16px;
-  color: #7A849A;
+  color: #7a849a;
   line-height: 24px;
   padding-bottom: 5px;
 }
@@ -1372,13 +1489,29 @@ header .container .head_content .menu .m_bar li:first-child {
   padding-bottom: 100px;
 }
 
-#details_project .project_info span {
+@media (max-width: 767px) {
+  #details_project .project_items {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  #details_project .project_items .project_info {
+    padding-top: 18px;
+  }
+}
+
+#details_project .project_items .project_info p {
+  margin-bottom: 0;
+}
+
+#details_project .project_items .project_info span {
   font-size: 12px;
   line-height: 14px;
   color: #7a849a;
 }
 
-#details_project .project_info h3 {
+#details_project .project_items .project_info h3 {
   color: #3e424b;
   font-size: 46px;
   font-weight: 600;
@@ -1388,7 +1521,7 @@ header .container .head_content .menu .m_bar li:first-child {
   margin: 0;
 }
 
-#details_project .project_info .v_project {
+#details_project .project_items .project_info .v_project {
   color: #3E424B;
   line-height: 14px;
   font-size: 12px;
@@ -1695,7 +1828,7 @@ header .container .head_content .menu .m_bar li:first-child {
     transform: translate(8px, 118px);
   }
   .fullscreen-menu .menu-body .menu-close .close-bar {
-    padding-right: 56px;
+    padding-right: 30px;
   }
   /* testimonial section end  */
   /* ?? section start  */
