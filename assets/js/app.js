@@ -92,7 +92,7 @@ $(document).ready(function () {
 		dots: true,
 		centerMode: true,
 		infinite: true,
-		centerPadding: '180px',
+		centerPadding: '225px',
 		autoplay: true,
 		autoplaySpeed: 1900,
 		responsive: [

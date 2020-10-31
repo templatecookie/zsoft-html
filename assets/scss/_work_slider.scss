@@ -1,110 +1,111 @@
 #Project {
-  background-color: $off_white;
-  position: relative;
-  padding-top: 180px;
-  padding-bottom: 333px;
-  @media(max-width: 1024px) {
-    padding-bottom: 126px;
-  }
-  @media(max-width: 575px){
-    padding-top: 90px;
-  }
-  .container-fluid {
-    .section_title {
-      h2 {
-        -webkit-text-stroke-color: #7a849a;
-      }
-    }
+	background-color: $off_white;
+	position: relative;
+	padding-top: 180px;
+	padding-bottom: 333px;
+	@media (max-width: 1024px) {
+		padding-bottom: 126px;
+	}
+	@media (max-width: 575px) {
+		padding-top: 90px;
+	}
+	.container-fluid {
+		.section_title {
+			h2 {
+				-webkit-text-stroke-color: #7a849a;
+			}
+		}
 
-    .project_slider {
-      @media(max-width: 991px){
-        padding: 0px 15px;
-      }
-      .slide_item {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        transition: all 0.6s linear;
-        .slide_info {
-          .p_type {
-            font-size: 12px;
-            line-height: 14px;
-            color: #7a849a;
-            // @media(max-width: 480px ) {
-            //   font-size: 8px;
-            // }
-          }
-          .p_title {
-            font-size: 46px;
-            line-height: 55px;
-            font-weight: $semi_bold;
-            color: $black;
-            font-family: $oswald;
-          }
-          .v_project {
-            font-size: 12px;
-            line-height: 14px;
-            font-weight: $semi_bold;
-            color: $black;
-            letter-spacing: 2px;
-            text-transform: uppercase;
-            display: flex;
-            align-items: center;
-            padding-top: 35px;
-            @media(max-width: 1200px) {
-              padding-top: 8px;
-            }
-            
-            @media(max-width: 320px) {
-              letter-spacing: 0px;
-            }
-            img {
-              display: inline;
-              outline: none !important;
-            }
-          }
-        }
+		.project_slider {
+			@media (max-width: 991px) {
+				padding: 0px 15px;
+			}
+			.slide_item {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				transition: all 0.6s linear;
+				.slide_info {
+					&.ml {
+						padding-left: 115px;
+					}
+					@media (max-width: 1024px) {
+						padding-left: 0;
+					}
+					.p_type {
+						font-size: 12px;
+						line-height: 14px;
+						color: #7a849a;
+					}
+					.p_title {
+						font-size: 46px;
+						line-height: 55px;
+						font-weight: $semi_bold;
+						color: $black;
+						font-family: $oswald;
+						margin: 0;
+						text-transform: capitalize;
+					}
+					.v_project {
+						font-size: 12px;
+						line-height: 14px;
+						font-weight: $semi_bold;
+						color: $black;
+						letter-spacing: 2px;
+						text-transform: uppercase;
+						display: flex;
+						align-items: center;
+						padding-top: 55px;
+						@media (max-width: 1200px) {
+							padding-top: 8px;
+						}
 
-        .project_img{
-          @media(max-width: 991px) {
-            margin-bottom: 16px;
-          }
-          img{
-             width: 800px;
-             height: 400px;
-             object-fit: cover;
-          }
-        }
+						@media (max-width: 320px) {
+							letter-spacing: 0px;
+						}
+						img {
+							display: inline;
+							outline: none !important;
+						}
+					}
+				}
 
-        &.slick-cloned {
-          opacity: 0 !important;
-          pointer-events: none;
-        }
-        &.slick-slide {
-          opacity: 0.2;
-        }
-        &.slick-active {
-          opacity: 1;
-          pointer-events: all;
-        }
-     
-      }
-     
-    }
-  }
-  .drag_text {
-    color: $black;
-    position: absolute;
-    bottom: 226px;
-    left: 50%;
-    transform: translate(-50%);
-    font-size: 12px;
-    font-weight: $semi_bold;
-    text-transform: uppercase;
-    @media(max-width:1024px) {
-      bottom: 60px;
-    }
-  }
+				.project_img {
+					@media (max-width: 991px) {
+						margin-bottom: 16px;
+					}
+					img {
+						width: 800px;
+						height: 400px;
+						object-fit: cover;
+					}
+				}
+
+				&.slick-cloned {
+					opacity: 0 !important;
+					pointer-events: none;
+				}
+				&.slick-slide {
+					opacity: 0.2;
+				}
+				&.slick-active {
+					opacity: 1;
+					pointer-events: all;
+				}
+			}
+		}
+	}
+	.drag_text {
+		color: $black;
+		position: absolute;
+		bottom: 226px;
+		left: 50%;
+		transform: translate(-50%);
+		font-size: 12px;
+		font-weight: $semi_bold;
+		text-transform: uppercase;
+		@media (max-width: 1024px) {
+			bottom: 60px;
+		}
+	}
 }
-
-
