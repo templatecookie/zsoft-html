@@ -93,7 +93,7 @@ $(document).ready(function () {
 		centerMode: true,
 		infinite: true,
 		centerPadding: '225px',
-		autoplay: true,
+		autoplay: false,
 		autoplaySpeed: 1900,
 		responsive: [
 			{
