@@ -658,8 +658,16 @@ header .container .head_content .menu .m_bar li:first-child {
   padding-bottom: 0;
 }
 
+#work .section_title h2 {
+  padding-bottom: 75px;
+}
+
 #work .work_content .portfolio_img {
   margin-bottom: 100px;
+}
+
+#work .work_content .portfolio_img:last-child {
+  margin-bottom: 0;
 }
 
 #work .work_content .tab-text p {
@@ -749,7 +757,7 @@ header .container .head_content .menu .m_bar li:first-child {
   z-index: -1;
   pointer-events: none;
   right: 0;
-  top: 9.9%;
+  top: 0%;
 }
 
 #work .round_shape_img img {
