@@ -124,6 +124,9 @@
     &__contentBox {
       margin: 0px 15px;
     }
+    &__postTitleBox {
+      padding-top: 0px;
+    }
   }
 }
 
@@ -135,6 +138,22 @@
     }
     &__contentBox {
       padding: 30px 0px 0px 0px;
+      &-point {
+        margin-left: 20px !important;
+      }
+    }
+
+    &__type {
+      font-size: 16px;
+      line-height: 16px;
+      .point {
+        display: block;
+        opacity: 0;
+      }
+    }
+
+    &__go {
+      margin-top: 45px;
     }
   }
 }
