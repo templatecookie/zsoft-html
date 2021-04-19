@@ -34,6 +34,13 @@
 }
 
 @media (min-width: 1024px) and(max-width: 1199px) {
+  .careerTeam {
+    &__contentImg {
+      img {
+        margin-left: -85px;
+      }
+    }
+  }
 }
 
 @media (max-width: 1023px) {

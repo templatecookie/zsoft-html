@@ -2004,6 +2004,12 @@ header .container .head_content .menu .m_bar li:first-child {
  ** Responsive **
 =================
 */
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .careerTeam__contentImg img {
+    margin-left: -85px;
+  }
+}
+
 @media (max-width: 767px) {
   .careerTeam__contentText {
     margin-top: 30px;
