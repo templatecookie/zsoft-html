@@ -1998,6 +1998,18 @@ header .container .head_content .menu .m_bar li:first-child {
 =================
 */
 @media (max-width: 767px) {
+  .careerTeam__contentText {
+    margin-top: 30px;
+  }
+  .careerTeam__title {
+    font-size: 58px;
+    line-height: 72px;
+  }
+  .careerTeam__brief {
+    font-size: 16px;
+    line-height: 26px;
+    max-width: 100%;
+  }
   .careerTeam__contentImg img {
     max-width: 100%;
   }
@@ -2005,12 +2017,12 @@ header .container .head_content .menu .m_bar li:first-child {
 
 @media (max-width: 574px) {
   .careerTeam__title {
-    font-size: 48px;
-    line-height: 56px;
+    font-size: 38px;
+    line-height: 42px;
   }
   .careerTeam__brief {
-    font-size: 18px;
-    line-height: 32px;
+    font-size: 16px;
+    line-height: 24px;
     max-width: 100%;
   }
   .careerTeam__contentImg img {
