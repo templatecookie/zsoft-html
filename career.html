@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/magnific-popup.css">
     <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/simple-lightbox.min.css">
     <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 
@@ -184,58 +185,58 @@
           </div>
           <div class="row gallery__itemContents">
             <div class="col-md-4">
-              <div class="gallery__item">
+              <a class="gallery__item" href="assets/images/gallery/demo-01.png">
                 <img
                   src="assets/images/gallery/demo-01.png"
                   alt="demo"
                   class="img-fluid"
                 />
-              </div>
+              </a>
             </div>
             <div class="col-md-4">
-              <div class="gallery__item">
+              <a class="gallery__item" href="assets/images/gallery/demo-02.png">
                 <img
                   src="assets/images/gallery/demo-02.png"
                   alt="demo"
                   class="img-fluid mt-20"
                 />
-              </div>
+              </a>
             </div>
-            <div class="col-md-4">
-              <div class="gallery__item">
+            <div class="col-md-4" >
+              <a class="gallery__item" href="assets/images/gallery/demo-03.png">
                 <img
                   src="assets/images/gallery/demo-03.png"
                   alt="demo"
                   class="img-fluid"
                 />
-              </div>
+              </a>
             </div>
-            <div class="col-md-4">
-              <div class="gallery__item">
+            <div class="col-md-4" >
+              <a class="gallery__item" href="assets/images/gallery/demo-04.png">
                 <img
                   src="assets/images/gallery/demo-04.png"
                   alt="demo"
                   class="img-fluid"
                 />
-              </div>
+              </a>
             </div>
-            <div class="col-md-4">
-              <div class="gallery__item">
+            <div class="col-md-4" >
+              <a class="gallery__item" href="assets/images/gallery/demo-05.png">
                 <img
                   src="assets/images/gallery/demo-05.png"
                   alt="demo"
                   class="img-fluid mt-20"
                 />
-              </div>
+              </a>
             </div>
-            <div class="col-md-4">
-              <div class="gallery__item">
+            <div class="col-md-4" >
+              <a class="gallery__item" href="assets/images/gallery/demo-06.png">
                 <img
                   src="assets/images/gallery/demo-06.png"
                   alt="demo"
                   class="img-fluid"
                 />
-              </div>
+              </a>
             </div>
           </div>
         </div>
@@ -396,7 +397,14 @@
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/slick.min.js"></script>
     <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/simple-lightbox.jquery.min.js"></script>
     <script src="assets/js/app.js"></script>
+
+    <script>
+  $(function(){
+    var gallery = $('.gallery__item').simpleLightbox({navText:    ['&lsaquo;','&rsaquo;']});
+  });
+    </script>
 </body>
 
 </html>

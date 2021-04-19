@@ -88,16 +88,34 @@
   }
 }
 
+@media (max-width: 575px) {
+  .positions {
+    padding-top: 0px !important;
+
+    &__type {
+      .point {
+        display: block;
+        opacity: 0;
+      }
+    }
+  }
+}
+
 @media (min-width: 320px) and (max-width: 574px) {
   .positions {
     &__type {
-      font-size: 18px;
-      line-height: 28px;
-      margin-top: 30px;
+      font-size: 16px;
+      line-height: 24px;
+      margin-top: 15px;
+      margin-bottom: 10px;
     }
     &__responsiblity {
       font-size: 16px;
       line-height: 28px;
+    }
+    &__contentBox {
+      padding-top: 25px;
+      padding-bottom: 30px;
     }
   }
 }
