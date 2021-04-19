@@ -1,0 +1,80 @@
+.careerTeam {
+  padding: 100px 0px;
+  background-color: #fff;
+
+  &__contentText {
+    margin-top: 90px;
+  }
+
+  &__title {
+    font-size: 84px;
+    line-height: 109px;
+    color: #3e424b;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+  }
+  &__brief {
+    font-size: 20px;
+    line-height: 32px;
+    color: #7a849a;
+    margin-bottom: 30px;
+    max-width: 85%;
+  }
+}
+/* 
+=================
+ ** Responsive **
+=================
+*/
+
+@media (min-width: 1200px) and (max-width: 1850px) {
+}
+
+@media (max-width: 1199px) {
+}
+
+@media (min-width: 1024px) and(max-width: 1199px) {
+}
+
+@media (max-width: 1023px) {
+}
+
+@media (min-width: 992px) and (max-width: 1023px) {
+}
+@media (max-width: 991px) {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+@media (max-width: 767px) {
+  .careerTeam {
+    &__contentImg {
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+}
+
+@media (min-width: 575px) and (max-width: 767px) {
+}
+
+@media (max-width: 574px) {
+  .careerTeam {
+    &__title {
+      font-size: 48px;
+      line-height: 56px;
+    }
+    &__brief {
+      font-size: 18px;
+      line-height: 32px;
+      max-width: 100%;
+    }
+    &__contentImg {
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+}

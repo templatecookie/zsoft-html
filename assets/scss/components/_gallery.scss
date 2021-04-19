@@ -1,0 +1,44 @@
+.gallery {
+  padding: 100px 0px;
+
+  .section {
+    &__title {
+      margin-bottom: 15px;
+    }
+  }
+
+  &__itemContents {
+    margin-top: 40px;
+  }
+
+  .mt-20 {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .gallery {
+    &__item {
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: center;
+      img {
+        max-width: 380px;
+      }
+      .mt-20 {
+        margin-top: 0px;
+      }
+    }
+  }
+}
+
+@media (min-width: 320px) and(max-width: 574px) {
+  .gallery {
+    padding-bottom: 0px;
+    &__item {
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+.section {
+  &__title {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    margin-bottom: 15px;
+    &_one {
+      font-size: 84px;
+      line-height: 110px;
+      font-weight: 700;
+      margin: auto;
+      color: transparent;
+      -webkit-text-stroke: 1.5px #7a849a;
+      text-transform: capitalize;
+    }
+    &_two {
+      font-size: 62px;
+      line-height: 74px;
+      color: #3e424b;
+      font-weight: 600;
+      margin: auto;
+    }
+  }
+  &__brief {
+    font-size: 16px;
+    line-height: 24px;
+    color: #7a849a;
+    max-width: 50%;
+    margin: auto;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .section {
+    &__brief {
+      max-width: 100%;
+    }
+  }
+}
+
+@media (min-width: 575px) and (max-width: 767px) {
+  .section {
+    &__title {
+      font-size: 58px;
+      line-height: 72px;
+    }
+  }
+}
+
+@media (max-width: 574px) {
+  .section {
+    &__title {
+      font-size: 38px;
+      line-height: 56px;
+      margin-bottom: 15px;
+    }
+  }
+}
