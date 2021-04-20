@@ -293,6 +293,9 @@ input:required {
     line-height: 56px;
     margin-bottom: 15px;
   }
+  .section__brief {
+    max-width: 90%;
+  }
 }
 
 /* ?? part start */
@@ -1932,12 +1935,16 @@ header .container .head_content .menu .m_bar li:first-child {
   padding: 20px;
 }
 
-.articles__title {
+.articles__title a {
   font-size: 20px;
   line-height: 28px;
   font-weight: 600;
   text-transform: capitalize;
   color: #3e424b;
+}
+
+.articles__title a:hover {
+  text-decoration: underline;
 }
 
 .articles__brief {
@@ -1997,7 +2004,25 @@ header .container .head_content .menu .m_bar li:first-child {
  ** Responsive **
 =================
 */
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .careerTeam__contentImg img {
+    margin-left: -85px;
+  }
+}
+
 @media (max-width: 767px) {
+  .careerTeam__contentText {
+    margin-top: 30px;
+  }
+  .careerTeam__title {
+    font-size: 58px;
+    line-height: 72px;
+  }
+  .careerTeam__brief {
+    font-size: 16px;
+    line-height: 26px;
+    max-width: 100%;
+  }
   .careerTeam__contentImg img {
     max-width: 100%;
   }
@@ -2005,12 +2030,12 @@ header .container .head_content .menu .m_bar li:first-child {
 
 @media (max-width: 574px) {
   .careerTeam__title {
-    font-size: 48px;
-    line-height: 56px;
+    font-size: 38px;
+    line-height: 42px;
   }
   .careerTeam__brief {
-    font-size: 18px;
-    line-height: 32px;
+    font-size: 16px;
+    line-height: 24px;
     max-width: 100%;
   }
   .careerTeam__contentImg img {
@@ -2125,6 +2150,9 @@ header .container .head_content .menu .m_bar li:first-child {
   .careerDetails__contentBox {
     margin: 0px 15px;
   }
+  .careerDetails__postTitleBox {
+    padding-top: 0px;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 574px) {
@@ -2134,6 +2162,20 @@ header .container .head_content .menu .m_bar li:first-child {
   }
   .careerDetails__contentBox {
     padding: 30px 0px 0px 0px;
+  }
+  .careerDetails__contentBox-point {
+    margin-left: 20px !important;
+  }
+  .careerDetails__type {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .careerDetails__type .point {
+    display: block;
+    opacity: 0;
+  }
+  .careerDetails__go {
+    margin-top: 45px;
   }
 }
 
@@ -2207,7 +2249,6 @@ header .container .head_content .menu .m_bar li:first-child {
 .perks__benefitsBoxes .box:hover {
   border-right: 1px solid #e2e3e4;
   transform: scale(1.2);
-  box-shadow: 0px 20px 41px -24px rgba(0, 0, 0, 0.64);
 }
 
 .perks__benefitsBoxes .box img {
@@ -2347,15 +2388,30 @@ header .container .head_content .menu .m_bar li:first-child {
   }
 }
 
+@media (max-width: 575px) {
+  .positions {
+    padding-top: 0px !important;
+  }
+  .positions__type .point {
+    display: block;
+    opacity: 0;
+  }
+}
+
 @media (min-width: 320px) and (max-width: 574px) {
   .positions__type {
-    font-size: 18px;
-    line-height: 28px;
-    margin-top: 30px;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 15px;
+    margin-bottom: 10px;
   }
   .positions__responsiblity {
     font-size: 16px;
     line-height: 28px;
+  }
+  .positions__contentBox {
+    padding-top: 25px;
+    padding-bottom: 30px;
   }
 }
 

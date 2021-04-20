@@ -1,5 +1,6 @@
 node_modules/
 *.json
 *.log
+.vscode
 assets/css/style.css
 assets/css/style.css.map

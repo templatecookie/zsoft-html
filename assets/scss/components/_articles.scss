@@ -29,11 +29,16 @@
     padding: 20px;
   }
   &__title {
-    font-size: 20px;
-    line-height: 28px;
-    font-weight: 600;
-    text-transform: capitalize;
-    color: #3e424b;
+    a {
+      font-size: 20px;
+      line-height: 28px;
+      font-weight: 600;
+      text-transform: capitalize;
+      color: #3e424b;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
   &__brief {
     font-size: 14px;
