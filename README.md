@@ -10,9 +10,11 @@ Check the [Live Demo here](https://zsoft-html.netlify.app/).
 ![](screenshot.png)
 
 ## Pages List
-- 3+ Home (Landing Page)
-- Blog
-- Blog Details
+- Home (Landing Page)
+- About
+- Career
+- Work
+- Contact
 
 ## Framework & Technologies
 - bootstrap4
